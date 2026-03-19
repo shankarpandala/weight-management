@@ -42,7 +42,7 @@ export default function SubjectPage() {
     totalSections > 0 ? Math.round((progress / totalSections) * 100) : 0;
 
   const breadcrumbs = [
-    { label: 'Home', to: '/' },
+    { label: 'Home', href: '/' },
     { label: subject.title },
   ];
 

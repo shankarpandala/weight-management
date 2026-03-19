@@ -30,7 +30,7 @@ function AppShell({ children }) {
         sidebarOpen={sidebarOpen}
       />
       <div className="flex flex-1">
-        <Sidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
+        <Sidebar open={sidebarOpen} onClose={() => setSidebarOpen(false)} />
         <main className="flex-1 min-w-0">
           {children}
         </main>
@@ -50,8 +50,8 @@ export default function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/subjects/:subjectId" element={<SubjectPage />} />
-            <Route path="/subjects/:subjectId/:chapterId" element={<ChapterPage />} />
-            <Route path="/subjects/:subjectId/:chapterId/:sectionId" element={<SectionPage />} />
+            <Route path="/subjects/:subjectId/chapters/:chapterId" element={<ChapterPage />} />
+            <Route path="/subjects/:subjectId/chapters/:chapterId/:sectionId" element={<SectionPage />} />
             <Route path="/progress" element={<ProgressPage />} />
             <Route path="/search" element={<SearchPage />} />
           </Routes>
