@@ -31,7 +31,7 @@ function AppShell({ children }) {
       />
       <div className="flex flex-1">
         <Sidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
-        <main className="flex-1 min-w-0 lg:ml-[280px]">
+        <main className="flex-1 min-w-0">
           {children}
         </main>
       </div>
