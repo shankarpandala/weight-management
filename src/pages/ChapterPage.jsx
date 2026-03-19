@@ -48,8 +48,8 @@ export default function ChapterPage() {
     totalSections > 0 ? Math.round((completedCount / totalSections) * 100) : 0;
 
   const breadcrumbs = [
-    { label: 'Home', to: '/' },
-    { label: subject.title, to: `/subject/${subjectId}` },
+    { label: 'Home', href: '/' },
+    { label: subject.title, href: `/subjects/${subjectId}` },
     { label: chapter.title },
   ];
 
@@ -126,7 +126,7 @@ export default function ChapterPage() {
                 transition={{ delay: index * 0.04, duration: 0.3 }}
               >
                 <Link
-                  to={`/subject/${subjectId}/${chapterId}/${section.id}`}
+                  to={`/subjects/${subjectId}/chapters/${chapterId}/${section.id}`}
                   className="block p-4 bg-gray-800/50 hover:bg-gray-800 border border-gray-700/50 hover:border-emerald-700/50 rounded-lg transition-all group focus:outline-none focus:ring-2 focus:ring-emerald-500"
                 >
                   <div className="flex items-center gap-4">
@@ -179,14 +179,14 @@ export default function ChapterPage() {
         <div className="mt-12 flex items-center justify-between">
           {prevChapter ? (
             <Link
-              to={`/subject/${subjectId}/${prevChapter.id}`}
+              to={`/subjects/${subjectId}/chapters/${prevChapter.id}`}
               className="text-gray-400 hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-emerald-500 rounded px-2 py-1"
             >
               &larr; {prevChapter.title}
             </Link>
           ) : (
             <Link
-              to={`/subject/${subjectId}`}
+              to={`/subjects/${subjectId}`}
               className="text-gray-400 hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-emerald-500 rounded px-2 py-1"
             >
               &larr; Back to Subject
@@ -194,7 +194,7 @@ export default function ChapterPage() {
           )}
           {nextChapter && (
             <Link
-              to={`/subject/${subjectId}/${nextChapter.id}`}
+              to={`/subjects/${subjectId}/chapters/${nextChapter.id}`}
               className="text-gray-400 hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-emerald-500 rounded px-2 py-1"
             >
               {nextChapter.title} &rarr;

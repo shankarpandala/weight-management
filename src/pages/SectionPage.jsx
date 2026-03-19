@@ -172,7 +172,7 @@ function ComingSoonPlaceholder({ section, chapter, subject }) {
 
       <div className="mt-6 text-center">
         <Link
-          to={`/subject/${subject?.id}/${chapter?.id}`}
+          to={`/subjects/${subject?.id}/chapters/${chapter?.id}`}
           className="text-emerald-400 hover:text-emerald-300 transition-colors text-sm"
         >
           &larr; Back to chapter
@@ -276,11 +276,27 @@ export default function SectionPage() {
   const breadcrumbs = [
     { label: 'Home', href: '/' },
     { label: subject.title, href: `/subjects/${subjectId}` },
-    { label: chapter.title, href: `/subjects/${subjectId}/${chapterId}` },
+    { label: chapter.title, href: `/subjects/${subjectId}/chapters/${chapterId}` },
     { label: section.title },
   ];
 
-  const { prev, next } = getAdjacentSections(subjectId, chapterId, sectionId);
+  const { prev: rawPrev, next: rawNext } = getAdjacentSections(subjectId, chapterId, sectionId);
+  const prev = rawPrev
+    ? {
+        to: `/subjects/${rawPrev.subjectId}/chapters/${rawPrev.chapterId}/${rawPrev.sectionId}`,
+        title: rawPrev.title,
+        subtitle: rawPrev.crossesSubject ? rawPrev.subjectTitle : rawPrev.chapterTitle,
+        isNewSubject: rawPrev.crossesSubject,
+      }
+    : null;
+  const next = rawNext
+    ? {
+        to: `/subjects/${rawNext.subjectId}/chapters/${rawNext.chapterId}/${rawNext.sectionId}`,
+        title: rawNext.title,
+        subtitle: rawNext.crossesSubject ? rawNext.subjectTitle : rawNext.chapterTitle,
+        isNewSubject: rawNext.crossesSubject,
+      }
+    : null;
 
   function handleMarkComplete() {
     if (!done) {
