@@ -1,4 +1,4 @@
-import { useRef, useEffect, useCallback, useMemo } from 'react'
+import { useState, useRef, useEffect, useCallback, useMemo } from 'react'
 import { Link, useParams, useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { CURRICULUM } from '../../subjects/index.js'
