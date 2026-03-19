@@ -112,7 +112,7 @@ export default function SustainableWeightLoss() {
       <ExampleBlock title="Recommended Weekly Loss Rates by Body Fat">
         <ul>
           <li>
-            <strong>Obese (men >25%, women >35% body fat):</strong> 0.7-1.0% of body
+            <strong>Obese (men &gt;25%, women &gt;35% body fat):</strong> 0.7-1.0% of body
             weight per week (e.g., 0.7-1.0 kg/week for a 100 kg individual)
           </li>
           <li>

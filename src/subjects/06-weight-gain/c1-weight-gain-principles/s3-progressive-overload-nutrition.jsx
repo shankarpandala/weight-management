@@ -315,7 +315,7 @@ export default function ProgressiveOverloadNutrition() {
         </ul>
       </ExampleBlock>
 
-      <WarningBlock title="Sleep Debt Cannot Be "Caught Up"">
+      <WarningBlock title='Sleep Debt Cannot Be "Caught Up"'>
         While a single night of poor sleep can be partially compensated by sleeping
         longer the next night, chronic sleep restriction (consistently sleeping 5-6
         hours) creates accumulated deficits in hormonal function, muscle recovery,
