@@ -1,3 +1,5 @@
+import CURRICULUM_TE from '../i18n/curriculumTe.js';
+
 /**
  * Curriculum registry for Weight Management.
  * Defines all 8 subjects, their chapters, and sections.
@@ -451,6 +453,56 @@ export function resolveBuildsOn(buildsOnStr) {
     title: section.title,
     subjectTitle: subject.title,
   };
+}
+
+/**
+ * Get localized curriculum. For Telugu, overlay Telugu translations on top of English data.
+ */
+export function getLocalizedCurriculum(lang) {
+  if (lang !== 'te') return CURRICULUM;
+  return CURRICULUM.map((subject) => {
+    const te = CURRICULUM_TE[subject.id];
+    if (!te) return subject;
+    return {
+      ...subject,
+      title: te.title || subject.title,
+      description: te.description || subject.description,
+      chapters: subject.chapters?.map((chapter) => {
+        const chTe = te.chapters?.[chapter.id];
+        if (!chTe) return chapter;
+        return {
+          ...chapter,
+          title: chTe.title || chapter.title,
+          description: chTe.description || chapter.description,
+          sections: chapter.sections?.map((section) => {
+            const sTe = chTe.sections?.[section.id];
+            if (!sTe) return section;
+            return {
+              ...section,
+              title: sTe.title || section.title,
+              description: sTe.description || section.description,
+            };
+          }),
+        };
+      }),
+    };
+  });
+}
+
+/**
+ * Get a single localized subject by ID.
+ */
+export function getLocalizedSubject(subjectId, lang) {
+  const curriculum = getLocalizedCurriculum(lang);
+  return curriculum.find((s) => s.id === subjectId) || null;
+}
+
+/**
+ * Get a single localized chapter by ID.
+ */
+export function getLocalizedChapter(subjectId, chapterId, lang) {
+  const subject = getLocalizedSubject(subjectId, lang);
+  return subject?.chapters?.find((c) => c.id === chapterId) || null;
 }
 
 export default CURRICULUM;

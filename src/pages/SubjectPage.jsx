@@ -1,19 +1,21 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { getCurriculumById, getSubjectSectionCount } from '../subjects/index.js';
+import { getSubjectSectionCount, getLocalizedSubject, getLocalizedChapter } from '../subjects/index.js';
 import ChapterCard from '../components/navigation/ChapterCard.jsx';
 import DifficultyBadge from '../components/navigation/DifficultyBadge.jsx';
 import ProgressBar from '../components/navigation/ProgressBar.jsx';
 import Breadcrumbs from '../components/layout/Breadcrumbs.jsx';
 import useProgress from '../hooks/useProgress.js';
+import useLanguage from '../i18n/useLanguage.js';
 
 // ---------------------------------------------------------------------------
 // Subject Page
 // ---------------------------------------------------------------------------
 export default function SubjectPage() {
   const { subjectId } = useParams();
-  const subject = getCurriculumById(subjectId);
+  const { lang, t } = useLanguage();
+  const subject = getLocalizedSubject(subjectId, lang);
   const { getSubjectProgress, getChapterProgress } = useProgress();
 
   // ── Not Found ──────────────────────────────────────────────────────────
@@ -21,15 +23,15 @@ export default function SubjectPage() {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <h1 className="text-4xl font-bold text-white mb-4">Subject Not Found</h1>
+          <h1 className="text-4xl font-bold text-white mb-4">{t.subjectNotFound}</h1>
           <p className="text-gray-400 mb-8">
-            The subject you&apos;re looking for doesn&apos;t exist.
+            {t.subjectNotFoundDesc}
           </p>
           <Link
             to="/"
             className="px-6 py-3 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-gray-900"
           >
-            Back to Home
+            {t.backToHome}
           </Link>
         </div>
       </div>
@@ -42,7 +44,7 @@ export default function SubjectPage() {
     totalSections > 0 ? Math.round((progress / totalSections) * 100) : 0;
 
   const breadcrumbs = [
-    { label: 'Home', href: '/' },
+    { label: lang === 'te' ? 'హోమ్' : 'Home', href: '/' },
     { label: subject.title },
   ];
 
@@ -80,7 +82,7 @@ export default function SubjectPage() {
           {subject.healthRelevance && (
             <div className="mt-6 p-4 bg-emerald-900/20 border border-emerald-800/40 rounded-lg">
               <h3 className="text-emerald-400 font-semibold text-sm uppercase tracking-wide mb-2">
-                Health Relevance
+                {t.healthRelevance}
               </h3>
               <p className="text-gray-300 text-sm leading-relaxed">
                 {subject.healthRelevance}
@@ -92,7 +94,7 @@ export default function SubjectPage() {
           <div className="mt-6">
             <div className="flex items-center justify-between text-sm mb-2">
               <span className="text-gray-400">
-                {progress} of {totalSections} sections completed
+                {progress} / {totalSections} {t.sectionsCompleted}
               </span>
               <span className="text-emerald-400 font-medium">
                 {progressPercent}%
@@ -105,7 +107,7 @@ export default function SubjectPage() {
         {/* ── Chapters ──────────────────────────────────────────────── */}
         <div className="space-y-4">
           <h2 className="text-xl font-semibold text-white mb-4">
-            Chapters ({subject.chapters?.length || 0})
+            {t.chaptersCount} ({subject.chapters?.length || 0})
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {subject.chapters?.map((chapter, index) => {
@@ -135,7 +137,7 @@ export default function SubjectPage() {
             to="/"
             className="text-gray-400 hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-emerald-500 rounded px-2 py-1"
           >
-            &larr; Back to Home
+            &larr; {t.backToHome}
           </Link>
         </div>
       </div>

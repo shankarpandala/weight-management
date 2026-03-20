@@ -1,19 +1,21 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { getCurriculumById, getChapterById } from '../subjects/index.js';
+import { getLocalizedSubject, getLocalizedChapter } from '../subjects/index.js';
 import DifficultyBadge from '../components/navigation/DifficultyBadge.jsx';
 import ProgressBar from '../components/navigation/ProgressBar.jsx';
 import Breadcrumbs from '../components/layout/Breadcrumbs.jsx';
 import useProgress from '../hooks/useProgress.js';
+import useLanguage from '../i18n/useLanguage.js';
 
 // ---------------------------------------------------------------------------
 // Chapter Page
 // ---------------------------------------------------------------------------
 export default function ChapterPage() {
   const { subjectId, chapterId } = useParams();
-  const subject = getCurriculumById(subjectId);
-  const chapter = getChapterById(subjectId, chapterId);
+  const { lang, t } = useLanguage();
+  const subject = getLocalizedSubject(subjectId, lang);
+  const chapter = getLocalizedChapter(subjectId, chapterId, lang);
   const { getSectionProgress, getChapterProgress } = useProgress();
 
   // ── Not Found ──────────────────────────────────────────────────────────
@@ -21,15 +23,15 @@ export default function ChapterPage() {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <h1 className="text-4xl font-bold text-white mb-4">Chapter Not Found</h1>
+          <h1 className="text-4xl font-bold text-white mb-4">{t.chapterNotFound}</h1>
           <p className="text-gray-400 mb-8">
-            The chapter you&apos;re looking for doesn&apos;t exist.
+            {t.chapterNotFoundDesc}
           </p>
           <Link
             to="/"
             className="px-6 py-3 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-gray-900"
           >
-            Back to Home
+            {t.backToHome}
           </Link>
         </div>
       </div>
@@ -48,7 +50,7 @@ export default function ChapterPage() {
     totalSections > 0 ? Math.round((completedCount / totalSections) * 100) : 0;
 
   const breadcrumbs = [
-    { label: 'Home', href: '/' },
+    { label: lang === 'te' ? 'హోమ్' : 'Home', href: '/' },
     { label: subject.title, href: `/subjects/${subjectId}` },
     { label: chapter.title },
   ];
@@ -97,7 +99,7 @@ export default function ChapterPage() {
           <div className="mt-6">
             <div className="flex items-center justify-between text-sm mb-2">
               <span className="text-gray-400">
-                {completedCount} of {totalSections} sections completed
+                {completedCount} / {totalSections} {t.sectionsCompleted}
               </span>
               <span className="text-emerald-400 font-medium">
                 {progressPercent}%
@@ -110,7 +112,7 @@ export default function ChapterPage() {
         {/* ── Sections List ─────────────────────────────────────────── */}
         <div className="space-y-3">
           <h2 className="text-xl font-semibold text-white mb-4">
-            Sections ({totalSections})
+            {t.sectionsCount} ({totalSections})
           </h2>
           {sections.map((section, index) => {
             const isCompleted = getSectionProgress(
@@ -189,7 +191,7 @@ export default function ChapterPage() {
               to={`/subjects/${subjectId}`}
               className="text-gray-400 hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-emerald-500 rounded px-2 py-1"
             >
-              &larr; Back to Subject
+              &larr; {t.backToSubject}
             </Link>
           )}
           {nextChapter && (

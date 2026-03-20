@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom'
+import useLanguage from '../../i18n/useLanguage.js'
 
 export default function Footer() {
   const year = new Date().getFullYear()
+  const { t } = useLanguage()
 
   return (
     <footer
@@ -27,15 +29,14 @@ export default function Footer() {
               </span>
             </Link>
             <p className="mt-2 text-sm text-gray-500 dark:text-gray-400 max-w-xs leading-relaxed">
-              Evidence-based weight management education. Learn the science behind nutrition,
-              metabolism, exercise, and sustainable healthy habits.
+              {t.footerDesc}
             </p>
           </div>
 
           {/* Links */}
           <div>
             <h3 className="text-xs font-semibold uppercase tracking-wider text-gray-900 dark:text-gray-100">
-              Resources
+              {t.resources}
             </h3>
             <ul className="mt-3 space-y-2">
               <li>
@@ -45,7 +46,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="text-sm text-gray-500 hover:text-emerald-600 dark:text-gray-400 dark:hover:text-emerald-400 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 rounded"
                 >
-                  GitHub Repository
+                  {t.githubRepo}
                 </a>
               </li>
               <li>
@@ -55,7 +56,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="text-sm text-gray-500 hover:text-emerald-600 dark:text-gray-400 dark:hover:text-emerald-400 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 rounded"
                 >
-                  MIT License
+                  {t.mitLicense}
                 </a>
               </li>
               <li>
@@ -63,7 +64,7 @@ export default function Footer() {
                   to="/progress"
                   className="text-sm text-gray-500 hover:text-emerald-600 dark:text-gray-400 dark:hover:text-emerald-400 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 rounded"
                 >
-                  My Progress
+                  {t.myProgress}
                 </Link>
               </li>
             </ul>
@@ -72,7 +73,7 @@ export default function Footer() {
           {/* Author */}
           <div>
             <h3 className="text-xs font-semibold uppercase tracking-wider text-gray-900 dark:text-gray-100">
-              Author
+              {t.author}
             </h3>
             <ul className="mt-3 space-y-2">
               <li>
@@ -92,7 +93,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="text-sm text-gray-500 hover:text-emerald-600 dark:text-gray-400 dark:hover:text-emerald-400 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 rounded"
                 >
-                  Portfolio
+                  {t.portfolio}
                 </a>
               </li>
               <li>
@@ -111,7 +112,7 @@ export default function Footer() {
           {/* Built With */}
           <div>
             <h3 className="text-xs font-semibold uppercase tracking-wider text-gray-900 dark:text-gray-100">
-              Built With
+              {t.builtWith}
             </h3>
             <ul className="mt-3 space-y-2">
               <li className="text-sm text-gray-500 dark:text-gray-400">React 19</li>
@@ -125,14 +126,14 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-8 border-t border-gray-200 pt-6 dark:border-gray-800">
           <p className="text-center text-xs text-gray-400 dark:text-gray-500">
-            &copy; {year} Shankar Pandala. Open-source under the{' '}
+            &copy; {year} Shankar Pandala. {t.openSource}{' '}
             <a
               href="https://github.com/shankarpandala/weight-management/blob/main/LICENSE"
               target="_blank"
               rel="noopener noreferrer"
               className="underline hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
             >
-              MIT License
+              {t.mitLicense}
             </a>
             .
           </p>

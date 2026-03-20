@@ -5,11 +5,15 @@ const useAppStore = create(
   persist(
     (set, get) => ({
       theme: 'dark',
+      language: 'en',
       completedSections: [],
       bookmarks: [],
 
       setTheme: (theme) => set({ theme }),
       toggleTheme: () => set((state) => ({ theme: state.theme === 'dark' ? 'light' : 'dark' })),
+
+      setLanguage: (language) => set({ language }),
+      toggleLanguage: () => set((state) => ({ language: state.language === 'en' ? 'te' : 'en' })),
 
       markSectionComplete: (subjectId, chapterId, sectionId) => {
         const key = `${subjectId}::${chapterId}::${sectionId}`;
@@ -52,6 +56,7 @@ const useAppStore = create(
       name: 'weight-management-app-store',
       partialize: (state) => ({
         theme: state.theme,
+        language: state.language,
         completedSections: state.completedSections,
         bookmarks: state.bookmarks,
       }),

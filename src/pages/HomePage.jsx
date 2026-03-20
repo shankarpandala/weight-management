@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { CURRICULUM, getSubjectSectionCount } from '../subjects/index.js';
+import { CURRICULUM, getSubjectSectionCount, getLocalizedCurriculum } from '../subjects/index.js';
 import SubjectCard from '../components/navigation/SubjectCard.jsx';
 import useProgress from '../hooks/useProgress.js';
+import useLanguage from '../i18n/useLanguage.js';
 
 // ---------------------------------------------------------------------------
 // Floating health-themed symbols
@@ -83,7 +84,10 @@ function LearningPathPhase({ number, title, subjects, color, index }) {
 // ---------------------------------------------------------------------------
 export default function HomePage() {
   const { getSubjectProgress } = useProgress();
+  const { lang, t } = useLanguage();
   const [symbols, setSymbols] = useState([]);
+
+  const localizedCurriculum = getLocalizedCurriculum(lang);
 
   useEffect(() => {
     const generated = Array.from({ length: 20 }, (_, i) => ({
@@ -101,36 +105,36 @@ export default function HomePage() {
   const phases = [
     {
       number: 1,
-      title: 'Foundations',
-      subjects: ['Body Fundamentals', 'Nutrition Science'],
+      title: t.phase1,
+      subjects: t.phase1Subjects,
       color: '#ef4444',
     },
     {
       number: 2,
-      title: 'Core Concepts',
-      subjects: ['Energy Balance', 'Indian Diet & Nutrition'],
+      title: t.phase2,
+      subjects: t.phase2Subjects,
       color: '#22c55e',
     },
     {
       number: 3,
-      title: 'Applied',
-      subjects: ['Weight Loss', 'Weight Gain'],
+      title: t.phase3,
+      subjects: t.phase3Subjects,
       color: '#06b6d4',
     },
     {
       number: 4,
-      title: 'Special Topics',
-      subjects: ['Pot Belly Reduction', 'Gut Health'],
+      title: t.phase4,
+      subjects: t.phase4Subjects,
       color: '#8b5cf6',
     },
   ];
 
   const tags = [
-    'ICMR Guidelines',
-    'Research Citations',
-    'Interactive Tools',
-    'Indian Diet Focus',
-    'Progress Tracking',
+    t.tagICMR,
+    t.tagResearch,
+    t.tagInteractive,
+    t.tagIndian,
+    t.tagProgress,
   ];
 
   return (
@@ -153,10 +157,10 @@ export default function HomePage() {
             transition={{ duration: 0.6 }}
           >
             <span className="bg-gradient-to-r from-green-500 via-emerald-500 to-teal-600 bg-clip-text text-transparent">
-              Evidence-Based
+              {t.heroTitle1}
             </span>
             <br />
-            <span className="text-white">Weight Management</span>
+            <span className="text-white">{t.heroTitle2}</span>
           </motion.h1>
 
           <motion.p
@@ -165,9 +169,7 @@ export default function HomePage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.5 }}
           >
-            A comprehensive, research-quality interactive web book covering body
-            fundamentals, nutrition science, Indian &amp; South Indian diet, and
-            evidence-based weight management strategies.
+            {t.heroDescription}
           </motion.p>
 
           <motion.div
@@ -180,20 +182,20 @@ export default function HomePage() {
               href="#subjects"
               className="px-8 py-3 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold rounded-lg transition-colors text-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-gray-900"
             >
-              Start Learning &rarr;
+              {t.startLearning} &rarr;
             </a>
             <Link
               to="/progress"
               className="px-8 py-3 border border-gray-600 hover:border-emerald-500 text-gray-300 hover:text-white font-semibold rounded-lg transition-colors text-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-gray-900"
             >
-              View Progress
+              {t.viewProgress}
             </Link>
           </motion.div>
 
           <div className="mt-16 flex items-center justify-center gap-12 md:gap-20">
-            <StatCard value="8" label="Subjects" />
-            <StatCard value="22+" label="Chapters" />
-            <StatCard value="60+" label="Interactive Sections" />
+            <StatCard value="8" label={t.statSubjects} />
+            <StatCard value="22+" label={t.statChapters} />
+            <StatCard value="60+" label={t.statSections} />
           </div>
         </div>
       </section>
@@ -209,11 +211,10 @@ export default function HomePage() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
           >
-            Learning Path
+            {t.learningPath}
           </motion.h2>
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            A structured journey from foundational biology to practical dietary
-            strategies
+            {t.learningPathDesc}
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
@@ -235,14 +236,14 @@ export default function HomePage() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
           >
-            Explore Subjects
+            {t.exploreSubjects}
           </motion.h2>
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            Dive into any subject at your own pace
+            {t.exploreSubjectsDesc}
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {CURRICULUM.map((subject, idx) => {
+            {localizedCurriculum.map((subject, idx) => {
               const progress = getSubjectProgress(subject.id);
               const totalSections = getSubjectSectionCount(subject.id);
               return (
@@ -276,13 +277,10 @@ export default function HomePage() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
           >
-            Research-Quality Content
+            {t.researchQuality}
           </motion.h2>
           <p className="text-lg text-gray-400 leading-relaxed max-w-2xl mx-auto mb-8">
-            Every topic is grounded in peer-reviewed research and evidence-based
-            guidelines. Our content bridges the gap between academic nutrition
-            science and practical Indian dietary wisdom, with special emphasis on
-            South Indian food traditions and ICMR recommendations.
+            {t.researchQualityDesc}
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-3">

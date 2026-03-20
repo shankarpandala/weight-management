@@ -1,9 +1,9 @@
 import React, { useState, useMemo, useCallback, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { CURRICULUM } from '../subjects/index.js';
+import { getLocalizedCurriculum } from '../subjects/index.js';
 import DifficultyBadge from '../components/navigation/DifficultyBadge.jsx';
-import useProgress from '../hooks/useProgress.js';
+import useLanguage from '../i18n/useLanguage.js';
 
 // ---------------------------------------------------------------------------
 // Build flat search index from curriculum
@@ -19,7 +19,7 @@ function buildSearchIndex(curriculum) {
       description: subject.description || '',
       icon: subject.icon,
       difficulty: subject.difficulty,
-      path: `/subject/${subject.id}`,
+      path: `/subjects/${subject.id}`,
       subjectTitle: subject.title,
       chapterTitle: null,
       searchText: `${subject.title} ${subject.description || ''}`.toLowerCase(),
@@ -33,7 +33,7 @@ function buildSearchIndex(curriculum) {
         description: chapter.description || '',
         icon: chapter.icon || '📖',
         difficulty: chapter.difficulty,
-        path: `/subject/${subject.id}/${chapter.id}`,
+        path: `/subjects/${subject.id}/chapters/${chapter.id}`,
         subjectTitle: subject.title,
         chapterTitle: chapter.title,
         searchText: `${chapter.title} ${chapter.description || ''} ${subject.title}`.toLowerCase(),
@@ -47,7 +47,7 @@ function buildSearchIndex(curriculum) {
           description: section.description || '',
           icon: '',
           difficulty: section.difficulty,
-          path: `/subject/${subject.id}/${chapter.id}/${section.id}`,
+          path: `/subjects/${subject.id}/chapters/${chapter.id}/${section.id}`,
           subjectTitle: subject.title,
           chapterTitle: chapter.title,
           searchText: `${section.title} ${section.description || ''} ${chapter.title} ${subject.title}`.toLowerCase(),
@@ -170,8 +170,10 @@ export default function SearchPage() {
   const [query, setQuery] = useState('');
   const [filterType, setFilterType] = useState('all');
   const inputRef = useRef(null);
+  const { lang, t } = useLanguage();
 
-  const searchIndex = useMemo(() => buildSearchIndex(CURRICULUM), []);
+  const localizedCurriculum = getLocalizedCurriculum(lang);
+  const searchIndex = useMemo(() => buildSearchIndex(localizedCurriculum), [localizedCurriculum]);
 
   // Auto-focus search input on mount
   useEffect(() => {
@@ -216,11 +218,15 @@ export default function SearchPage() {
   }, [query, searchIndex]);
 
   const filterOptions = [
-    { key: 'all', label: 'All' },
-    { key: 'subject', label: 'Subjects' },
-    { key: 'chapter', label: 'Chapters' },
-    { key: 'section', label: 'Sections' },
+    { key: 'all', label: t.all },
+    { key: 'subject', label: t.subjectsFilter },
+    { key: 'chapter', label: t.chaptersFilter },
+    { key: 'section', label: t.sectionsFilter },
   ];
+
+  const popularTopics = lang === 'te'
+    ? ['Protein', 'Calories', 'దక్షిణ భారతీయ', 'Gut Health', 'BMR', 'Visceral Fat']
+    : ['Protein', 'Calories', 'South Indian', 'Gut Health', 'BMR', 'Visceral Fat'];
 
   return (
     <div className="min-h-screen py-8 md:py-12">
@@ -233,10 +239,10 @@ export default function SearchPage() {
           transition={{ duration: 0.4 }}
         >
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">
-            Search
+            {t.search}
           </h1>
           <p className="text-gray-400">
-            Find topics across all subjects, chapters, and sections
+            {t.searchDesc}
           </p>
         </motion.div>
 
@@ -262,7 +268,7 @@ export default function SearchPage() {
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search topics, nutrients, diets\u2026"
+            placeholder={t.searchPlaceholder}
             className="w-full pl-12 pr-10 py-3.5 bg-gray-800/70 border border-gray-700/50 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-all text-lg"
           />
           {query && (
@@ -322,9 +328,8 @@ export default function SearchPage() {
                 exit={{ opacity: 0 }}
               >
                 <p className="text-sm text-gray-500 mb-4">
-                  {counts[filterType]} result
-                  {counts[filterType] !== 1 ? 's' : ''} for &ldquo;
-                  {query.trim()}&rdquo;
+                  {counts[filterType]} {counts[filterType] !== 1 ? t.results : t.result}{' '}
+                  {t.for} &ldquo;{query.trim()}&rdquo;
                 </p>
                 {results.map((item, idx) => (
                   <SearchResultItem
@@ -336,8 +341,7 @@ export default function SearchPage() {
                 ))}
                 {counts[filterType] > 50 && (
                   <p className="text-sm text-gray-500 text-center pt-4">
-                    Showing first 50 results. Refine your search for more
-                    specific results.
+                    {t.showingFirst50}
                   </p>
                 )}
               </motion.div>
@@ -351,11 +355,10 @@ export default function SearchPage() {
               >
                 <div className="text-4xl mb-4">🔍</div>
                 <h3 className="text-xl font-semibold text-white mb-2">
-                  No results found
+                  {t.noResults}
                 </h3>
                 <p className="text-gray-400 max-w-md mx-auto">
-                  No matches for &ldquo;{query.trim()}&rdquo;. Try different
-                  keywords or check your spelling.
+                  {t.noResultsDesc}
                 </p>
               </motion.div>
             )
@@ -369,27 +372,19 @@ export default function SearchPage() {
             >
               <div className="text-5xl mb-4">🍃</div>
               <h3 className="text-xl font-semibold text-white mb-2">
-                Search the curriculum
+                {t.searchCurriculum}
               </h3>
               <p className="text-gray-400 max-w-md mx-auto">
-                Start typing to search across 8 subjects, 22+ chapters, and 60+
-                sections.
+                {t.searchCurriculumDesc}
               </p>
 
               {/* Quick Links */}
               <div className="mt-8">
                 <h4 className="text-sm font-medium text-gray-500 uppercase tracking-wide mb-3">
-                  Popular Topics
+                  {t.popularTopics}
                 </h4>
                 <div className="flex flex-wrap items-center justify-center gap-2">
-                  {[
-                    'Protein',
-                    'Calories',
-                    'South Indian',
-                    'Gut Health',
-                    'BMR',
-                    'Visceral Fat',
-                  ].map((topic) => (
+                  {popularTopics.map((topic) => (
                     <button
                       key={topic}
                       onClick={() => setQuery(topic)}
@@ -410,7 +405,7 @@ export default function SearchPage() {
             to="/"
             className="text-gray-400 hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-emerald-500 rounded px-2 py-1"
           >
-            &larr; Back to Home
+            &larr; {t.backToHome}
           </Link>
         </div>
       </div>

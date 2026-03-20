@@ -1,12 +1,13 @@
 import React, { lazy, Suspense, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { getCurriculumById, getChapterById, getSectionById, getAdjacentSections, resolveBuildsOn } from '../subjects/index.js';
+import { getCurriculumById, getChapterById, getSectionById, getAdjacentSections, getLocalizedSubject, getLocalizedChapter } from '../subjects/index.js';
 import DifficultyBadge from '../components/navigation/DifficultyBadge.jsx';
 import ProgressBar from '../components/navigation/ProgressBar.jsx';
 import Breadcrumbs from '../components/layout/Breadcrumbs.jsx';
 import PrevNextNav from '../components/navigation/PrevNextNav.jsx';
 import useProgress from '../hooks/useProgress.js';
+import useLanguage from '../i18n/useLanguage.js';
 
 // ---------------------------------------------------------------------------
 // SVG Icon Helpers
@@ -124,6 +125,19 @@ const CONTENT_REGISTRY = {
 };
 
 // ---------------------------------------------------------------------------
+// Telugu Content Registry — uses glob import for dynamic resolution
+// ---------------------------------------------------------------------------
+const teluguModules = import.meta.glob('../subjects/**/*.te.jsx');
+
+function getTeluguLazy(contentKey) {
+  const path = `../subjects/${contentKey}.te.jsx`;
+  if (teluguModules[path]) {
+    return lazy(() => teluguModules[path]());
+  }
+  return null;
+}
+
+// ---------------------------------------------------------------------------
 // Loading Spinner
 // ---------------------------------------------------------------------------
 function LoadingSpinner() {
@@ -137,8 +151,8 @@ function LoadingSpinner() {
 // ---------------------------------------------------------------------------
 // Coming Soon Placeholder
 // ---------------------------------------------------------------------------
-function ComingSoonPlaceholder({ section, chapter, subject }) {
-  const tags = ['Research', 'Evidence', 'Indian Diet', 'Interactive Tools'];
+function ComingSoonPlaceholder({ section, chapter, subject, t }) {
+  const tags = [t.tagResearchContent, t.tagEvidence, t.tagIndianDiet, t.tagInteractiveTools];
 
   return (
     <div className="max-w-3xl mx-auto py-12 px-4">
@@ -146,17 +160,15 @@ function ComingSoonPlaceholder({ section, chapter, subject }) {
         <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-emerald-900/30 border border-emerald-800/50 mb-4">
           <span className="text-3xl">🌿</span>
         </div>
-        <h2 className="text-2xl font-bold text-white mb-2">Coming Soon</h2>
+        <h2 className="text-2xl font-bold text-white mb-2">{t.comingSoon}</h2>
         <p className="text-gray-400 max-w-md mx-auto">
-          We&apos;re preparing evidence-based content with Indian dietary focus
-          for this section. Check back soon for interactive lessons and
-          practical meal plans.
+          {t.comingSoonDesc}
         </p>
       </div>
 
       <div className="bg-gray-800/50 border border-gray-700/50 rounded-lg p-6">
         <h3 className="text-white font-semibold mb-3">
-          {section?.title || 'This section'} will include:
+          {section?.title || 'This section'} {t.willInclude}
         </h3>
         <div className="flex flex-wrap gap-2">
           {tags.map((tag) => (
@@ -175,7 +187,7 @@ function ComingSoonPlaceholder({ section, chapter, subject }) {
           to={`/subjects/${subject?.id}/chapters/${chapter?.id}`}
           className="text-emerald-400 hover:text-emerald-300 transition-colors text-sm"
         >
-          &larr; Back to chapter
+          &larr; {t.backToChapter}
         </Link>
       </div>
     </div>
@@ -185,7 +197,7 @@ function ComingSoonPlaceholder({ section, chapter, subject }) {
 // ---------------------------------------------------------------------------
 // Prerequisite Banner
 // ---------------------------------------------------------------------------
-function PrerequisiteBanner({ prerequisites, subjectId }) {
+function PrerequisiteBanner({ prerequisites, t }) {
   if (!prerequisites || prerequisites.length === 0) return null;
 
   return (
@@ -194,7 +206,7 @@ function PrerequisiteBanner({ prerequisites, subjectId }) {
         <ClockIcon className="w-5 h-5 text-amber-400 flex-shrink-0 mt-0.5" />
         <div>
           <h4 className="text-amber-400 font-semibold text-sm mb-1">
-            Prerequisites
+            {t.prerequisites}
           </h4>
           <ul className="text-gray-300 text-sm space-y-1">
             {prerequisites.map((prereq, i) => (
@@ -213,22 +225,29 @@ function PrerequisiteBanner({ prerequisites, subjectId }) {
 // ---------------------------------------------------------------------------
 // Section Content Wrapper
 // ---------------------------------------------------------------------------
-function SectionContent({ contentKey, section, chapter, subject }) {
-  const ContentComponent = CONTENT_REGISTRY[contentKey];
+function SectionContent({ contentKey, section, chapter, subject, lang, t }) {
+  let FinalComponent;
+  if (lang === 'te') {
+    const TeComponent = getTeluguLazy(contentKey);
+    FinalComponent = TeComponent || CONTENT_REGISTRY[contentKey];
+  } else {
+    FinalComponent = CONTENT_REGISTRY[contentKey];
+  }
 
-  if (!ContentComponent) {
+  if (!FinalComponent) {
     return (
       <ComingSoonPlaceholder
         section={section}
         chapter={chapter}
         subject={subject}
+        t={t}
       />
     );
   }
 
   return (
     <Suspense fallback={<LoadingSpinner />}>
-      <ContentComponent />
+      <FinalComponent />
     </Suspense>
   );
 }
@@ -238,8 +257,9 @@ function SectionContent({ contentKey, section, chapter, subject }) {
 // ---------------------------------------------------------------------------
 export default function SectionPage() {
   const { subjectId, chapterId, sectionId } = useParams();
-  const subject = getCurriculumById(subjectId);
-  const chapter = getChapterById(subjectId, chapterId);
+  const { lang, t } = useLanguage();
+  const subject = getLocalizedSubject(subjectId, lang);
+  const chapter = getLocalizedChapter(subjectId, chapterId, lang);
   const section = chapter?.sections?.find((s) => s.id === sectionId);
   const { markComplete, isComplete } = useProgress();
 
@@ -257,16 +277,16 @@ export default function SectionPage() {
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-white mb-4">
-            Section Not Found
+            {t.sectionNotFound}
           </h1>
           <p className="text-gray-400 mb-8">
-            The section you&apos;re looking for doesn&apos;t exist.
+            {t.sectionNotFoundDesc}
           </p>
           <Link
             to="/"
             className="px-6 py-3 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-gray-900"
           >
-            Back to Home
+            {t.backToHome}
           </Link>
         </div>
       </div>
@@ -274,7 +294,7 @@ export default function SectionPage() {
   }
 
   const breadcrumbs = [
-    { label: 'Home', href: '/' },
+    { label: lang === 'te' ? 'హోమ్' : 'Home', href: '/' },
     { label: subject.title, href: `/subjects/${subjectId}` },
     { label: chapter.title, href: `/subjects/${subjectId}/chapters/${chapterId}` },
     { label: section.title },
@@ -326,13 +346,13 @@ export default function SectionPage() {
             {section.readingMinutes && (
               <span className="inline-flex items-center gap-1.5 text-gray-400 text-sm">
                 <ClockIcon className="w-4 h-4" />
-                {section.readingMinutes} min
+                {section.readingMinutes} {t.min}
               </span>
             )}
-            {(done || done) && (
+            {done && (
               <span className="inline-flex items-center gap-1 text-emerald-400 text-sm font-medium">
                 <CheckIcon className="w-4 h-4" />
-                Completed
+                {t.completed}
               </span>
             )}
           </div>
@@ -341,7 +361,7 @@ export default function SectionPage() {
         {/* ── Prerequisites ─────────────────────────────────────────── */}
         <PrerequisiteBanner
           prerequisites={section.prerequisites}
-          subjectId={subjectId}
+          t={t}
         />
 
         {/* ── Content Area ──────────────────────────────────────────── */}
@@ -351,11 +371,13 @@ export default function SectionPage() {
             section={section}
             chapter={chapter}
             subject={subject}
+            lang={lang}
+            t={t}
           />
         </div>
 
         {/* ── Mark Complete Button ───────────────────────────────────── */}
-        {!done && !done && (
+        {!done && (
           <motion.div
             className="mt-12 text-center"
             initial={{ opacity: 0 }}
@@ -367,16 +389,16 @@ export default function SectionPage() {
               className="inline-flex items-center gap-2 px-8 py-3 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-gray-900"
             >
               <CheckIcon className="w-5 h-5" />
-              Mark as Complete
+              {t.markAsComplete}
             </button>
           </motion.div>
         )}
 
-        {done && !done && (
+        {done && (
           <div className="mt-12 text-center">
             <span className="inline-flex items-center gap-2 text-emerald-400 font-semibold">
               <CheckIcon className="w-5 h-5" />
-              Marked Complete
+              {t.markedComplete}
             </span>
           </div>
         )}
