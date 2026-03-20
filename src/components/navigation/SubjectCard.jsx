@@ -2,8 +2,10 @@ import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import DifficultyBadge from './DifficultyBadge.jsx'
 import ProgressBar from './ProgressBar.jsx'
+import useLanguage from '../../i18n/useLanguage.js'
 
 export default function SubjectCard({ subject, completedCount = 0, totalCount = 0 }) {
+  const { t } = useLanguage()
   const progressValue = totalCount > 0 ? Math.round((completedCount / totalCount) * 100) : 0
   const chapterCount = subject.chapters?.length || 0
 
@@ -20,7 +22,7 @@ export default function SubjectCard({ subject, completedCount = 0, totalCount = 
           </div>
           <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed line-clamp-3 flex-1">{subject.description}</p>
           <div className="flex flex-wrap items-center gap-2 text-xs text-gray-500 dark:text-gray-400">
-            <span className="flex items-center gap-1"><span className="font-medium text-gray-700 dark:text-gray-300">{chapterCount}</span> {chapterCount === 1 ? 'chapter' : 'chapters'}</span>
+            <span className="flex items-center gap-1"><span className="font-medium text-gray-700 dark:text-gray-300">{chapterCount}</span> {chapterCount === 1 ? t.chapter : t.chaptersPlural}</span>
             <span aria-hidden="true">·</span>
             <span className="flex items-center gap-1"><span className="font-medium text-gray-700 dark:text-gray-300">~{subject.estimatedHours}h</span></span>
             <span aria-hidden="true">·</span>
@@ -29,7 +31,7 @@ export default function SubjectCard({ subject, completedCount = 0, totalCount = 
           {totalCount > 0 && (
             <div className="space-y-1">
               <ProgressBar value={progressValue} color={subject.colorHex} showPercent={false} size="sm" />
-              <p className="text-xs text-gray-400 dark:text-gray-500 tabular-nums">{completedCount} / {totalCount} sections complete</p>
+              <p className="text-xs text-gray-400 dark:text-gray-500 tabular-nums">{completedCount} / {totalCount} {t.sectionsComplete}</p>
             </div>
           )}
         </div>

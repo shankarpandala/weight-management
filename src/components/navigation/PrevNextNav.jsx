@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import useLanguage from '../../i18n/useLanguage.js'
 
 const ArrowLeftIcon = () => (
   <svg className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -20,6 +21,7 @@ const ArrowRightIcon = () => (
  *   next  — { to, title, subtitle?, isNewSubject? } | null
  */
 export default function PrevNextNav({ prev, next }) {
+  const { t } = useLanguage()
   if (!prev && !next) return null
 
   return (
@@ -39,7 +41,7 @@ export default function PrevNextNav({ prev, next }) {
           </span>
           <div className="min-w-0">
             <p className="text-xs font-medium uppercase tracking-wider text-gray-400 dark:text-gray-500">
-              {prev.isNewSubject ? 'Previous subject' : 'Previous'}
+              {prev.isNewSubject ? t.previousSubject : t.previous}
             </p>
             <p className="truncate text-sm font-semibold text-gray-700 group-hover:text-emerald-600 dark:text-gray-300 dark:group-hover:text-emerald-400 transition-colors">
               {prev.title}
@@ -64,7 +66,7 @@ export default function PrevNextNav({ prev, next }) {
         >
           <div className="min-w-0">
             <p className="text-xs font-medium uppercase tracking-wider text-gray-400 dark:text-gray-500">
-              {next.isNewSubject ? 'Next subject' : 'Next'}
+              {next.isNewSubject ? t.nextSubject : t.next}
             </p>
             <p className="truncate text-sm font-semibold text-gray-700 group-hover:text-emerald-600 dark:text-gray-300 dark:group-hover:text-emerald-400 transition-colors">
               {next.title}

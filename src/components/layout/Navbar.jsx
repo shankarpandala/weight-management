@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import useAppStore from '../../store/appStore.js'
 import { CURRICULUM } from '../../subjects/index.js'
+import LanguageSwitcher from './LanguageSwitcher.jsx'
 
 const FIRST_SIX = CURRICULUM.slice(0, 6)
 
@@ -168,6 +169,8 @@ export default function Navbar({ onToggleSidebar, sidebarOpen }) {
           >
             {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
           </button>
+
+          <LanguageSwitcher />
 
           <a
             href="https://shankarpandala.github.io/"

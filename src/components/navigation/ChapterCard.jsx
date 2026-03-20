@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import DifficultyBadge from './DifficultyBadge.jsx'
 import ProgressBar from './ProgressBar.jsx'
+import useLanguage from '../../i18n/useLanguage.js'
 
 const CheckIcon = () => (
   <svg className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -22,6 +23,7 @@ export default function ChapterCard({
   completedSections = [],
   totalSections = 0,
 }) {
+  const { t } = useLanguage()
   const completedCount = completedSections.length
   const progressValue = totalSections > 0 ? Math.round((completedCount / totalSections) * 100) : 0
   const isComplete = totalSections > 0 && completedCount === totalSections
@@ -74,7 +76,7 @@ export default function ChapterCard({
           <div className="flex flex-wrap items-center gap-2 text-xs text-gray-500 dark:text-gray-400">
             <span className="flex items-center gap-1">
               <span className="font-medium text-gray-700 dark:text-gray-300">{sectionCount}</span>{' '}
-              {sectionCount === 1 ? 'section' : 'sections'}
+              {sectionCount === 1 ? (t.sections?.slice(0, -1) || 'section') : (t.sections || 'sections')}
             </span>
             {chapter.difficulty && (
               <>
@@ -89,7 +91,7 @@ export default function ChapterCard({
             <div className="space-y-1 pt-1">
               <ProgressBar value={progressValue} showPercent={false} size="sm" />
               <p className="text-xs text-gray-400 dark:text-gray-500 tabular-nums">
-                {completedCount} / {totalSections} sections complete
+                {completedCount} / {totalSections} {t.sectionsComplete}
               </p>
             </div>
           )}
