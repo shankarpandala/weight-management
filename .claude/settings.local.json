@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/tmp/check_translations.txt:*)",
+      "Read(//tmp/**)",
+      "Bash(ls -lh /c/projects/weight-management/src/subjects/03-energy-balance/*/s*.te.jsx)"
+    ]
+  }
+}
