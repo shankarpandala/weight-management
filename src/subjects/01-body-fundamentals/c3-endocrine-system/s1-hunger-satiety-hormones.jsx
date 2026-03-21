@@ -102,18 +102,18 @@ export default function HungerSatietyHormones() {
 
       <ExampleBlock
         title="Building Satiety into Indian Meals"
-        description="To maximize satiety hormones on an Indian diet: (1) Start with protein — dal, paneer, egg curry, or chicken stimulates PYY and CCK more than pure carbohydrates. (2) Include healthy fats — coconut chutney, ghee on roti, or mustard oil tempering triggers CCK release. (3) Add fiber — vegetables, whole grains, and beans slow gastric emptying and enhance GLP-1 release. (4) Avoid liquid calories — sugary chai, fruit juices, and cold drinks bypass normal satiety signaling. (5) Eat slowly — satiety hormones take 20 minutes to reach the brain."
+        problem="To maximize satiety hormones on an Indian diet: (1) Start with protein — dal, paneer, egg curry, or chicken stimulates PYY and CCK more than pure carbohydrates. (2) Include healthy fats — coconut chutney, ghee on roti, or mustard oil tempering triggers CCK release. (3) Add fiber — vegetables, whole grains, and beans slow gastric emptying and enhance GLP-1 release. (4) Avoid liquid calories — sugary chai, fruit juices, and cold drinks bypass normal satiety signaling. (5) Eat slowly — satiety hormones take 20 minutes to reach the brain."
       />
 
       <NoteBlock
-        title="Why Protein Is the Most Satiating Macronutrient"
-        content="Protein stimulates PYY, CCK, and GLP-1 more powerfully than carbohydrates or fat. It also has the highest thermic effect (20-30% of protein calories are used in digestion). Studies consistently show that increasing protein from 15% to 30% of calories reduces spontaneous food intake by 400-500 kcal/day. For Indian vegetarians, combining dal + rice, paneer + roti, or curd + chana provides complete protein with strong satiety."
-      />
+        title="Why Protein Is the Most Satiating Macronutrient">
+        Protein stimulates PYY, CCK, and GLP-1 more powerfully than carbohydrates or fat. It also has the highest thermic effect (20-30% of protein calories are used in digestion). Studies consistently show that increasing protein from 15% to 30% of calories reduces spontaneous food intake by 400-500 kcal/day. For Indian vegetarians, combining dal + rice, paneer + roti, or curd + chana provides complete protein with strong satiety.
+      </NoteBlock>
 
       <WarningBlock
-        title="The Hormonal Trap of Crash Dieting"
-        content="Rapid weight loss dramatically raises ghrelin and suppresses leptin, PYY, and CCK — creating an intense biological drive to eat that can persist for 1-3 years. This is NOT a lack of willpower; it is biochemistry. Gradual weight loss (0.5-1% body weight per week) produces smaller hormonal disruptions and is more sustainable long-term."
-      />
+        title="The Hormonal Trap of Crash Dieting">
+        Rapid weight loss dramatically raises ghrelin and suppresses leptin, PYY, and CCK — creating an intense biological drive to eat that can persist for 1-3 years. This is NOT a lack of willpower; it is biochemistry. Gradual weight loss (0.5-1% body weight per week) produces smaller hormonal disruptions and is more sustainable long-term.
+      </WarningBlock>
 
       <h2>Key Takeaways</h2>
       <ul>

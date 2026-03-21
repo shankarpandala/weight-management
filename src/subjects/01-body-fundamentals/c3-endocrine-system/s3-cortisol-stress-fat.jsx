@@ -98,25 +98,25 @@ export default function CortisolStressFat() {
 
       <ExampleBlock
         title="The Indian Urban Professional Stress Pattern"
-        description="A common scenario: long commute (1-2 hours in traffic), high-pressure IT/corporate job, irregular meals (skipping lunch or eating late), evening stress eating (namkeen, biscuits, chai with sugar), late dinner (9-10 PM), poor sleep (phone scrolling until midnight), early alarm (6 AM). This pattern maximizes cortisol through sleep deprivation, meal irregularity, psychological stress, and sedentary behavior — creating ideal conditions for visceral fat accumulation despite no obvious overeating."
+        problem="A common scenario: long commute (1-2 hours in traffic), high-pressure IT/corporate job, irregular meals (skipping lunch or eating late), evening stress eating (namkeen, biscuits, chai with sugar), late dinner (9-10 PM), poor sleep (phone scrolling until midnight), early alarm (6 AM). This pattern maximizes cortisol through sleep deprivation, meal irregularity, psychological stress, and sedentary behavior — creating ideal conditions for visceral fat accumulation despite no obvious overeating."
       />
 
       <WarningBlock
-        title="Dieting Itself Raises Cortisol"
-        content="Caloric restriction increases cortisol levels by 18-38%, according to research by Tomiyama et al. (2010). This creates a paradox: the stress of strict dieting may promote the very visceral fat accumulation you are trying to reduce. This is another reason why moderate, sustainable deficits work better than extreme diets — they produce less cortisol elevation."
-      />
+        title="Dieting Itself Raises Cortisol">
+        Caloric restriction increases cortisol levels by 18-38%, according to research by Tomiyama et al. (2010). This creates a paradox: the stress of strict dieting may promote the very visceral fat accumulation you are trying to reduce. This is another reason why moderate, sustainable deficits work better than extreme diets — they produce less cortisol elevation.
+      </WarningBlock>
 
       <h2>Managing Cortisol for Weight Management</h2>
 
       <ExampleBlock
         title="Evidence-Based Stress Reduction Strategies"
-        description="(1) Sleep 7-9 hours — sleep deprivation increases cortisol by 37-45%. (2) Exercise moderately — 30-45 minutes of walking, yoga, or swimming reduces cortisol; avoid chronic overtraining which raises it. (3) Practice mindfulness or pranayama — even 10 minutes daily reduces cortisol by 20-25% in studies. (4) Eat regular meals — meal skipping and erratic eating patterns elevate cortisol. (5) Limit caffeine after 2 PM — coffee raises cortisol for 2-3 hours. (6) Social connection — positive social interaction reduces cortisol. (7) Nature exposure — even 20 minutes in a park lowers cortisol significantly."
+        problem="(1) Sleep 7-9 hours — sleep deprivation increases cortisol by 37-45%. (2) Exercise moderately — 30-45 minutes of walking, yoga, or swimming reduces cortisol; avoid chronic overtraining which raises it. (3) Practice mindfulness or pranayama — even 10 minutes daily reduces cortisol by 20-25% in studies. (4) Eat regular meals — meal skipping and erratic eating patterns elevate cortisol. (5) Limit caffeine after 2 PM — coffee raises cortisol for 2-3 hours. (6) Social connection — positive social interaction reduces cortisol. (7) Nature exposure — even 20 minutes in a park lowers cortisol significantly."
       />
 
       <NoteBlock
-        title="Yoga and Cortisol: Indian Tradition Meets Science"
-        content="Multiple studies show that regular yoga practice reduces baseline cortisol levels by 15-30%. A 2017 meta-analysis found that yoga was as effective as cognitive behavioral therapy for reducing cortisol in stressed populations. Traditional pranayama (breathing exercises), particularly alternate nostril breathing (Nadi Shodhana), activates the parasympathetic nervous system and directly reduces cortisol. This ancient Indian practice has strong scientific validation for stress and weight management."
-      />
+        title="Yoga and Cortisol: Indian Tradition Meets Science">
+        Multiple studies show that regular yoga practice reduces baseline cortisol levels by 15-30%. A 2017 meta-analysis found that yoga was as effective as cognitive behavioral therapy for reducing cortisol in stressed populations. Traditional pranayama (breathing exercises), particularly alternate nostril breathing (Nadi Shodhana), activates the parasympathetic nervous system and directly reduces cortisol. This ancient Indian practice has strong scientific validation for stress and weight management.
+      </NoteBlock>
 
       <h2>Key Takeaways</h2>
       <ul>

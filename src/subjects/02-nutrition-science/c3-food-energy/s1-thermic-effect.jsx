@@ -181,25 +181,25 @@ export default function ThermicEffectOfFood() {
       </p>
 
       <NoteBlock
-        title="TEF and Obesity"
-        content="Some research suggests that obese individuals have a blunted thermic effect of food compared to lean individuals, even after adjusting for body composition and meal size. This reduced TEF may be both a cause and consequence of obesity. The difference is estimated at 20-30 kcal/day — small but potentially significant over years. Insulin resistance, which is common in obesity, impairs glucose-stimulated thermogenesis. The good news is that weight loss and improved insulin sensitivity can partially restore normal TEF, and higher-protein diets can offset the blunting effect."
-      />
+        title="TEF and Obesity">
+        Some research suggests that obese individuals have a blunted thermic effect of food compared to lean individuals, even after adjusting for body composition and meal size. This reduced TEF may be both a cause and consequence of obesity. The difference is estimated at 20-30 kcal/day — small but potentially significant over years. Insulin resistance, which is common in obesity, impairs glucose-stimulated thermogenesis. The good news is that weight loss and improved insulin sensitivity can partially restore normal TEF, and higher-protein diets can offset the blunting effect.
+      </NoteBlock>
 
       <h2>Practical Applications for Weight Management</h2>
 
       <ExampleBlock
         title="Maximizing TEF in an Indian Diet"
-        description="Strategies to increase the thermic effect of food: (1) Increase protein proportion — replace a portion of rice/roti calories with dal, paneer, eggs, or chicken at each meal. Aim for 25-30% of calories from protein. (2) Choose whole and minimally processed foods — whole moong dal over processed moong dal instant mix, hand-pounded rice over polished white rice, steel-cut oats over instant oats. (3) Add spices liberally — Indian cooking's generous use of chili, black pepper, ginger, and turmeric provides a modest TEF boost. (4) Example: A meal of whole wheat roti + rajma + raita + green chutney has a significantly higher TEF than an equivalent-calorie meal of white rice + potato curry + papad, due to more protein, more fiber, and less processing."
+        problem="Strategies to increase the thermic effect of food: (1) Increase protein proportion — replace a portion of rice/roti calories with dal, paneer, eggs, or chicken at each meal. Aim for 25-30% of calories from protein. (2) Choose whole and minimally processed foods — whole moong dal over processed moong dal instant mix, hand-pounded rice over polished white rice, steel-cut oats over instant oats. (3) Add spices liberally — Indian cooking's generous use of chili, black pepper, ginger, and turmeric provides a modest TEF boost. (4) Example: A meal of whole wheat roti + rajma + raita + green chutney has a significantly higher TEF than an equivalent-calorie meal of white rice + potato curry + papad, due to more protein, more fiber, and less processing."
       />
 
       <WarningBlock
-        title="TEF Is Important But Not Magical"
-        content="While TEF differences between macronutrients are real and scientifically established, they should be viewed in proper perspective. The maximum practical TEF advantage from dietary manipulation is approximately 100-150 kcal/day — equivalent to about 10-15 minutes of brisk walking. TEF cannot compensate for a caloric surplus, and claims that certain foods have 'negative calories' (TEF exceeding their caloric content) are unfounded. No food requires more calories to digest than it provides. The real value of understanding TEF is in making informed food choices that provide a small but consistent metabolic advantage as part of a comprehensive weight management strategy."
-      />
+        title="TEF Is Important But Not Magical">
+        While TEF differences between macronutrients are real and scientifically established, they should be viewed in proper perspective. The maximum practical TEF advantage from dietary manipulation is approximately 100-150 kcal/day — equivalent to about 10-15 minutes of brisk walking. TEF cannot compensate for a caloric surplus, and claims that certain foods have 'negative calories' (TEF exceeding their caloric content) are unfounded. No food requires more calories to digest than it provides. The real value of understanding TEF is in making informed food choices that provide a small but consistent metabolic advantage as part of a comprehensive weight management strategy.
+      </WarningBlock>
 
       <ExampleBlock
         title="TEF Comparison: Two Indian Meals"
-        description="Consider two meals, each providing approximately 500 kcal. Meal A: 200 g white rice (350 kcal from carbs) + aloo fry (150 kcal, mostly fat). Estimated TEF: ~35-40 kcal (7-8%). Meal B: 1 multigrain roti (120 kcal) + 1 katori chana dal (150 kcal, high protein) + palak paneer with 40 g paneer (180 kcal, protein + fat) + raita (50 kcal, protein). Estimated TEF: ~65-75 kcal (13-15%). Meal B 'wastes' an additional 25-35 kcal through thermogenesis, leaves you more satisfied due to protein and fiber, and provides better micronutrient density. Over 3 meals a day, this pattern could produce a 75-100 kcal/day thermogenic advantage."
+        problem="Consider two meals, each providing approximately 500 kcal. Meal A: 200 g white rice (350 kcal from carbs) + aloo fry (150 kcal, mostly fat). Estimated TEF: ~35-40 kcal (7-8%). Meal B: 1 multigrain roti (120 kcal) + 1 katori chana dal (150 kcal, high protein) + palak paneer with 40 g paneer (180 kcal, protein + fat) + raita (50 kcal, protein). Estimated TEF: ~65-75 kcal (13-15%). Meal B 'wastes' an additional 25-35 kcal through thermogenesis, leaves you more satisfied due to protein and fiber, and provides better micronutrient density. Over 3 meals a day, this pattern could produce a 75-100 kcal/day thermogenic advantage."
       />
 
       <h2>Key Takeaways</h2>

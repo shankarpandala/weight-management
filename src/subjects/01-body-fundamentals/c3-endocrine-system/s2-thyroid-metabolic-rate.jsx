@@ -76,9 +76,9 @@ export default function ThyroidMetabolicRate() {
       </ul>
 
       <NoteBlock
-        title="Hypothyroidism and Weight: The Reality"
-        content="While hypothyroidism does slow metabolism, it is NOT a primary cause of obesity. The weight gain from untreated hypothyroidism is typically 2-5 kg (mostly fluid), not 20-30 kg. If someone has gained significant weight, thyroid dysfunction may be a contributing factor but is unlikely to be the sole cause. Proper thyroid replacement (levothyroxine) normalizes metabolic rate but does not automatically cause weight loss — caloric balance still applies."
-      />
+        title="Hypothyroidism and Weight: The Reality">
+        While hypothyroidism does slow metabolism, it is NOT a primary cause of obesity. The weight gain from untreated hypothyroidism is typically 2-5 kg (mostly fluid), not 20-30 kg. If someone has gained significant weight, thyroid dysfunction may be a contributing factor but is unlikely to be the sole cause. Proper thyroid replacement (levothyroxine) normalizes metabolic rate but does not automatically cause weight loss — caloric balance still applies.
+      </NoteBlock>
 
       <h2>Hyperthyroidism: The Fast Metabolism</h2>
       <p>
@@ -101,13 +101,13 @@ export default function ThyroidMetabolicRate() {
 
       <ExampleBlock
         title="Supporting Thyroid Health Through Indian Diet"
-        description="Key nutrients for thyroid function: (1) Iodine — use iodized salt; include seafood if non-vegetarian. One teaspoon of iodized salt provides about 150mcg iodine (the daily requirement). (2) Selenium — crucial for T4-to-T3 conversion. Sources: Brazil nuts, eggs, garlic, mushrooms. (3) Zinc — needed for thyroid hormone synthesis. Sources: pumpkin seeds, chickpeas, cashews. (4) Avoid excess goitrogens when thyroid function is compromised — raw cruciferous vegetables (cabbage, cauliflower) can interfere with iodine uptake, but cooking largely inactivates goitrogens."
+        problem="Key nutrients for thyroid function: (1) Iodine — use iodized salt; include seafood if non-vegetarian. One teaspoon of iodized salt provides about 150mcg iodine (the daily requirement). (2) Selenium — crucial for T4-to-T3 conversion. Sources: Brazil nuts, eggs, garlic, mushrooms. (3) Zinc — needed for thyroid hormone synthesis. Sources: pumpkin seeds, chickpeas, cashews. (4) Avoid excess goitrogens when thyroid function is compromised — raw cruciferous vegetables (cabbage, cauliflower) can interfere with iodine uptake, but cooking largely inactivates goitrogens."
       />
 
       <WarningBlock
-        title="When to Get Your Thyroid Checked"
-        content="See a doctor for thyroid testing (TSH, free T4) if you experience unexplained weight change, persistent fatigue, cold/heat intolerance, menstrual irregularities, or difficulty losing weight despite consistent effort. Thyroid dysfunction is easily diagnosed with a simple blood test and effectively treated with medication. Do NOT self-supplement with thyroid hormones or iodine mega-doses."
-      />
+        title="When to Get Your Thyroid Checked">
+        See a doctor for thyroid testing (TSH, free T4) if you experience unexplained weight change, persistent fatigue, cold/heat intolerance, menstrual irregularities, or difficulty losing weight despite consistent effort. Thyroid dysfunction is easily diagnosed with a simple blood test and effectively treated with medication. Do NOT self-supplement with thyroid hormones or iodine mega-doses.
+      </WarningBlock>
 
       <h2>Key Takeaways</h2>
       <ul>

@@ -107,9 +107,9 @@ export default function NutrientAbsorptionTe() {
       </p>
 
       <NoteBlock
-        title="Medium-Chain Triglycerides (MCTs)"
-        content="దక్షిణ భారత వంటకాల్లో విస్తృతంగా ఉపయోగించే కొబ్బరి నూనెలో medium-chain fatty acids (C8-C12) ఉంటాయి, ఇవి chylomicron pathway ను bypass చేస్తాయి. MCTs amino acids లాగా నేరుగా portal blood లోకి శోషించబడతాయి, త్వరిత శక్తి కోసం liver ని వేగంగా చేరుకుంటాయి. బరువు నిర్వహణలో కొబ్బరి నూనె దృష్టిని ఆకర్షించడానికి ఇది ఒక కారణం, అయినప్పటికీ మొత్తం calorie balance ఇప్పటికీ బరువు మార్పును నిర్ణయిస్తుంది."
-      />
+        title="Medium-Chain Triglycerides (MCTs)">
+        దక్షిణ భారత వంటకాల్లో విస్తృతంగా ఉపయోగించే కొబ్బరి నూనెలో medium-chain fatty acids (C8-C12) ఉంటాయి, ఇవి chylomicron pathway ను bypass చేస్తాయి. MCTs amino acids లాగా నేరుగా portal blood లోకి శోషించబడతాయి, త్వరిత శక్తి కోసం liver ని వేగంగా చేరుకుంటాయి. బరువు నిర్వహణలో కొబ్బరి నూనె దృష్టిని ఆకర్షించడానికి ఇది ఒక కారణం, అయినప్పటికీ మొత్తం calorie balance ఇప్పటికీ బరువు మార్పును నిర్ణయిస్తుంది.
+      </NoteBlock>
 
       <h2>Mineral శోషణ</h2>
 
@@ -133,13 +133,13 @@ export default function NutrientAbsorptionTe() {
 
       <ExampleBlock
         title="భారతీయ భోజనాల నుండి Iron శోషణను పెంచడం"
-        description="ఒక సాధారణ శాకాహార thali లో iron (పాలకూర, dal, రోటీ నుండి) ఉంటుంది కానీ శోషణ inhibitors (phytates, tannins) కూడా ఉంటాయి. మెరుగుపరచడానికి: (1) dal కి నిమ్మరసం (vitamin C) జోడించండి — non-heme iron శోషణ 2-3 రెట్లు పెరుగుతుంది. (2) భోజనం తర్వాత 1 గంట లోపు టీ/coffee తాగకండి — tannins iron శోషణను 60-80% తగ్గిస్తాయి. (3) ఉసిరికాయ (amla) చేర్చండి — అత్యంత సమృద్ధమైన vitamin C వనరులలో ఒకటి. (4) తృణధాన్యాలను నానబెట్టి పులియబెట్టండి — phytate content ను 40-60% తగ్గిస్తుంది. idli batter పులియబెట్టడం వంటి సాంప్రదాయ పద్ధతులు mineral bioavailability ని సహజంగా మెరుగుపరుస్తాయి."
+        problem="ఒక సాధారణ శాకాహార thali లో iron (పాలకూర, dal, రోటీ నుండి) ఉంటుంది కానీ శోషణ inhibitors (phytates, tannins) కూడా ఉంటాయి. మెరుగుపరచడానికి: (1) dal కి నిమ్మరసం (vitamin C) జోడించండి — non-heme iron శోషణ 2-3 రెట్లు పెరుగుతుంది. (2) భోజనం తర్వాత 1 గంట లోపు టీ/coffee తాగకండి — tannins iron శోషణను 60-80% తగ్గిస్తాయి. (3) ఉసిరికాయ (amla) చేర్చండి — అత్యంత సమృద్ధమైన vitamin C వనరులలో ఒకటి. (4) తృణధాన్యాలను నానబెట్టి పులియబెట్టండి — phytate content ను 40-60% తగ్గిస్తుంది. idli batter పులియబెట్టడం వంటి సాంప్రదాయ పద్ధతులు mineral bioavailability ని సహజంగా మెరుగుపరుస్తాయి."
       />
 
       <WarningBlock
-        title="Malabsorption హెచ్చరిక సంకేతాలు"
-        content="పోషకాల malabsorption సంకేతాలలో దీర్ఘకాలిక అతిసారం, కొవ్వుతో కూడిన/దుర్వాసనగల మలం, వివరించలేని బరువు తగ్గుదల, ఉబ్బరం, అలసట, మరియు పోషకాల లోపం లక్షణాలు (anemia, ఎముక నొప్పి, సులభంగా కందడం) ఉంటాయి. Celiac disease, tropical sprue (దక్షిణ భారతదేశంలో సాధారణం), inflammatory bowel disease, మరియు chronic pancreatitis అన్నీ శోషణను దెబ్బతీయవచ్చు. నిరంతర లక్షణాలు అనుభవిస్తుంటే gastroenterologist ను సంప్రదించండి."
-      />
+        title="Malabsorption హెచ్చరిక సంకేతాలు">
+        పోషకాల malabsorption సంకేతాలలో దీర్ఘకాలిక అతిసారం, కొవ్వుతో కూడిన/దుర్వాసనగల మలం, వివరించలేని బరువు తగ్గుదల, ఉబ్బరం, అలసట, మరియు పోషకాల లోపం లక్షణాలు (anemia, ఎముక నొప్పి, సులభంగా కందడం) ఉంటాయి. Celiac disease, tropical sprue (దక్షిణ భారతదేశంలో సాధారణం), inflammatory bowel disease, మరియు chronic pancreatitis అన్నీ శోషణను దెబ్బతీయవచ్చు. నిరంతర లక్షణాలు అనుభవిస్తుంటే gastroenterologist ను సంప్రదించండి.
+      </WarningBlock>
 
       <h2>ముఖ్యమైన అంశాలు</h2>
       <ul>

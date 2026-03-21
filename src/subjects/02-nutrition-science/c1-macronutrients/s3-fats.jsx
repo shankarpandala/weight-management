@@ -184,7 +184,7 @@ export default function Fats() {
 
       <ExampleBlock
         title="Improving the Omega-3 to Omega-6 Ratio in Indian Diets"
-        description="Practical strategies: (1) Replace sunflower/soybean oil with mustard oil as the primary cooking oil — mustard oil has a favorable omega-6:omega-3 ratio of approximately 6:1 compared to 70:1 for sunflower oil. (2) Include 1-2 tablespoons of ground flaxseed (alsi) daily in chutney, raita, or roti dough. (3) Eat fatty fish (rohu, hilsa, sardines, mackerel) at least twice per week if non-vegetarian. (4) Add walnuts (akhrot) as a regular snack — 4-5 walnuts provide approximately 2.5 g of ALA. (5) Use til (sesame) oil for tempering — it provides a better fatty acid profile than many refined oils."
+        problem="Practical strategies: (1) Replace sunflower/soybean oil with mustard oil as the primary cooking oil — mustard oil has a favorable omega-6:omega-3 ratio of approximately 6:1 compared to 70:1 for sunflower oil. (2) Include 1-2 tablespoons of ground flaxseed (alsi) daily in chutney, raita, or roti dough. (3) Eat fatty fish (rohu, hilsa, sardines, mackerel) at least twice per week if non-vegetarian. (4) Add walnuts (akhrot) as a regular snack — 4-5 walnuts provide approximately 2.5 g of ALA. (5) Use til (sesame) oil for tempering — it provides a better fatty acid profile than many refined oils."
       />
 
       <h2>Trans Fats: The Most Harmful Fat</h2>
@@ -198,9 +198,9 @@ export default function Fats() {
       />
 
       <WarningBlock
-        title="Hidden Trans Fats in Indian Foods"
-        content="Vanaspati (partially hydrogenated vegetable oil) remains widely used in Indian street food, bakeries, and restaurant cooking. Common high-trans-fat Indian foods include: samosas and pakoras fried in vanaspati or reheated oil, store-bought biscuits and cookies (Parle-G, cream biscuits), commercial namkeens, bakery bread and buns (pav, bun maska), and sweets made with vanaspati-based khoya. India's FSSAI has mandated a maximum of 2% trans fat in oils and fats since 2022, but enforcement varies. Always check labels for 'partially hydrogenated vegetable oil' or 'vanaspati' in ingredient lists."
-      />
+        title="Hidden Trans Fats in Indian Foods">
+        Vanaspati (partially hydrogenated vegetable oil) remains widely used in Indian street food, bakeries, and restaurant cooking. Common high-trans-fat Indian foods include: samosas and pakoras fried in vanaspati or reheated oil, store-bought biscuits and cookies (Parle-G, cream biscuits), commercial namkeens, bakery bread and buns (pav, bun maska), and sweets made with vanaspati-based khoya. India's FSSAI has mandated a maximum of 2% trans fat in oils and fats since 2022, but enforcement varies. Always check labels for 'partially hydrogenated vegetable oil' or 'vanaspati' in ingredient lists.
+      </WarningBlock>
 
       <h2>Fats in the Indian Diet</h2>
 
@@ -227,9 +227,9 @@ export default function Fats() {
       />
 
       <NoteBlock
-        title="The ICMR Recommendation: Rotate Your Oils"
-        content="The ICMR recommends using a combination of cooking oils rather than relying on a single oil. This ensures a balanced intake of different fatty acid types. A practical approach is to use mustard oil or groundnut oil as the primary cooking oil, with occasional use of til oil for tempering and limited ghee for flavor. Avoid using sunflower or corn oil as the sole cooking oil, as this dramatically skews the omega-6:omega-3 ratio. The total amount matters as much as the type: measure oil rather than pouring freely."
-      />
+        title="The ICMR Recommendation: Rotate Your Oils">
+        The ICMR recommends using a combination of cooking oils rather than relying on a single oil. This ensures a balanced intake of different fatty acid types. A practical approach is to use mustard oil or groundnut oil as the primary cooking oil, with occasional use of til oil for tempering and limited ghee for flavor. Avoid using sunflower or corn oil as the sole cooking oil, as this dramatically skews the omega-6:omega-3 ratio. The total amount matters as much as the type: measure oil rather than pouring freely.
+      </NoteBlock>
 
       <NutritionFactBlock
         food="Ghee (1 tablespoon)"
@@ -267,7 +267,7 @@ export default function Fats() {
 
       <ExampleBlock
         title="Practical Fat Reduction in Indian Cooking"
-        description="Small changes compound: use 1 teaspoon of oil per dish instead of 2-3 tablespoons (saves 150-200 kcal per meal). Use non-stick cookware or air fryers to reduce oil needs. Steam or pressure-cook vegetables before adding a small tempering (tadka) instead of sauteing in oil. Replace malai and cream in gravies with cashew paste, tomato puree, or low-fat curd. Choose tandoori or grilled preparations over deep-fried options. Skim fat from the surface of cooled curries and gravies. These changes can reduce daily fat intake by 20-30 g (180-270 kcal) without significantly affecting taste."
+        problem="Small changes compound: use 1 teaspoon of oil per dish instead of 2-3 tablespoons (saves 150-200 kcal per meal). Use non-stick cookware or air fryers to reduce oil needs. Steam or pressure-cook vegetables before adding a small tempering (tadka) instead of sauteing in oil. Replace malai and cream in gravies with cashew paste, tomato puree, or low-fat curd. Choose tandoori or grilled preparations over deep-fried options. Skim fat from the surface of cooled curries and gravies. These changes can reduce daily fat intake by 20-30 g (180-270 kcal) without significantly affecting taste."
       />
 
       <h2>Key Takeaways</h2>

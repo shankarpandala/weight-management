@@ -127,7 +127,7 @@ export default function AlcoholVisceralFat() {
 
       <ExampleBlock
         title="Caloric Content of Common Drinks in India"
-        description="A 650 ml bottle of Indian beer (such as Kingfisher or Haywards) contains approximately 220-260 kcal. A 60 ml peg of whisky (such as Royal Stag, McDowell's, or Blenders Pride) contains around 135-150 kcal before adding any mixer. With a 200 ml cola mixer, that rises to 220-235 kcal. A glass of Indian wine (150 ml) provides roughly 120-130 kcal. The popular 'quarter' (180 ml) of whisky contains about 400-450 kcal — roughly equivalent to an entire meal of dal-chawal. Many social drinkers consuming 3-4 pegs with snacks in an evening easily add 1,000-1,500 extra kcal to their daily intake."
+        problem="A 650 ml bottle of Indian beer (such as Kingfisher or Haywards) contains approximately 220-260 kcal. A 60 ml peg of whisky (such as Royal Stag, McDowell's, or Blenders Pride) contains around 135-150 kcal before adding any mixer. With a 200 ml cola mixer, that rises to 220-235 kcal. A glass of Indian wine (150 ml) provides roughly 120-130 kcal. The popular 'quarter' (180 ml) of whisky contains about 400-450 kcal — roughly equivalent to an entire meal of dal-chawal. Many social drinkers consuming 3-4 pegs with snacks in an evening easily add 1,000-1,500 extra kcal to their daily intake."
       />
 
       <h2>The "Beer Belly" Phenomenon</h2>
@@ -193,9 +193,9 @@ export default function AlcoholVisceralFat() {
       </p>
 
       <NoteBlock
-        title="The Hidden Calories of Social Drinking"
-        content="Many Indians who drink socially underestimate their alcohol-related caloric intake because they do not consider drinks as 'food.' A man consuming 4 pegs of whisky with cola and moderate snacking twice a week adds approximately 2,400-2,800 kcal per week — equivalent to nearly a full day's worth of food. Over a year, this excess alone could contribute to a gain of approximately 7-8 kg of body weight if not offset by reduced intake elsewhere or increased exercise."
-      />
+        title="The Hidden Calories of Social Drinking">
+        Many Indians who drink socially underestimate their alcohol-related caloric intake because they do not consider drinks as 'food.' A man consuming 4 pegs of whisky with cola and moderate snacking twice a week adds approximately 2,400-2,800 kcal per week — equivalent to nearly a full day's worth of food. Over a year, this excess alone could contribute to a gain of approximately 7-8 kg of body weight if not offset by reduced intake elsewhere or increased exercise.
+      </NoteBlock>
 
       <h2>Alcohol and Hormonal Disruption</h2>
 
@@ -229,9 +229,9 @@ export default function AlcoholVisceralFat() {
       </p>
 
       <WarningBlock
-        title="Alcohol and Metabolic Syndrome in South Asians"
-        content="South Asians, including Indians, are genetically predisposed to visceral fat accumulation and insulin resistance (the 'thin-fat' phenotype). Adding heavy alcohol consumption to this baseline susceptibility creates a compounding risk for metabolic syndrome, type 2 diabetes, and cardiovascular disease. Indian men with regular heavy drinking habits should be particularly vigilant about waist circumference measurements and metabolic markers. A waist circumference above 90 cm, combined with regular alcohol intake, is a significant red flag requiring lifestyle intervention."
-      />
+        title="Alcohol and Metabolic Syndrome in South Asians">
+        South Asians, including Indians, are genetically predisposed to visceral fat accumulation and insulin resistance (the 'thin-fat' phenotype). Adding heavy alcohol consumption to this baseline susceptibility creates a compounding risk for metabolic syndrome, type 2 diabetes, and cardiovascular disease. Indian men with regular heavy drinking habits should be particularly vigilant about waist circumference measurements and metabolic markers. A waist circumference above 90 cm, combined with regular alcohol intake, is a significant red flag requiring lifestyle intervention.
+      </WarningBlock>
 
       <h2>Practical Strategies for Reducing Alcohol-Related Visceral Fat</h2>
 
@@ -270,7 +270,7 @@ export default function AlcoholVisceralFat() {
 
       <ExampleBlock
         title="Harm Reduction: Before and After"
-        description="Consider Rajesh, a 40-year-old Bangalore IT professional who drinks every Friday and Saturday. His typical evening: 5 pegs of whisky with cola (750 kcal from drinks) plus fried chicken, paneer tikka, and peanut masala (800 kcal from snacks) = 1,550 kcal per session, 3,100 kcal per week from alcohol-related intake. After modification: 2 pegs of whisky with soda water (270 kcal from drinks) plus tandoori chicken, roasted chana, and kachumber salad (350 kcal from snacks) = 620 kcal per session, 1,240 kcal per week. This simple change saves approximately 1,860 kcal per week — enough to prevent roughly 10 kg of fat gain per year."
+        problem="Consider Rajesh, a 40-year-old Bangalore IT professional who drinks every Friday and Saturday. His typical evening: 5 pegs of whisky with cola (750 kcal from drinks) plus fried chicken, paneer tikka, and peanut masala (800 kcal from snacks) = 1,550 kcal per session, 3,100 kcal per week from alcohol-related intake. After modification: 2 pegs of whisky with soda water (270 kcal from drinks) plus tandoori chicken, roasted chana, and kachumber salad (350 kcal from snacks) = 620 kcal per session, 1,240 kcal per week. This simple change saves approximately 1,860 kcal per week — enough to prevent roughly 10 kg of fat gain per year."
       />
 
       <h2>Key Takeaways</h2>

@@ -230,9 +230,9 @@ export default function CellStructureAndEnergy() {
       />
 
       <NoteBlock
-        title="Why Fat Yields More Energy Than Carbohydrate"
-        content="Fat contains more than twice the energy per gram (9 kcal vs 4 kcal) because fatty acids are more chemically reduced (they have more hydrogen atoms relative to oxygen atoms) than carbohydrates. This means fatty acids can donate more electrons to the electron transport chain, driving more ATP production. A single molecule of palmitic acid (a 16-carbon saturated fat found abundantly in ghee and palm oil) yields approximately 106 ATP molecules, compared to 38 ATP from one glucose molecule. This is also why the body preferentially stores excess energy as fat — it is a far more space-efficient energy reserve."
-      />
+        title="Why Fat Yields More Energy Than Carbohydrate">
+        Fat contains more than twice the energy per gram (9 kcal vs 4 kcal) because fatty acids are more chemically reduced (they have more hydrogen atoms relative to oxygen atoms) than carbohydrates. This means fatty acids can donate more electrons to the electron transport chain, driving more ATP production. A single molecule of palmitic acid (a 16-carbon saturated fat found abundantly in ghee and palm oil) yields approximately 106 ATP molecules, compared to 38 ATP from one glucose molecule. This is also why the body preferentially stores excess energy as fat — it is a far more space-efficient energy reserve.
+      </NoteBlock>
 
       <h2>Energy Storage in the Body</h2>
 
@@ -269,13 +269,13 @@ export default function CellStructureAndEnergy() {
 
       <ExampleBlock
         title="Cellular Energy in an Indian Diet Context"
-        description="When you eat a typical South Indian breakfast of 2 idlis with sambar, the rice and urad dal starch is broken down to glucose, which enters your cells and undergoes glycolysis in the cytoplasm, then the Krebs cycle and oxidative phosphorylation in mitochondria. The approximately 250 kcal from this meal ultimately produces thousands of ATP molecules that power your morning activities. The coconut chutney provides medium-chain fatty acids that are rapidly absorbed and transported directly to liver mitochondria for beta-oxidation — a more efficient ATP-producing pathway than glucose oxidation. If the meal provides more energy than immediately needed, the excess is converted to glycogen or fat for later use."
+        problem="When you eat a typical South Indian breakfast of 2 idlis with sambar, the rice and urad dal starch is broken down to glucose, which enters your cells and undergoes glycolysis in the cytoplasm, then the Krebs cycle and oxidative phosphorylation in mitochondria. The approximately 250 kcal from this meal ultimately produces thousands of ATP molecules that power your morning activities. The coconut chutney provides medium-chain fatty acids that are rapidly absorbed and transported directly to liver mitochondria for beta-oxidation — a more efficient ATP-producing pathway than glucose oxidation. If the meal provides more energy than immediately needed, the excess is converted to glycogen or fat for later use."
       />
 
       <WarningBlock
-        title="Mitochondrial Health and Metabolic Disease"
-        content="Impaired mitochondrial function is increasingly recognized as a contributing factor in metabolic syndrome, type 2 diabetes, and obesity. South Asian populations appear to be particularly susceptible to mitochondrial dysfunction in skeletal muscle, which may partly explain the higher rates of insulin resistance observed at lower BMI levels compared to European populations. Lifestyle factors that support mitochondrial health include regular aerobic exercise (which stimulates mitochondrial biogenesis), adequate sleep, and a diet rich in antioxidants and B-vitamins — nutrients abundant in traditional Indian foods like leafy greens, lentils, and turmeric."
-      />
+        title="Mitochondrial Health and Metabolic Disease">
+        Impaired mitochondrial function is increasingly recognized as a contributing factor in metabolic syndrome, type 2 diabetes, and obesity. South Asian populations appear to be particularly susceptible to mitochondrial dysfunction in skeletal muscle, which may partly explain the higher rates of insulin resistance observed at lower BMI levels compared to European populations. Lifestyle factors that support mitochondrial health include regular aerobic exercise (which stimulates mitochondrial biogenesis), adequate sleep, and a diet rich in antioxidants and B-vitamins — nutrients abundant in traditional Indian foods like leafy greens, lentils, and turmeric.
+      </WarningBlock>
 
       <h2>Key Takeaways</h2>
 

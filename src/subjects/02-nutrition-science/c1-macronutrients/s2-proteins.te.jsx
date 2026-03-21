@@ -110,9 +110,9 @@ export default function ProteinsTe() {
       />
 
       <NoteBlock
-        title="Leucine: కండరాల నిర్మాణంలో కీలక సంకేతం"
-        content="Essential amino acids లో, leucine కండరాల protein synthesis ను mTOR signaling pathway ద్వారా ప్రేరేపించడంలో ప్రత్యేకంగా ముఖ్యమైన పాత్ర పోషిస్తుంది. పరిశోధన ప్రకారం కండరాల protein synthesis ను గరిష్టంగా ప్రేరేపించడానికి ఒక్కో భోజనంలో సుమారు 2-3 g 'leucine threshold' అవసరం. దీని ఆచరణాత్మక ప్రభావం: ఈ threshold చేరుకోవడానికి ఒక భోజనంలో సుమారు 25-30 g అధిక-నాణ్యత protein అవసరం. చాలా సాంప్రదాయ భారతీయ శాఖాహార భోజనాలు ఒక్కో భోజన సందర్భంలో ఈ threshold కంటే తక్కువగా ఉంటాయి, అందుకే భోజనాల మధ్య protein పంపిణీ చాలా ముఖ్యమైనది."
-      />
+        title="Leucine: కండరాల నిర్మాణంలో కీలక సంకేతం">
+        Essential amino acids లో, leucine కండరాల protein synthesis ను mTOR signaling pathway ద్వారా ప్రేరేపించడంలో ప్రత్యేకంగా ముఖ్యమైన పాత్ర పోషిస్తుంది. పరిశోధన ప్రకారం కండరాల protein synthesis ను గరిష్టంగా ప్రేరేపించడానికి ఒక్కో భోజనంలో సుమారు 2-3 g 'leucine threshold' అవసరం. దీని ఆచరణాత్మక ప్రభావం: ఈ threshold చేరుకోవడానికి ఒక భోజనంలో సుమారు 25-30 g అధిక-నాణ్యత protein అవసరం. చాలా సాంప్రదాయ భారతీయ శాఖాహార భోజనాలు ఒక్కో భోజన సందర్భంలో ఈ threshold కంటే తక్కువగా ఉంటాయి, అందుకే భోజనాల మధ్య protein పంపిణీ చాలా ముఖ్యమైనది.
+      </NoteBlock>
 
       <h2>Complete vs Incomplete Proteins</h2>
 
@@ -152,7 +152,7 @@ export default function ProteinsTe() {
 
       <ExampleBlock
         title="భారతీయ వంటకాల్లో Complementary Proteins"
-        description="సాంప్రదాయ భారతీయ భోజనాలు సహజంగానే complementary proteins ను కలుపుతాయి: dal-chawal (పప్పు + అన్నం), rajma-chawal (రాజ్మా + అన్నం), chole + bhatura/roti (చోలే + గోధుమ), idli-sambar (బియ్యం మరియు urad dal + కూరగాయల పప్పు), khichdi (బియ్యం + moong dal). ఈ కలయికలు దాదాపు complete amino acid profiles ను సాధిస్తాయి. ఆధునిక పరిశోధన ధృవీకరించింది — complementary proteins ను ఒకే భోజనంలో తినాల్సిన అవసరం లేదు; ఒకే రోజులో తినడం తగిన amino acid లభ్యతకు సరిపోతుంది."
+        problem="సాంప్రదాయ భారతీయ భోజనాలు సహజంగానే complementary proteins ను కలుపుతాయి: dal-chawal (పప్పు + అన్నం), rajma-chawal (రాజ్మా + అన్నం), chole + bhatura/roti (చోలే + గోధుమ), idli-sambar (బియ్యం మరియు urad dal + కూరగాయల పప్పు), khichdi (బియ్యం + moong dal). ఈ కలయికలు దాదాపు complete amino acid profiles ను సాధిస్తాయి. ఆధునిక పరిశోధన ధృవీకరించింది — complementary proteins ను ఒకే భోజనంలో తినాల్సిన అవసరం లేదు; ఒకే రోజులో తినడం తగిన amino acid లభ్యతకు సరిపోతుంది."
       />
 
       <h2>Protein Digestibility Scores</h2>
@@ -266,13 +266,13 @@ export default function ProteinsTe() {
       />
 
       <WarningBlock
-        title="భారతీయ శాఖాహార ఆహారాల్లో Protein లోపం"
-        content="చాలా భారతీయ శాఖాహార ఆహారాలు రోజుకు కేవలం 30-40 g protein మాత్రమే అందిస్తాయి, ఇది RDA 48-60 g కంటే చాలా తక్కువ. సాధారణ తప్పులు: carbohydrate ఎక్కువగా ఉన్న భోజనాలపై అధికంగా ఆధారపడడం (అన్నం/రోటీ తక్కువ dal తో), breakfast లో protein-rich ఆహారాలను వదిలేయడం, మరియు dal లేదా paneer చాలా తక్కువ పరిమాణంలో వాడటం. Protein అవసరాలు తీర్చడానికి, శాఖాహారులు ప్రతి భోజనంలో ఒక protein source (dal, paneer, curd, soy, గుడ్లు — lacto-ovo అయితే) చేర్చాలి, మరియు roasted chana, sprouts, లేదా curd వంటి protein-rich snacks పరిగణించాలి."
-      />
+        title="భారతీయ శాఖాహార ఆహారాల్లో Protein లోపం">
+        చాలా భారతీయ శాఖాహార ఆహారాలు రోజుకు కేవలం 30-40 g protein మాత్రమే అందిస్తాయి, ఇది RDA 48-60 g కంటే చాలా తక్కువ. సాధారణ తప్పులు: carbohydrate ఎక్కువగా ఉన్న భోజనాలపై అధికంగా ఆధారపడడం (అన్నం/రోటీ తక్కువ dal తో), breakfast లో protein-rich ఆహారాలను వదిలేయడం, మరియు dal లేదా paneer చాలా తక్కువ పరిమాణంలో వాడటం. Protein అవసరాలు తీర్చడానికి, శాఖాహారులు ప్రతి భోజనంలో ఒక protein source (dal, paneer, curd, soy, గుడ్లు — lacto-ovo అయితే) చేర్చాలి, మరియు roasted chana, sprouts, లేదా curd వంటి protein-rich snacks పరిగణించాలి.
+      </WarningBlock>
 
       <ExampleBlock
         title="భారతీయ శాఖాహారంతో Protein అవసరాలు తీర్చడం"
-        description="సుమారు 55-60 g protein సాధించే ఆచరణాత్మక రోజు: Breakfast - 2 moong dal chilla (12 g protein) + curd (4 g). Lunch - 2 roti (7 g) + 1 కటోరీ rajma (9 g) + raita (3 g). Snack - roasted chana 30 g (6 g) + ఒక గ్లాసు buttermilk (3 g). Dinner - 1 కటోరీ rice (3 g) + 1 కటోరీ dal (7 g) + palak paneer 50 g paneer తో (9 g). మొత్తం: సుమారు 63 g protein. కీలకమైనది ప్రతి భోజనంలో legume, dairy, లేదా soy product చేర్చడం."
+        problem="సుమారు 55-60 g protein సాధించే ఆచరణాత్మక రోజు: Breakfast - 2 moong dal chilla (12 g protein) + curd (4 g). Lunch - 2 roti (7 g) + 1 కటోరీ rajma (9 g) + raita (3 g). Snack - roasted chana 30 g (6 g) + ఒక గ్లాసు buttermilk (3 g). Dinner - 1 కటోరీ rice (3 g) + 1 కటోరీ dal (7 g) + palak paneer 50 g paneer తో (9 g). మొత్తం: సుమారు 63 g protein. కీలకమైనది ప్రతి భోజనంలో legume, dairy, లేదా soy product చేర్చడం."
       />
 
       <h2>ముఖ్యమైన విషయాలు</h2>

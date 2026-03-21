@@ -216,7 +216,7 @@ export default function BasalMetabolicRate() {
 
       <ExampleBlock
         title="When to Use the Cunningham Equation"
-        description="Consider a male bodybuilder weighing 90 kg at 10% body fat (LBM = 81 kg) vs a sedentary man weighing 90 kg at 30% body fat (LBM = 63 kg). Mifflin-St Jeor gives them very similar BMR estimates since it uses total weight. The Cunningham equation yields BMR of 2,282 kcal/day for the bodybuilder vs 1,886 kcal/day for the sedentary man — a difference of nearly 400 kcal/day that reflects the metabolic reality of their different body compositions."
+        problem="Consider a male bodybuilder weighing 90 kg at 10% body fat (LBM = 81 kg) vs a sedentary man weighing 90 kg at 30% body fat (LBM = 63 kg). Mifflin-St Jeor gives them very similar BMR estimates since it uses total weight. The Cunningham equation yields BMR of 2,282 kcal/day for the bodybuilder vs 1,886 kcal/day for the sedentary man — a difference of nearly 400 kcal/day that reflects the metabolic reality of their different body compositions."
       />
 
       <h2>Factors Affecting BMR</h2>
@@ -282,14 +282,14 @@ export default function BasalMetabolicRate() {
       </p>
 
       <NoteBlock
-        title="BMR vs RMR"
-        content="In practice, most clinical and research settings measure Resting Metabolic Rate (RMR) rather than true BMR. RMR is typically 10-20% higher than BMR because it does not require the strict 12-hour fasting, overnight sleep, and thermoneutral conditions. When using prediction equations in practical settings, the values obtained are closer to RMR than strict BMR, but the terms are often used interchangeably."
-      />
+        title="BMR vs RMR">
+        In practice, most clinical and research settings measure Resting Metabolic Rate (RMR) rather than true BMR. RMR is typically 10-20% higher than BMR because it does not require the strict 12-hour fasting, overnight sleep, and thermoneutral conditions. When using prediction equations in practical settings, the values obtained are closer to RMR than strict BMR, but the terms are often used interchangeably.
+      </NoteBlock>
 
       <WarningBlock
-        title="Limitations of Prediction Equations"
-        content="All BMR prediction equations have a margin of error of approximately plus or minus 10-15% when compared to measured values. In certain populations — particularly individuals with obesity, the elderly, certain ethnicities, and those who are very muscular — errors can be larger. For clinical decisions requiring precise energy expenditure data (such as critical care nutrition or eating disorder treatment), indirect calorimetry remains the gold standard."
-      />
+        title="Limitations of Prediction Equations">
+        All BMR prediction equations have a margin of error of approximately plus or minus 10-15% when compared to measured values. In certain populations — particularly individuals with obesity, the elderly, certain ethnicities, and those who are very muscular — errors can be larger. For clinical decisions requiring precise energy expenditure data (such as critical care nutrition or eating disorder treatment), indirect calorimetry remains the gold standard.
+      </WarningBlock>
 
       <h2>Interactive BMR Calculator</h2>
 
@@ -336,7 +336,7 @@ export default function BasalMetabolicRate() {
 
       <ExampleBlock
         title="BMR in Practice: Indian Context"
-        description="An Indian male office worker aged 35, height 172 cm, weight 78 kg would have an estimated BMR of approximately 1,690 kcal/day using Mifflin-St Jeor. With a sedentary activity multiplier of 1.2, his TDEE would be about 2,028 kcal/day. For gradual weight loss of 0.5 kg per week, he would target approximately 1,528 kcal/day (a 500 kcal deficit). Note that some studies suggest South Asian populations may have slightly lower metabolic rates than Western populations at the same body weight, possibly related to differences in lean mass and body fat distribution."
+        problem="An Indian male office worker aged 35, height 172 cm, weight 78 kg would have an estimated BMR of approximately 1,690 kcal/day using Mifflin-St Jeor. With a sedentary activity multiplier of 1.2, his TDEE would be about 2,028 kcal/day. For gradual weight loss of 0.5 kg per week, he would target approximately 1,528 kcal/day (a 500 kcal deficit). Note that some studies suggest South Asian populations may have slightly lower metabolic rates than Western populations at the same body weight, possibly related to differences in lean mass and body fat distribution."
       />
 
       <h2>Key Takeaways</h2>

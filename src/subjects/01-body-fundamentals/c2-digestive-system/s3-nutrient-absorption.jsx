@@ -102,9 +102,9 @@ export default function NutrientAbsorption() {
       </p>
 
       <NoteBlock
-        title="Medium-Chain Triglycerides (MCTs)"
-        content="Coconut oil, widely used in South Indian cooking, contains medium-chain fatty acids (C8-C12) that bypass the chylomicron pathway. MCTs are absorbed directly into portal blood like amino acids, reaching the liver faster for quick energy. This is one reason coconut oil has gained attention in weight management, though total calorie balance still determines weight change."
-      />
+        title="Medium-Chain Triglycerides (MCTs)">
+        Coconut oil, widely used in South Indian cooking, contains medium-chain fatty acids (C8-C12) that bypass the chylomicron pathway. MCTs are absorbed directly into portal blood like amino acids, reaching the liver faster for quick energy. This is one reason coconut oil has gained attention in weight management, though total calorie balance still determines weight change.
+      </NoteBlock>
 
       <h2>Mineral Absorption</h2>
 
@@ -127,13 +127,13 @@ export default function NutrientAbsorption() {
 
       <ExampleBlock
         title="Maximizing Iron Absorption from Indian Meals"
-        description="A typical vegetarian thali contains iron (from spinach, dal, roti) but also absorption inhibitors (phytates, tannins). To optimize: (1) Add lemon juice (vitamin C) to dal — increases non-heme iron absorption 2-3 fold. (2) Avoid tea/coffee within 1 hour of meals — tannins reduce iron absorption by 60-80%. (3) Include amla (Indian gooseberry) — one of the richest vitamin C sources. (4) Soak and ferment grains — reduces phytate content by 40-60%. Traditional practices like fermenting idli batter naturally improve mineral bioavailability."
+        problem="A typical vegetarian thali contains iron (from spinach, dal, roti) but also absorption inhibitors (phytates, tannins). To optimize: (1) Add lemon juice (vitamin C) to dal — increases non-heme iron absorption 2-3 fold. (2) Avoid tea/coffee within 1 hour of meals — tannins reduce iron absorption by 60-80%. (3) Include amla (Indian gooseberry) — one of the richest vitamin C sources. (4) Soak and ferment grains — reduces phytate content by 40-60%. Traditional practices like fermenting idli batter naturally improve mineral bioavailability."
       />
 
       <WarningBlock
-        title="Malabsorption Warning Signs"
-        content="Signs of nutrient malabsorption include chronic diarrhea, fatty/foul-smelling stools, unexplained weight loss, bloating, fatigue, and nutrient deficiency symptoms (anemia, bone pain, easy bruising). Celiac disease, tropical sprue (common in South India), inflammatory bowel disease, and chronic pancreatitis can all impair absorption. Consult a gastroenterologist if you experience persistent symptoms."
-      />
+        title="Malabsorption Warning Signs">
+        Signs of nutrient malabsorption include chronic diarrhea, fatty/foul-smelling stools, unexplained weight loss, bloating, fatigue, and nutrient deficiency symptoms (anemia, bone pain, easy bruising). Celiac disease, tropical sprue (common in South India), inflammatory bowel disease, and chronic pancreatitis can all impair absorption. Consult a gastroenterologist if you experience persistent symptoms.
+      </WarningBlock>
 
       <h2>Key Takeaways</h2>
       <ul>

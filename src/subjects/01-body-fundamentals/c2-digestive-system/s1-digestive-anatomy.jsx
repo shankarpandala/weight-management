@@ -39,9 +39,9 @@ export default function DigestiveAnatomy() {
       </p>
 
       <NoteBlock
-        title="Chewing and Weight Management"
-        content="Studies show thorough chewing (30-40 chews per bite) increases satiety hormones, reduces meal size by 10-15%, and improves absorption. Traditional Indian eating with hands naturally encourages slower, more mindful eating compared to hurried fork-based meals."
-      />
+        title="Chewing and Weight Management">
+        Studies show thorough chewing (30-40 chews per bite) increases satiety hormones, reduces meal size by 10-15%, and improves absorption. Traditional Indian eating with hands naturally encourages slower, more mindful eating compared to hurried fork-based meals.
+      </NoteBlock>
 
       <h2>The Esophagus</h2>
       <p>
@@ -109,7 +109,7 @@ export default function DigestiveAnatomy() {
 
       <ExampleBlock
         title="Digestive Journey of a South Indian Meal"
-        description="Sambar rice with papad: (1) Mouth — chewing and salivary amylase start rice starch digestion. (2) Stomach — HCl and pepsin break down dal proteins; 3-4 hours churning. (3) Duodenum — bile emulsifies tempering oil; pancreatic enzymes digest all macronutrients. (4) Jejunum — glucose from rice, amino acids from dal, fatty acids from oil, vitamins from vegetables absorbed through villi. (5) Ileum — remaining nutrients and bile salts absorbed. (6) Colon — vegetable fiber fermented by bacteria, water recovered, residue forms stool. Total transit: 24-72 hours."
+        problem="Sambar rice with papad: (1) Mouth — chewing and salivary amylase start rice starch digestion. (2) Stomach — HCl and pepsin break down dal proteins; 3-4 hours churning. (3) Duodenum — bile emulsifies tempering oil; pancreatic enzymes digest all macronutrients. (4) Jejunum — glucose from rice, amino acids from dal, fatty acids from oil, vitamins from vegetables absorbed through villi. (5) Ileum — remaining nutrients and bile salts absorbed. (6) Colon — vegetable fiber fermented by bacteria, water recovered, residue forms stool. Total transit: 24-72 hours."
       />
 
       <h2>Accessory Organs</h2>

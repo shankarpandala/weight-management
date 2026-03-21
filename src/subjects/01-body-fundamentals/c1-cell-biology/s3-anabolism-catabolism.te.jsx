@@ -98,7 +98,7 @@ export default function AnabolismCatabolismTe() {
 
       <ExampleBlock
         title="రోజువారీ జీవితంలో Fed-Fasted Cycle"
-        description="ఉదయం 8 గంటలకు breakfast (idli-sambar) anabolism ను trigger చేస్తుంది — insulin పెరుగుతుంది, glucose నిల్వ అవుతుంది, amino acids protein synthesis ను నడిపిస్తాయి. మధ్యాహ్నం నాటికి తేలికపాటి catabolism మొదలవుతుంది — insulin తగ్గుతుంది, glycogenolysis blood glucose ని maintain చేస్తుంది. lunch (అన్నం-dal-కూర) తర్వాత మళ్ళీ anabolism మొదలవుతుంది. రాత్రి నిద్ర సమయంలో (10 PM-7 AM), క్రమంగా catabolism glycogen తర్వాత fat stores ని వాడుకుంటుంది. ఈ రోజువారీ హెచ్చుతగ్గులు పూర్తిగా సహజం మరియు ఆరోగ్యకరం."
+        problem="ఉదయం 8 గంటలకు breakfast (idli-sambar) anabolism ను trigger చేస్తుంది — insulin పెరుగుతుంది, glucose నిల్వ అవుతుంది, amino acids protein synthesis ను నడిపిస్తాయి. మధ్యాహ్నం నాటికి తేలికపాటి catabolism మొదలవుతుంది — insulin తగ్గుతుంది, glycogenolysis blood glucose ని maintain చేస్తుంది. lunch (అన్నం-dal-కూర) తర్వాత మళ్ళీ anabolism మొదలవుతుంది. రాత్రి నిద్ర సమయంలో (10 PM-7 AM), క్రమంగా catabolism glycogen తర్వాత fat stores ని వాడుకుంటుంది. ఈ రోజువారీ హెచ్చుతగ్గులు పూర్తిగా సహజం మరియు ఆరోగ్యకరం."
       />
 
       <h2>శరీర నిర్మాణాన్ని నిర్ణయించే సమతుల్యత</h2>
@@ -121,18 +121,18 @@ export default function AnabolismCatabolismTe() {
       </p>
 
       <WarningBlock
-        title="విపరీతమైన Dieting కండరాల నష్టాన్ని గరిష్ఠం చేస్తుంది"
-        content="చాలా తక్కువ calorie diets (రోజుకు 800 kcal కంటే తక్కువ) proteolysis ని చాలా ఎక్కువ చేస్తాయి. వారానికి 1% శరీర బరువు కంటే వేగంగా బరువు తగ్గడం వల్ల lean mass నష్టం చాలా ఎక్కువ అవుతుంది. 500-750 kcal/day మితమైన deficit తో తగినంత protein (1.6-2.2g/kg) మరియు resistance training కలిపితే fat loss సమయంలో muscle catabolism తగ్గించవచ్చు."
-      />
+        title="విపరీతమైన Dieting కండరాల నష్టాన్ని గరిష్ఠం చేస్తుంది">
+        చాలా తక్కువ calorie diets (రోజుకు 800 kcal కంటే తక్కువ) proteolysis ని చాలా ఎక్కువ చేస్తాయి. వారానికి 1% శరీర బరువు కంటే వేగంగా బరువు తగ్గడం వల్ల lean mass నష్టం చాలా ఎక్కువ అవుతుంది. 500-750 kcal/day మితమైన deficit తో తగినంత protein (1.6-2.2g/kg) మరియు resistance training కలిపితే fat loss సమయంలో muscle catabolism తగ్గించవచ్చు.
+      </WarningBlock>
 
       <NoteBlock
-        title="నువ్వు పూర్తిగా Anabolic లేదా Catabolic గా ఉండలేవు"
-        content="Caloric surplus లో కూడా కొంత catabolism కొనసాగుతుంది — పాత proteins విడగొట్టబడతాయి, దెబ్బతిన్న cells recycle అవుతాయి. Deficit లో కూడా కొంత anabolic repair కొనసాగుతుంది. ఈ terms NET దిశను వివరిస్తాయి, absolute state ని కాదు."
-      />
+        title="నువ్వు పూర్తిగా Anabolic లేదా Catabolic గా ఉండలేవు">
+        Caloric surplus లో కూడా కొంత catabolism కొనసాగుతుంది — పాత proteins విడగొట్టబడతాయి, దెబ్బతిన్న cells recycle అవుతాయి. Deficit లో కూడా కొంత anabolic repair కొనసాగుతుంది. ఈ terms NET దిశను వివరిస్తాయి, absolute state ని కాదు.
+      </NoteBlock>
 
       <ExampleBlock
         title="Indian Diet లో సమతుల్యతను Optimize చేయడం"
-        description="కొవ్వు తగ్గించుకుంటూ కండరాలను కాపాడుకోవడానికి: (1) ప్రతి భోజనంలో 20-30g protein ఉండేలా చూసుకో — paneer, dal, eggs, chicken, లేదా పెరుగు. (2) భోజనాల మధ్య 4-5 గంటల gap ఉంచు, insulin తగ్గి fat oxidation జరగడానికి. (3) biscuits, namkeen, లేదా చక్కెర chai తో నిరంతరం snacking చేయకు. (4) కండరాలకు anabolic stimulus కోసం resistance exercise చేయి. (5) 12-14 గంటల overnight fast ఆలోచించు (రాత్రి 8 PM కి dinner, ఉదయం 8 AM కి breakfast)."
+        problem="కొవ్వు తగ్గించుకుంటూ కండరాలను కాపాడుకోవడానికి: (1) ప్రతి భోజనంలో 20-30g protein ఉండేలా చూసుకో — paneer, dal, eggs, chicken, లేదా పెరుగు. (2) భోజనాల మధ్య 4-5 గంటల gap ఉంచు, insulin తగ్గి fat oxidation జరగడానికి. (3) biscuits, namkeen, లేదా చక్కెర chai తో నిరంతరం snacking చేయకు. (4) కండరాలకు anabolic stimulus కోసం resistance exercise చేయి. (5) 12-14 గంటల overnight fast ఆలోచించు (రాత్రి 8 PM కి dinner, ఉదయం 8 AM కి breakfast)."
       />
 
       <h2>ముఖ్యమైన విషయాలు</h2>

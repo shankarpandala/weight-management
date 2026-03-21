@@ -109,9 +109,9 @@ export default function Proteins() {
       />
 
       <NoteBlock
-        title="Leucine: The Key Muscle-Building Signal"
-        content="Among the essential amino acids, leucine plays a uniquely important role in stimulating muscle protein synthesis through the mTOR signaling pathway. Research suggests a 'leucine threshold' of approximately 2-3 g per meal is needed to maximally stimulate muscle protein synthesis. This has practical implications: a meal needs roughly 25-30 g of high-quality protein to reach this threshold. Many traditional Indian vegetarian meals fall below this threshold per eating occasion, which is why protein distribution across meals matters."
-      />
+        title="Leucine: The Key Muscle-Building Signal">
+        Among the essential amino acids, leucine plays a uniquely important role in stimulating muscle protein synthesis through the mTOR signaling pathway. Research suggests a 'leucine threshold' of approximately 2-3 g per meal is needed to maximally stimulate muscle protein synthesis. This has practical implications: a meal needs roughly 25-30 g of high-quality protein to reach this threshold. Many traditional Indian vegetarian meals fall below this threshold per eating occasion, which is why protein distribution across meals matters.
+      </NoteBlock>
 
       <h2>Complete vs Incomplete Proteins</h2>
 
@@ -151,7 +151,7 @@ export default function Proteins() {
 
       <ExampleBlock
         title="Complementary Proteins in Indian Cuisine"
-        description="Traditional Indian meals naturally combine complementary proteins: dal-chawal (lentils with rice), rajma-chawal (kidney beans with rice), chole with bhatura/roti (chickpeas with wheat), idli-sambar (rice and urad dal with vegetable lentil stew), khichdi (rice and moong dal). These combinations achieve near-complete amino acid profiles. Modern research confirms that complementary proteins do not need to be consumed at the exact same meal; consuming them over the course of the same day is sufficient for adequate amino acid availability."
+        problem="Traditional Indian meals naturally combine complementary proteins: dal-chawal (lentils with rice), rajma-chawal (kidney beans with rice), chole with bhatura/roti (chickpeas with wheat), idli-sambar (rice and urad dal with vegetable lentil stew), khichdi (rice and moong dal). These combinations achieve near-complete amino acid profiles. Modern research confirms that complementary proteins do not need to be consumed at the exact same meal; consuming them over the course of the same day is sufficient for adequate amino acid availability."
       />
 
       <h2>Protein Digestibility Scores</h2>
@@ -267,13 +267,13 @@ export default function Proteins() {
       />
 
       <WarningBlock
-        title="Protein Deficiency in Indian Vegetarian Diets"
-        content="Many Indian vegetarian diets provide only 30-40 g of protein per day, well below the RDA of 48-60 g. Common pitfalls include excessive reliance on carbohydrate-heavy meals (rice/roti with minimal dal), skipping protein-rich foods at breakfast, and using very small portions of dal or paneer. To meet protein needs, vegetarians should include a protein source (dal, paneer, curd, soy, eggs if lacto-ovo) at every meal, and consider protein-rich snacks like roasted chana, sprouts, or curd."
-      />
+        title="Protein Deficiency in Indian Vegetarian Diets">
+        Many Indian vegetarian diets provide only 30-40 g of protein per day, well below the RDA of 48-60 g. Common pitfalls include excessive reliance on carbohydrate-heavy meals (rice/roti with minimal dal), skipping protein-rich foods at breakfast, and using very small portions of dal or paneer. To meet protein needs, vegetarians should include a protein source (dal, paneer, curd, soy, eggs if lacto-ovo) at every meal, and consider protein-rich snacks like roasted chana, sprouts, or curd.
+      </WarningBlock>
 
       <ExampleBlock
         title="Meeting Protein Needs on an Indian Vegetarian Diet"
-        description="A practical day achieving approximately 55-60 g of protein: Breakfast - 2 moong dal chilla (12 g protein) with curd (4 g). Lunch - 2 roti (7 g) + 1 katori rajma (9 g) + raita (3 g). Snack - roasted chana 30 g (6 g) + glass of buttermilk (3 g). Dinner - 1 katori rice (3 g) + 1 katori dal (7 g) + palak paneer with 50 g paneer (9 g). Total: approximately 63 g protein. The key is including a legume, dairy, or soy product at every meal."
+        problem="A practical day achieving approximately 55-60 g of protein: Breakfast - 2 moong dal chilla (12 g protein) with curd (4 g). Lunch - 2 roti (7 g) + 1 katori rajma (9 g) + raita (3 g). Snack - roasted chana 30 g (6 g) + glass of buttermilk (3 g). Dinner - 1 katori rice (3 g) + 1 katori dal (7 g) + palak paneer with 50 g paneer (9 g). Total: approximately 63 g protein. The key is including a legume, dairy, or soy product at every meal."
       />
 
       <h2>Key Takeaways</h2>

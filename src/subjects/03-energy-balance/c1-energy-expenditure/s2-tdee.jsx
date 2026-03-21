@@ -118,7 +118,7 @@ export default function TotalDailyEnergyExpenditure() {
 
       <ExampleBlock
         title="TEF in Practice"
-        description="If you consume 2,000 kcal/day on a mixed diet, approximately 200 kcal will be used just for digesting and processing that food. However, if your diet is 30% protein (600 kcal from protein), the TEF from protein alone would be 120-180 kcal. Compare this to a low-protein diet at 10% protein (200 kcal from protein) where protein TEF would be only 40-60 kcal. This difference of roughly 80-120 kcal/day from TEF alone may contribute to the modest weight loss advantage observed in higher-protein diets."
+        problem="If you consume 2,000 kcal/day on a mixed diet, approximately 200 kcal will be used just for digesting and processing that food. However, if your diet is 30% protein (600 kcal from protein), the TEF from protein alone would be 120-180 kcal. Compare this to a low-protein diet at 10% protein (200 kcal from protein) where protein TEF would be only 40-60 kcal. This difference of roughly 80-120 kcal/day from TEF alone may contribute to the modest weight loss advantage observed in higher-protein diets."
       />
 
       <h3>3. Exercise Activity Thermogenesis (EAT) — 5-30% of TDEE</h3>
@@ -231,9 +231,9 @@ export default function TotalDailyEnergyExpenditure() {
       </p>
 
       <NoteBlock
-        title="The Constrained Energy Model"
-        content="Recent research by Pontzer et al. (2016) suggests that the relationship between physical activity and TDEE is not linear. At moderate activity levels, TDEE increases with activity as expected. However, at very high activity levels, the body appears to compensate by reducing energy expenditure in other domains (lower BMR, reduced NEAT, suppressed reproductive and immune function). This 'constrained total energy expenditure' model challenges the additive TDEE model and may explain why exercise alone is often insufficient for substantial weight loss."
-      />
+        title="The Constrained Energy Model">
+        Recent research by Pontzer et al. (2016) suggests that the relationship between physical activity and TDEE is not linear. At moderate activity levels, TDEE increases with activity as expected. However, at very high activity levels, the body appears to compensate by reducing energy expenditure in other domains (lower BMR, reduced NEAT, suppressed reproductive and immune function). This 'constrained total energy expenditure' model challenges the additive TDEE model and may explain why exercise alone is often insufficient for substantial weight loss.
+      </NoteBlock>
 
       <h2>TDEE in the Indian Context</h2>
 
@@ -253,7 +253,7 @@ export default function TotalDailyEnergyExpenditure() {
 
       <ExampleBlock
         title="Urban Indian Office Worker"
-        description="A 30-year-old female software engineer in Bengaluru: height 160 cm, weight 62 kg. Mifflin-St Jeor BMR = 1,294 kcal/day. With a PAL of 1.3 (sedentary with occasional walking): TDEE = 1,682 kcal/day. For weight loss of 0.5 kg/week, her target would be approximately 1,182 kcal/day — which is very close to the recommended minimum of 1,200 kcal/day, illustrating why exercise (increasing PAL) is so important for smaller-framed sedentary women who want to lose weight while eating adequately."
+        problem="A 30-year-old female software engineer in Bengaluru: height 160 cm, weight 62 kg. Mifflin-St Jeor BMR = 1,294 kcal/day. With a PAL of 1.3 (sedentary with occasional walking): TDEE = 1,682 kcal/day. For weight loss of 0.5 kg/week, her target would be approximately 1,182 kcal/day — which is very close to the recommended minimum of 1,200 kcal/day, illustrating why exercise (increasing PAL) is so important for smaller-framed sedentary women who want to lose weight while eating adequately."
       />
 
       <h3>Manual Laborers and Agricultural Workers</h3>
@@ -275,9 +275,9 @@ export default function TotalDailyEnergyExpenditure() {
       </p>
 
       <WarningBlock
-        title="Common TDEE Estimation Errors"
-        content="The two most common errors in TDEE estimation are: (1) Overestimating activity level — most desk workers are sedentary, not 'lightly active,' even if they exercise 2-3 times per week for 30 minutes. (2) Underreporting food intake — studies consistently show that people underestimate caloric intake by 20-50%, with greater underreporting in overweight individuals. These two errors combined can lead to a perceived caloric deficit of 500+ kcal/day that does not actually exist, explaining why many people feel they 'cannot lose weight despite eating less.'"
-      />
+        title="Common TDEE Estimation Errors">
+        The two most common errors in TDEE estimation are: (1) Overestimating activity level — most desk workers are sedentary, not 'lightly active,' even if they exercise 2-3 times per week for 30 minutes. (2) Underreporting food intake — studies consistently show that people underestimate caloric intake by 20-50%, with greater underreporting in overweight individuals. These two errors combined can lead to a perceived caloric deficit of 500+ kcal/day that does not actually exist, explaining why many people feel they 'cannot lose weight despite eating less.'
+      </WarningBlock>
 
       <h2>Practical Steps for Determining Your TDEE</h2>
 

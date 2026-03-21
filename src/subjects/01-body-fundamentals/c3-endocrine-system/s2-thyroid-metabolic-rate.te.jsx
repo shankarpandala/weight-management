@@ -76,9 +76,9 @@ export default function ThyroidMetabolicRateTe() {
       </ul>
 
       <NoteBlock
-        title="Hypothyroidism మరియు బరువు: వాస్తవం"
-        content="Hypothyroidism metabolism ను నెమ్మదించినా, ఇది obesity కి ప్రధాన కారణం కాదు. చికిత్స చేయని hypothyroidism వల్ల బరువు పెరుగుదల సాధారణంగా 2-5 kg (ఎక్కువగా fluid), 20-30 kg కాదు. ఎవరైనా గణనీయంగా బరువు పెరిగితే, thyroid dysfunction ఒక contributing factor అయి ఉండవచ్చు కానీ ఏకైక కారణం అయ్యే అవకాశం తక్కువ. సరైన thyroid replacement (levothyroxine) metabolic rate ను సాధారణ స్థాయికి తీసుకువస్తుంది కానీ స్వయంచాలకంగా బరువు తగ్గదు — caloric balance ఇంకా వర్తిస్తుంది."
-      />
+        title="Hypothyroidism మరియు బరువు: వాస్తవం">
+        Hypothyroidism metabolism ను నెమ్మదించినా, ఇది obesity కి ప్రధాన కారణం కాదు. చికిత్స చేయని hypothyroidism వల్ల బరువు పెరుగుదల సాధారణంగా 2-5 kg (ఎక్కువగా fluid), 20-30 kg కాదు. ఎవరైనా గణనీయంగా బరువు పెరిగితే, thyroid dysfunction ఒక contributing factor అయి ఉండవచ్చు కానీ ఏకైక కారణం అయ్యే అవకాశం తక్కువ. సరైన thyroid replacement (levothyroxine) metabolic rate ను సాధారణ స్థాయికి తీసుకువస్తుంది కానీ స్వయంచాలకంగా బరువు తగ్గదు — caloric balance ఇంకా వర్తిస్తుంది.
+      </NoteBlock>
 
       <h2>Hyperthyroidism: వేగవంతమైన Metabolism</h2>
       <p>
@@ -102,13 +102,13 @@ export default function ThyroidMetabolicRateTe() {
 
       <ExampleBlock
         title="భారతీయ ఆహారం ద్వారా Thyroid ఆరోగ్యానికి తోడ్పాటు"
-        description="Thyroid function కోసం ముఖ్యమైన nutrients: (1) Iodine — iodized salt వాడండి; non-vegetarian అయితే seafood చేర్చండి. ఒక teaspoon iodized salt దాదాపు 150mcg iodine అందిస్తుంది (రోజువారీ అవసరం). (2) Selenium — T4 నుండి T3 conversion కి చాలా అవసరం. మూలాలు: Brazil nuts, eggs, garlic, mushrooms. (3) Zinc — thyroid hormone synthesis కి అవసరం. మూలాలు: pumpkin seeds, chickpeas, cashews. (4) Thyroid function దెబ్బతిన్నప్పుడు అధిక goitrogens ను అవాయిడ్ చేయండి — raw cruciferous vegetables (cabbage, cauliflower) iodine uptake కు అడ్డుపడవచ్చు, కానీ వంట చేయడం goitrogens ను చాలావరకు निష్క్రియం చేస్తుంది."
+        problem="Thyroid function కోసం ముఖ్యమైన nutrients: (1) Iodine — iodized salt వాడండి; non-vegetarian అయితే seafood చేర్చండి. ఒక teaspoon iodized salt దాదాపు 150mcg iodine అందిస్తుంది (రోజువారీ అవసరం). (2) Selenium — T4 నుండి T3 conversion కి చాలా అవసరం. మూలాలు: Brazil nuts, eggs, garlic, mushrooms. (3) Zinc — thyroid hormone synthesis కి అవసరం. మూలాలు: pumpkin seeds, chickpeas, cashews. (4) Thyroid function దెబ్బతిన్నప్పుడు అధిక goitrogens ను అవాయిడ్ చేయండి — raw cruciferous vegetables (cabbage, cauliflower) iodine uptake కు అడ్డుపడవచ్చు, కానీ వంట చేయడం goitrogens ను చాలావరకు निష్క్రియం చేస్తుంది."
       />
 
       <WarningBlock
-        title="Thyroid ఎప్పుడు test చేయించుకోవాలి"
-        content="వివరించలేని బరువు మార్పు, నిరంతర అలసట, చలి/వేడి తట్టుకోలేకపోవడం, menstrual irregularities, లేదా స్థిరమైన ప్రయత్నం ఉన్నా బరువు తగ్గడంలో ఇబ్బంది అనుభవిస్తే thyroid testing (TSH, free T4) కోసం డాక్టర్ ను సంప్రదించండి. Thyroid dysfunction ను సాధారణ blood test తో సులభంగా నిర్ధారించవచ్చు మరియు medication తో సమర్థవంతంగా చికిత్స చేయవచ్చు. Thyroid hormones లేదా iodine mega-doses ను మీరే supplement చేసుకోకండి."
-      />
+        title="Thyroid ఎప్పుడు test చేయించుకోవాలి">
+        వివరించలేని బరువు మార్పు, నిరంతర అలసట, చలి/వేడి తట్టుకోలేకపోవడం, menstrual irregularities, లేదా స్థిరమైన ప్రయత్నం ఉన్నా బరువు తగ్గడంలో ఇబ్బంది అనుభవిస్తే thyroid testing (TSH, free T4) కోసం డాక్టర్ ను సంప్రదించండి. Thyroid dysfunction ను సాధారణ blood test తో సులభంగా నిర్ధారించవచ్చు మరియు medication తో సమర్థవంతంగా చికిత్స చేయవచ్చు. Thyroid hormones లేదా iodine mega-doses ను మీరే supplement చేసుకోకండి.
+      </WarningBlock>
 
       <h2>ముఖ్యమైన అంశాలు</h2>
       <ul>

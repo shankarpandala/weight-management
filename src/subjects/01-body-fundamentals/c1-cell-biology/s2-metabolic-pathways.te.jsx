@@ -103,9 +103,9 @@ export default function MetabolicPathwaysTe() {
       />
 
       <NoteBlock
-        title="Lactate వ్యర్థ పదార్థం కాదు"
-        content="Lactate కండరాల నొప్పికి కారణమయ్యే హానికరమైన metabolic వ్యర్థం అనే దీర్ఘకాల నమ్మకానికి భిన్నంగా, ఆధునిక పరిశోధన lactate నిజానికి విలువైన fuel అని చూపించింది. పనిచేసే కండరాలు ఉత్పత్తి చేసిన lactate రక్తం ద్వారా liver కి రవాణా చేయబడుతుంది, అక్కడ Cori cycle ద్వారా తిరిగి glucose గా మార్చబడుతుంది. ఇది గుండె మరియు విశ్రాంతిలో ఉన్న skeletal muscles ద్వారా నేరుగా oxidize కూడా అవుతుంది. మధ్యస్థ వ్యాయామంలో, cardiac fuel లో lactate గణనీయమైన భాగాన్ని ఆక్రమిస్తుంది. తీవ్రమైన వ్యాయామంలో మంట అనుభూతికి hydrogen ion పేరుకుపోవడం (acidosis) కారణం, lactate కాదు."
-      />
+        title="Lactate వ్యర్థ పదార్థం కాదు">
+        Lactate కండరాల నొప్పికి కారణమయ్యే హానికరమైన metabolic వ్యర్థం అనే దీర్ఘకాల నమ్మకానికి భిన్నంగా, ఆధునిక పరిశోధన lactate నిజానికి విలువైన fuel అని చూపించింది. పనిచేసే కండరాలు ఉత్పత్తి చేసిన lactate రక్తం ద్వారా liver కి రవాణా చేయబడుతుంది, అక్కడ Cori cycle ద్వారా తిరిగి glucose గా మార్చబడుతుంది. ఇది గుండె మరియు విశ్రాంతిలో ఉన్న skeletal muscles ద్వారా నేరుగా oxidize కూడా అవుతుంది. మధ్యస్థ వ్యాయామంలో, cardiac fuel లో lactate గణనీయమైన భాగాన్ని ఆక్రమిస్తుంది. తీవ్రమైన వ్యాయామంలో మంట అనుభూతికి hydrogen ion పేరుకుపోవడం (acidosis) కారణం, lactate కాదు.
+      </NoteBlock>
 
       <h2>Krebs Cycle (Citric Acid Cycle)</h2>
 
@@ -146,7 +146,7 @@ export default function MetabolicPathwaysTe() {
 
       <ExampleBlock
         title="భారతీయ ఆహారంలో Anaplerosis"
-        description="Protein అధికంగా ఉన్న rajma (kidney beans) మరియు rice భోజనం తిన్న తర్వాత, rajma protein నుండి వచ్చిన కొన్ని amino acids — ముఖ్యంగా glutamate మరియు aspartate — Krebs cycle intermediates గా (వరుసగా alpha-ketoglutarate మరియు oxaloacetate) మార్చబడతాయి. ఈ anaplerotic reaction cycle ను 'నింపుతుంది', intermediates ఇతర biosynthetic pathways కు మళ్ళించబడినప్పటికీ cycle సమర్థవంతంగా కొనసాగేలా నిర్ధారిస్తుంది. Protein ను carbohydrate తో కలపడం (సంప్రదాయ rajma-chawal కలయికలో వలె) metabolically పరిపూరకమైన nutrients ను అందించడానికి ఇది ఒక కారణం."
+        problem="Protein అధికంగా ఉన్న rajma (kidney beans) మరియు rice భోజనం తిన్న తర్వాత, rajma protein నుండి వచ్చిన కొన్ని amino acids — ముఖ్యంగా glutamate మరియు aspartate — Krebs cycle intermediates గా (వరుసగా alpha-ketoglutarate మరియు oxaloacetate) మార్చబడతాయి. ఈ anaplerotic reaction cycle ను 'నింపుతుంది', intermediates ఇతర biosynthetic pathways కు మళ్ళించబడినప్పటికీ cycle సమర్థవంతంగా కొనసాగేలా నిర్ధారిస్తుంది. Protein ను carbohydrate తో కలపడం (సంప్రదాయ rajma-chawal కలయికలో వలె) metabolically పరిపూరకమైన nutrients ను అందించడానికి ఇది ఒక కారణం."
       />
 
       <h2>Beta-Oxidation: Energy కోసం Fat ను కాల్చడం</h2>
@@ -219,9 +219,9 @@ export default function MetabolicPathwaysTe() {
       />
 
       <NoteBlock
-        title="38 ATP కాకుండా 30-32 ఎందుకు?"
-        content="పాత textbooks ప్రతి glucose కు 36-38 ATP ని పేర్కొంటాయి, కానీ ఆధునిక అంచనాలు 30-32. ఈ సవరణ cytoplasm లో ఉత్పత్తి అయిన NADH ని mitochondria లోకి రవాణా చేయడంలో (malate-aspartate లేదా glycerol-3-phosphate shuttle ద్వారా) ఖర్చయ్యే energy మరియు proton gradient ATP synthesis కాకుండా ఇతర ప్రయోజనాలకు కూడా ఉపయోగించబడుతుందనే వాస్తవాన్ని ప్రతిబింబిస్తుంది — pyruvate, phosphate, మరియు calcium ను mitochondria లోకి రవాణా చేయడం వంటివి. ఖచ్చితమైన ఉత్పత్తి electron transport మరియు ATP synthesis మధ్య coupling efficiency మీద కూడా ఆధారపడుతుంది, ఇది tissues మరియు వ్యక్తుల మధ్య మారుతుంది."
-      />
+        title="38 ATP కాకుండా 30-32 ఎందుకు?">
+        పాత textbooks ప్రతి glucose కు 36-38 ATP ని పేర్కొంటాయి, కానీ ఆధునిక అంచనాలు 30-32. ఈ సవరణ cytoplasm లో ఉత్పత్తి అయిన NADH ని mitochondria లోకి రవాణా చేయడంలో (malate-aspartate లేదా glycerol-3-phosphate shuttle ద్వారా) ఖర్చయ్యే energy మరియు proton gradient ATP synthesis కాకుండా ఇతర ప్రయోజనాలకు కూడా ఉపయోగించబడుతుందనే వాస్తవాన్ని ప్రతిబింబిస్తుంది — pyruvate, phosphate, మరియు calcium ను mitochondria లోకి రవాణా చేయడం వంటివి. ఖచ్చితమైన ఉత్పత్తి electron transport మరియు ATP synthesis మధ్య coupling efficiency మీద కూడా ఆధారపడుతుంది, ఇది tissues మరియు వ్యక్తుల మధ్య మారుతుంది.
+      </NoteBlock>
 
       <h2>Metabolic Pathways యొక్క సమన్వయం</h2>
 
@@ -253,13 +253,13 @@ export default function MetabolicPathwaysTe() {
 
       <ExampleBlock
         title="Metabolic Pathways మరియు భారతీయ భోజన సమయాలు"
-        description="ముందస్తు రాత్రి భోజనం (సాయంత్రం 7-8 గంటలకు) తినడం మరియు అల్పాహారానికి ముందు విరామం ఇవ్వడం అనే సంప్రదాయ భారతీయ అభ్యాసం 10-12 గంటల సహజ రాత్రి ఉపవాస కాలాన్ని సృష్టిస్తుంది. ఈ కాలంలో, శరీరం fed state (glycolysis మరియు lipogenesis ఆధిపత్యం) నుండి fasted state (glycogenolysis, gluconeogenesis, మరియు beta-oxidation ఆధిపత్యం) కు మారుతుంది. ఈ metabolic switch శరీరానికి energy కోసం fat నిల్వలను యాక్సెస్ చేయడానికి అనుమతిస్తుంది. Circadian rhythms తో సమన్వయించబడిన ఈ విస్తరించిన రాత్రి ఉపవాసం insulin sensitivity ని మెరుగుపరచవచ్చని పరిశోధన సూచిస్తుంది — అధిక insulin resistance రేట్లు ఉన్న భారతీయ జనాభాలకు ఈ ఫలితం ముఖ్యంగా సంబంధితం."
+        problem="ముందస్తు రాత్రి భోజనం (సాయంత్రం 7-8 గంటలకు) తినడం మరియు అల్పాహారానికి ముందు విరామం ఇవ్వడం అనే సంప్రదాయ భారతీయ అభ్యాసం 10-12 గంటల సహజ రాత్రి ఉపవాస కాలాన్ని సృష్టిస్తుంది. ఈ కాలంలో, శరీరం fed state (glycolysis మరియు lipogenesis ఆధిపత్యం) నుండి fasted state (glycogenolysis, gluconeogenesis, మరియు beta-oxidation ఆధిపత్యం) కు మారుతుంది. ఈ metabolic switch శరీరానికి energy కోసం fat నిల్వలను యాక్సెస్ చేయడానికి అనుమతిస్తుంది. Circadian rhythms తో సమన్వయించబడిన ఈ విస్తరించిన రాత్రి ఉపవాసం insulin sensitivity ని మెరుగుపరచవచ్చని పరిశోధన సూచిస్తుంది — అధిక insulin resistance రేట్లు ఉన్న భారతీయ జనాభాలకు ఈ ఫలితం ముఖ్యంగా సంబంధితం."
       />
 
       <WarningBlock
-        title="Metabolic Inflexibility మరియు వ్యాధి"
-        content="Metabolic flexibility అంటే అందుబాటును బట్టి carbohydrates మరియు fat కాల్చడం మధ్య సమర్థవంతంగా మారగల శరీర సామర్థ్యం. Metabolic syndrome మరియు type 2 diabetes లో — South Asian జనాభాలలో అసమానంగా ఎక్కువగా ఉండే పరిస్థితులు — ఈ flexibility దెబ్బతింటుంది. Cells fatty acids ను oxidize చేయడంలో తక్కువ సమర్థవంతంగా మరియు glucose uptake చేయమని insulin యొక్క signal కి తక్కువ responsive గా మారతాయి, ఫలితంగా blood glucose మరియు blood lipids ఏకకాలంలో పెరుగుతాయి. క్రమం తప్పని శారీరక కార్యకలాపం మరియు దీర్ఘకాలిక caloric excess ను నివారించడం metabolic flexibility ని నిర్వహించడానికి అత్యంత ప్రభావవంతమైన వ్యూహాలు."
-      />
+        title="Metabolic Inflexibility మరియు వ్యాధి">
+        Metabolic flexibility అంటే అందుబాటును బట్టి carbohydrates మరియు fat కాల్చడం మధ్య సమర్థవంతంగా మారగల శరీర సామర్థ్యం. Metabolic syndrome మరియు type 2 diabetes లో — South Asian జనాభాలలో అసమానంగా ఎక్కువగా ఉండే పరిస్థితులు — ఈ flexibility దెబ్బతింటుంది. Cells fatty acids ను oxidize చేయడంలో తక్కువ సమర్థవంతంగా మరియు glucose uptake చేయమని insulin యొక్క signal కి తక్కువ responsive గా మారతాయి, ఫలితంగా blood glucose మరియు blood lipids ఏకకాలంలో పెరుగుతాయి. క్రమం తప్పని శారీరక కార్యకలాపం మరియు దీర్ఘకాలిక caloric excess ను నివారించడం metabolic flexibility ని నిర్వహించడానికి అత్యంత ప్రభావవంతమైన వ్యూహాలు.
+      </WarningBlock>
 
       <h2>ముఖ్యమైన అంశాలు</h2>
 

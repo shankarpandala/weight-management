@@ -175,7 +175,7 @@ export default function CarbohydratesTe() {
 
       <ExampleBlock
         title="భారతీయ భోజనాల్లో Glycemic Index"
-        description="ఒక సాధారణ దక్షిణ భారత breakfast — idli (GI ~70) ని sambar తో తినడం వల్ల idli మాత్రమే తిన్నప్పటి కంటే overall glycemic response గణనీయంగా తగ్గుతుంది. sambar లోని dal నుండి protein మరియు fiber, అలాగే fat, gastric emptying మరియు glucose absorption ను నెమ్మదిస్తాయి. అదే విధంగా, అన్నానికి ఒక టేబుల్ స్పూన్ ghee కలపడం భోజనం యొక్క GI ని తగ్గిస్తుంది. ఇది ఒక mixed meal యొక్క GI వ్యక్తిగత ఆహారాల GI కంటే ఎందుకు ముఖ్యమో చూపిస్తుంది. సాంప్రదాయ భారతీయ భోజన నిర్మాణాలు — ధాన్యాలను dal, కూరగాయలు, మరియు fat వనరుతో కలపడం — glycemic responses ను సహజంగా తగ్గిస్తాయి."
+        problem="ఒక సాధారణ దక్షిణ భారత breakfast — idli (GI ~70) ని sambar తో తినడం వల్ల idli మాత్రమే తిన్నప్పటి కంటే overall glycemic response గణనీయంగా తగ్గుతుంది. sambar లోని dal నుండి protein మరియు fiber, అలాగే fat, gastric emptying మరియు glucose absorption ను నెమ్మదిస్తాయి. అదే విధంగా, అన్నానికి ఒక టేబుల్ స్పూన్ ghee కలపడం భోజనం యొక్క GI ని తగ్గిస్తుంది. ఇది ఒక mixed meal యొక్క GI వ్యక్తిగత ఆహారాల GI కంటే ఎందుకు ముఖ్యమో చూపిస్తుంది. సాంప్రదాయ భారతీయ భోజన నిర్మాణాలు — ధాన్యాలను dal, కూరగాయలు, మరియు fat వనరుతో కలపడం — glycemic responses ను సహజంగా తగ్గిస్తాయి."
       />
 
       <h2>Glycemic Load</h2>
@@ -282,13 +282,13 @@ export default function CarbohydratesTe() {
       />
 
       <WarningBlock
-        title="భారతీయ Diabetes మహమ్మారి మరియు Carbohydrate నాణ్యత"
-        content="భారతదేశంలో 100 million కంటే ఎక్కువ మంది పెద్దవారికి type 2 diabetes ఉంది, మరియు carbohydrate నాణ్యత ఒక ముఖ్యమైన modifiable risk factor. Asian Indians Western populations కంటే తక్కువ BMI విలువల వద్ద insulin resistance చూపిస్తారు, ఇది high-GI, refined carbohydrates యొక్క metabolic effects కు వారిని మరింత susceptible చేస్తుంది. ICMR consensus guidelines refined cereals ను whole grains మరియు millets తో replace చేయాలని, dal మరియు కూరగాయల intake పెంచాలని, మరియు diabetes నివారణ కోసం మొత్తం carbohydrate ను calories లో 55-60% కు పరిమితం చేయాలని సిఫార్సు చేస్తాయి."
-      />
+        title="భారతీయ Diabetes మహమ్మారి మరియు Carbohydrate నాణ్యత">
+        భారతదేశంలో 100 million కంటే ఎక్కువ మంది పెద్దవారికి type 2 diabetes ఉంది, మరియు carbohydrate నాణ్యత ఒక ముఖ్యమైన modifiable risk factor. Asian Indians Western populations కంటే తక్కువ BMI విలువల వద్ద insulin resistance చూపిస్తారు, ఇది high-GI, refined carbohydrates యొక్క metabolic effects కు వారిని మరింత susceptible చేస్తుంది. ICMR consensus guidelines refined cereals ను whole grains మరియు millets తో replace చేయాలని, dal మరియు కూరగాయల intake పెంచాలని, మరియు diabetes నివారణ కోసం మొత్తం carbohydrate ను calories లో 55-60% కు పరిమితం చేయాలని సిఫార్సు చేస్తాయి.
+      </WarningBlock>
 
       <ExampleBlock
         title="మెరుగైన Carbohydrate నాణ్యత కోసం ఆచరణాత్మక మార్పులు"
-        description="Polished white rice ను hand-pounded rice, brown rice, లేదా rice మరియు millets (bajra, jowar, ragi) మిశ్రమంతో replace చేయండి. rotis మరియు parathas కోసం maida బదులు whole wheat atta వాడండి. dalia (broken wheat porridge), కూరగాయలతో చేసిన poha, లేదా ragi mudde వంటి సాంప్రదాయ preparations ఎంచుకోండి. భోజనాల్లో rice కంటే dal నిష్పత్తి పెంచండి. భోజనం యొక్క fiber content పెంచడానికి మరియు glycemic load తగ్గించడానికి parathas మరియు rice dishes కు lauki, bhindi, లేదా beans వంటి కూరగాయలు జోడించండి."
+        problem="Polished white rice ను hand-pounded rice, brown rice, లేదా rice మరియు millets (bajra, jowar, ragi) మిశ్రమంతో replace చేయండి. rotis మరియు parathas కోసం maida బదులు whole wheat atta వాడండి. dalia (broken wheat porridge), కూరగాయలతో చేసిన poha, లేదా ragi mudde వంటి సాంప్రదాయ preparations ఎంచుకోండి. భోజనాల్లో rice కంటే dal నిష్పత్తి పెంచండి. భోజనం యొక్క fiber content పెంచడానికి మరియు glycemic load తగ్గించడానికి parathas మరియు rice dishes కు lauki, bhindi, లేదా beans వంటి కూరగాయలు జోడించండి."
       />
 
       <h2>Carbohydrates మరియు బరువు నిర్వహణ</h2>
@@ -311,9 +311,9 @@ export default function CarbohydratesTe() {
       </p>
 
       <NoteBlock
-        title="Resistant Starch"
-        content="Resistant starch అనేది small intestine లో జీర్ణక్రియను నిరోధించే మరియు soluble fiber లాగా పనిచేసే ఒక రకమైన starch. ఇది పచ్చి potatoes, పచ్చి bananas, మరియు legumes లో సహజంగా కనిపిస్తుంది, మరియు rice మరియు potatoes వంటి starchy ఆహారాలను వండి తర్వాత చల్లబరిచినప్పుడు కూడా ఏర్పడుతుంది (retrogradation). అందుకే మిగిలిపోయిన చల్లని అన్నం తాజాగా వండిన అన్నం కంటే తక్కువ glycemic impact కలిగి ఉంటుంది. భారతీయ వంటలో, cold rice salads లేదా ఒక రోజు ముందు తయారు చేసిన roti వంటి dishes అదనపు resistant starch ప్రయోజనాలను అందించవచ్చు."
-      />
+        title="Resistant Starch">
+        Resistant starch అనేది small intestine లో జీర్ణక్రియను నిరోధించే మరియు soluble fiber లాగా పనిచేసే ఒక రకమైన starch. ఇది పచ్చి potatoes, పచ్చి bananas, మరియు legumes లో సహజంగా కనిపిస్తుంది, మరియు rice మరియు potatoes వంటి starchy ఆహారాలను వండి తర్వాత చల్లబరిచినప్పుడు కూడా ఏర్పడుతుంది (retrogradation). అందుకే మిగిలిపోయిన చల్లని అన్నం తాజాగా వండిన అన్నం కంటే తక్కువ glycemic impact కలిగి ఉంటుంది. భారతీయ వంటలో, cold rice salads లేదా ఒక రోజు ముందు తయారు చేసిన roti వంటి dishes అదనపు resistant starch ప్రయోజనాలను అందించవచ్చు.
+      </NoteBlock>
 
       <h2>ముఖ్యమైన విషయాలు</h2>
 

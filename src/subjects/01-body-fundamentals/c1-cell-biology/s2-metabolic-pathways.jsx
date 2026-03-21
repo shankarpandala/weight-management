@@ -144,9 +144,9 @@ export default function MetabolicPathways() {
       />
 
       <NoteBlock
-        title="Lactate Is Not a Waste Product"
-        content="Contrary to the long-held belief that lactate is a harmful metabolic waste that causes muscle soreness, modern research has shown that lactate is actually a valuable fuel. Lactate produced by working muscles is transported via the blood to the liver, where it is converted back to glucose through the Cori cycle. It is also directly oxidized by the heart and resting skeletal muscles. During moderate exercise, lactate accounts for a significant portion of cardiac fuel. The burning sensation during intense exercise is caused by hydrogen ion accumulation (acidosis), not lactate itself."
-      />
+        title="Lactate Is Not a Waste Product">
+        Contrary to the long-held belief that lactate is a harmful metabolic waste that causes muscle soreness, modern research has shown that lactate is actually a valuable fuel. Lactate produced by working muscles is transported via the blood to the liver, where it is converted back to glucose through the Cori cycle. It is also directly oxidized by the heart and resting skeletal muscles. During moderate exercise, lactate accounts for a significant portion of cardiac fuel. The burning sensation during intense exercise is caused by hydrogen ion accumulation (acidosis), not lactate itself.
+      </NoteBlock>
 
       <h2>The Krebs Cycle (Citric Acid Cycle)</h2>
 
@@ -186,7 +186,7 @@ export default function MetabolicPathways() {
 
       <ExampleBlock
         title="Anaplerosis in an Indian Diet"
-        description="After eating a protein-rich meal of rajma (kidney beans) and rice, certain amino acids from the rajma protein — particularly glutamate and aspartate — can be converted into Krebs cycle intermediates (alpha-ketoglutarate and oxaloacetate, respectively). This anaplerotic reaction 'tops up' the cycle, ensuring it keeps running efficiently even as intermediates are diverted to other biosynthetic pathways. This is one reason why combining protein with carbohydrate (as in the traditional rajma-chawal combination) provides metabolically complementary nutrients."
+        problem="After eating a protein-rich meal of rajma (kidney beans) and rice, certain amino acids from the rajma protein — particularly glutamate and aspartate — can be converted into Krebs cycle intermediates (alpha-ketoglutarate and oxaloacetate, respectively). This anaplerotic reaction 'tops up' the cycle, ensuring it keeps running efficiently even as intermediates are diverted to other biosynthetic pathways. This is one reason why combining protein with carbohydrate (as in the traditional rajma-chawal combination) provides metabolically complementary nutrients."
       />
 
       <h2>Beta-Oxidation: Burning Fat for Energy</h2>
@@ -257,9 +257,9 @@ export default function MetabolicPathways() {
       />
 
       <NoteBlock
-        title="Why 30-32 and Not 38 ATP?"
-        content="Older textbooks cite 36-38 ATP per glucose, but modern estimates are 30-32. The revision reflects the energy cost of transporting NADH produced in the cytoplasm into mitochondria (via the malate-aspartate or glycerol-3-phosphate shuttle) and the fact that the proton gradient is also used for purposes other than ATP synthesis, such as transporting pyruvate, phosphate, and calcium into the mitochondria. The exact yield also depends on the efficiency of coupling between electron transport and ATP synthesis, which varies between tissues and individuals."
-      />
+        title="Why 30-32 and Not 38 ATP?">
+        Older textbooks cite 36-38 ATP per glucose, but modern estimates are 30-32. The revision reflects the energy cost of transporting NADH produced in the cytoplasm into mitochondria (via the malate-aspartate or glycerol-3-phosphate shuttle) and the fact that the proton gradient is also used for purposes other than ATP synthesis, such as transporting pyruvate, phosphate, and calcium into the mitochondria. The exact yield also depends on the efficiency of coupling between electron transport and ATP synthesis, which varies between tissues and individuals.
+      </NoteBlock>
 
       <h2>Integration of Metabolic Pathways</h2>
 
@@ -289,13 +289,13 @@ export default function MetabolicPathways() {
 
       <ExampleBlock
         title="Metabolic Pathways and Indian Meal Timing"
-        description="The traditional Indian practice of eating an early dinner (by 7-8 PM) and having a gap before breakfast creates a natural overnight fasting period of 10-12 hours. During this period, the body transitions from the fed state (glycolysis and lipogenesis dominant) to the fasted state (glycogenolysis, gluconeogenesis, and beta-oxidation dominant). This metabolic switch allows the body to access fat stores for energy. Research suggests that this extended overnight fast — aligned with circadian rhythms — may improve insulin sensitivity, a finding particularly relevant for Indian populations with high rates of insulin resistance."
+        problem="The traditional Indian practice of eating an early dinner (by 7-8 PM) and having a gap before breakfast creates a natural overnight fasting period of 10-12 hours. During this period, the body transitions from the fed state (glycolysis and lipogenesis dominant) to the fasted state (glycogenolysis, gluconeogenesis, and beta-oxidation dominant). This metabolic switch allows the body to access fat stores for energy. Research suggests that this extended overnight fast — aligned with circadian rhythms — may improve insulin sensitivity, a finding particularly relevant for Indian populations with high rates of insulin resistance."
       />
 
       <WarningBlock
-        title="Metabolic Inflexibility and Disease"
-        content="Metabolic flexibility refers to the body's ability to efficiently switch between burning carbohydrates and fat based on availability. In metabolic syndrome and type 2 diabetes — conditions disproportionately prevalent in South Asian populations — this flexibility is impaired. Cells become less efficient at oxidizing fatty acids and less responsive to insulin's signal to take up glucose, leading to elevated blood glucose and blood lipids simultaneously. Regular physical activity and avoiding chronic caloric excess are the most effective strategies for maintaining metabolic flexibility."
-      />
+        title="Metabolic Inflexibility and Disease">
+        Metabolic flexibility refers to the body's ability to efficiently switch between burning carbohydrates and fat based on availability. In metabolic syndrome and type 2 diabetes — conditions disproportionately prevalent in South Asian populations — this flexibility is impaired. Cells become less efficient at oxidizing fatty acids and less responsive to insulin's signal to take up glucose, leading to elevated blood glucose and blood lipids simultaneously. Regular physical activity and avoiding chronic caloric excess are the most effective strategies for maintaining metabolic flexibility.
+      </WarningBlock>
 
       <h2>Key Takeaways</h2>
 

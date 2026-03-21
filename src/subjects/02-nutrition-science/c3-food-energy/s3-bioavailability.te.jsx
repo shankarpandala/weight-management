@@ -110,13 +110,13 @@ export default function BioavailabilityTe() {
 
       <ExampleBlock
         title="Bioavailability ను గరిష్టం చేసే సాంప్రదాయ భారతీయ పద్ధతులు"
-        description="(1) Idli/dosa fermentation — phytate ను 60-75% తగ్గిస్తుంది, microbial synthesis ద్వారా B-vitamins పెరుగుతాయి. (2) రాత్రంతా dal నానబెట్టడం — phytate ను 20-30% తగ్గిస్తుంది. (3) dal కు lemon కలపడం — vitamin C iron absorption ను 3-6 రెట్లు పెంచుతుంది. (4) ప్రతి curry లో turmeric + black pepper — curcumin absorption 20 రెట్లు పెరుగుదల. (5) oil లో తాళించడం — vegetables నుండి fat-soluble vitamin uptake మెరుగవుతుంది. (6) moong/chana మొలకెత్తించడం — phytate 35-50% తగ్గుతుంది, vitamin C పెరుగుతుంది. (7) amla తినడం — అత్యంత సమృద్ధమైన vitamin C వనరులలో ఒకటి (100g కు 600mg), plant foods నుండి iron absorption ను నాటకీయంగా పెంచుతుంది."
+        problem="(1) Idli/dosa fermentation — phytate ను 60-75% తగ్గిస్తుంది, microbial synthesis ద్వారా B-vitamins పెరుగుతాయి. (2) రాత్రంతా dal నానబెట్టడం — phytate ను 20-30% తగ్గిస్తుంది. (3) dal కు lemon కలపడం — vitamin C iron absorption ను 3-6 రెట్లు పెంచుతుంది. (4) ప్రతి curry లో turmeric + black pepper — curcumin absorption 20 రెట్లు పెరుగుదల. (5) oil లో తాళించడం — vegetables నుండి fat-soluble vitamin uptake మెరుగవుతుంది. (6) moong/chana మొలకెత్తించడం — phytate 35-50% తగ్గుతుంది, vitamin C పెరుగుతుంది. (7) amla తినడం — అత్యంత సమృద్ధమైన vitamin C వనరులలో ఒకటి (100g కు 600mg), plant foods నుండి iron absorption ను నాటకీయంగా పెంచుతుంది."
       />
 
       <NoteBlock
-        title="Tea-మరియు-Iron సమస్య"
-        content="భారతదేశం ప్రపంచంలో అత్యధికంగా tea తాగే దేశాలలో ఒకటి మరియు అత్యధిక anemia rates ఉన్న దేశాలలో కూడా ఒకటి — ఇది యాదృచ్చికం కాదు. chai లోని tannins iron absorption ను 60-80% తగ్గిస్తాయి. సాధారణ పరిష్కారం: భోజనంతో పాటు కాకుండా, భోజనానికి 1-2 గంటల ముందు లేదా తర్వాత chai తాగండి. ఇది ఒక్కటే iron status ను గణనీయంగా మెరుగుపరుస్తుంది, ముఖ్యంగా non-heme iron మీద ఆధారపడే vegetarians కు."
-      />
+        title="Tea-మరియు-Iron సమస్య">
+        భారతదేశం ప్రపంచంలో అత్యధికంగా tea తాగే దేశాలలో ఒకటి మరియు అత్యధిక anemia rates ఉన్న దేశాలలో కూడా ఒకటి — ఇది యాదృచ్చికం కాదు. chai లోని tannins iron absorption ను 60-80% తగ్గిస్తాయి. సాధారణ పరిష్కారం: భోజనంతో పాటు కాకుండా, భోజనానికి 1-2 గంటల ముందు లేదా తర్వాత chai తాగండి. ఇది ఒక్కటే iron status ను గణనీయంగా మెరుగుపరుస్తుంది, ముఖ్యంగా non-heme iron మీద ఆధారపడే vegetarians కు.
+      </NoteBlock>
 
       <h2>Bioavailability ను ప్రభావితం చేసే వ్యక్తిగత Factors</h2>
       <ul>

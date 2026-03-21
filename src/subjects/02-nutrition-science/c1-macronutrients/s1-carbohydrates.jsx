@@ -174,7 +174,7 @@ export default function Carbohydrates() {
 
       <ExampleBlock
         title="Glycemic Index in Indian Meals"
-        description="A typical South Indian breakfast of idli (GI ~70) with sambar significantly lowers the overall glycemic response compared to idli alone. The protein and fiber from dal in sambar, along with fat, slow gastric emptying and glucose absorption. Similarly, adding a tablespoon of ghee to rice reduces the GI of the meal. This demonstrates why the GI of a mixed meal is more relevant than the GI of individual foods. Traditional Indian meal structures — combining cereals with dal, vegetables, and a fat source — naturally moderate glycemic responses."
+        problem="A typical South Indian breakfast of idli (GI ~70) with sambar significantly lowers the overall glycemic response compared to idli alone. The protein and fiber from dal in sambar, along with fat, slow gastric emptying and glucose absorption. Similarly, adding a tablespoon of ghee to rice reduces the GI of the meal. This demonstrates why the GI of a mixed meal is more relevant than the GI of individual foods. Traditional Indian meal structures — combining cereals with dal, vegetables, and a fat source — naturally moderate glycemic responses."
       />
 
       <h2>Glycemic Load</h2>
@@ -278,13 +278,13 @@ export default function Carbohydrates() {
       />
 
       <WarningBlock
-        title="The Indian Diabetes Epidemic and Carbohydrate Quality"
-        content="India has over 100 million adults with type 2 diabetes, and carbohydrate quality is a significant modifiable risk factor. Asian Indians show insulin resistance at lower BMI values than Western populations, making them more susceptible to the metabolic effects of high-GI, refined carbohydrates. The ICMR consensus guidelines recommend replacing refined cereals with whole grains and millets, increasing dal and vegetable intake, and limiting total carbohydrate to 55-60% of calories for diabetes prevention."
-      />
+        title="The Indian Diabetes Epidemic and Carbohydrate Quality">
+        India has over 100 million adults with type 2 diabetes, and carbohydrate quality is a significant modifiable risk factor. Asian Indians show insulin resistance at lower BMI values than Western populations, making them more susceptible to the metabolic effects of high-GI, refined carbohydrates. The ICMR consensus guidelines recommend replacing refined cereals with whole grains and millets, increasing dal and vegetable intake, and limiting total carbohydrate to 55-60% of calories for diabetes prevention.
+      </WarningBlock>
 
       <ExampleBlock
         title="Practical Swaps for Better Carbohydrate Quality"
-        description="Replace polished white rice with hand-pounded rice, brown rice, or a mix of rice and millets (bajra, jowar, ragi). Use whole wheat atta instead of maida for rotis and parathas. Choose traditional preparations like dalia (broken wheat porridge), poha made from flattened rice with vegetables, or ragi mudde. Increase the proportion of dal relative to rice in meals. Add vegetables like lauki, bhindi, or beans to parathas and rice dishes to increase fiber content and reduce the glycemic load of the meal."
+        problem="Replace polished white rice with hand-pounded rice, brown rice, or a mix of rice and millets (bajra, jowar, ragi). Use whole wheat atta instead of maida for rotis and parathas. Choose traditional preparations like dalia (broken wheat porridge), poha made from flattened rice with vegetables, or ragi mudde. Increase the proportion of dal relative to rice in meals. Add vegetables like lauki, bhindi, or beans to parathas and rice dishes to increase fiber content and reduce the glycemic load of the meal."
       />
 
       <h2>Carbohydrates and Weight Management</h2>
@@ -306,9 +306,9 @@ export default function Carbohydrates() {
       </p>
 
       <NoteBlock
-        title="Resistant Starch"
-        content="Resistant starch is a type of starch that resists digestion in the small intestine and functions like soluble fiber. It is found naturally in raw potatoes, green bananas, and legumes, and is also formed when starchy foods like rice and potatoes are cooked and then cooled (retrogradation). This is why leftover cold rice has a lower glycemic impact than freshly cooked rice. In Indian cooking, dishes like cold rice salads or day-old roti may provide additional resistant starch benefits."
-      />
+        title="Resistant Starch">
+        Resistant starch is a type of starch that resists digestion in the small intestine and functions like soluble fiber. It is found naturally in raw potatoes, green bananas, and legumes, and is also formed when starchy foods like rice and potatoes are cooked and then cooled (retrogradation). This is why leftover cold rice has a lower glycemic impact than freshly cooked rice. In Indian cooking, dishes like cold rice salads or day-old roti may provide additional resistant starch benefits.
+      </NoteBlock>
 
       <h2>Key Takeaways</h2>
 

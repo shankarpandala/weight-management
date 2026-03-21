@@ -6,9 +6,10 @@ const difficultyConfig = {
   advanced: { label: 'Advanced', color: 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400' },
 };
 
-function ExampleBlock({ title, problem, solution, difficulty }) {
+function ExampleBlock({ title, problem, solution, difficulty, children }) {
   const [solutionOpen, setSolutionOpen] = useState(false);
   const diff = difficultyConfig[difficulty] || null;
+  const problemContent = problem || children;
 
   return (
     <div className="my-6 overflow-hidden rounded-xl border-2 border-emerald-400/50 bg-emerald-50/50 shadow-sm dark:border-emerald-500/40 dark:bg-emerald-950/20">
@@ -31,7 +32,7 @@ function ExampleBlock({ title, problem, solution, difficulty }) {
       {/* Problem */}
       <div className="px-5 py-4">
         <p className="text-xs font-semibold uppercase tracking-wider text-emerald-600 dark:text-emerald-400 mb-2">Problem</p>
-        <p className="text-sm leading-relaxed text-gray-700 dark:text-gray-300">{problem}</p>
+        <div className="text-sm leading-relaxed text-gray-700 dark:text-gray-300">{problemContent}</div>
       </div>
 
       {/* Solution toggle */}

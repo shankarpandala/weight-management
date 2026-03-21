@@ -109,13 +109,13 @@ export default function MineralsTe() {
       />
 
       <WarningBlock
-        title="భారతదేశం యొక్క రక్తహీనత సంక్షోభం"
-        content="NFHS-5 (2019-21) ప్రకారం, 15-49 సంవత్సరాల భారతీయ మహిళల్లో 57% మరియు 6-59 నెలల పిల్లల్లో 67% రక్తహీనత ఉంది. Iron లోపం ప్రధాన కారణం, అయితే B12 మరియు folate లోపం కూడా దోహదపడతాయి. ఎక్కువగా శాకాహార ఆహారం — ఎక్కువ phytate content, భోజనంతో tea/coffee తాగడం, మరియు తక్కువ vitamin C తీసుకోవడం — ఇవన్నీ కలిసి iron absorption కు 'perfect storm' సృష్టిస్తాయి. పునరుత్పత్తి వయసులో ఉన్న మహిళలు menstrual losses వల్ల ప్రత్యేకంగా దుర్బలంగా ఉంటారు. ICMR పురుషులకు 21 mg/day మరియు మహిళలకు 29 mg/day సిఫారసు చేస్తుంది — భారతీయ ఆహారాల నుండి తక్కువ bioavailability కారణంగా ఇవి Western సిఫారసుల కంటే ఎక్కువ."
-      />
+        title="భారతదేశం యొక్క రక్తహీనత సంక్షోభం">
+        NFHS-5 (2019-21) ప్రకారం, 15-49 సంవత్సరాల భారతీయ మహిళల్లో 57% మరియు 6-59 నెలల పిల్లల్లో 67% రక్తహీనత ఉంది. Iron లోపం ప్రధాన కారణం, అయితే B12 మరియు folate లోపం కూడా దోహదపడతాయి. ఎక్కువగా శాకాహార ఆహారం — ఎక్కువ phytate content, భోజనంతో tea/coffee తాగడం, మరియు తక్కువ vitamin C తీసుకోవడం — ఇవన్నీ కలిసి iron absorption కు 'perfect storm' సృష్టిస్తాయి. పునరుత్పత్తి వయసులో ఉన్న మహిళలు menstrual losses వల్ల ప్రత్యేకంగా దుర్బలంగా ఉంటారు. ICMR పురుషులకు 21 mg/day మరియు మహిళలకు 29 mg/day సిఫారసు చేస్తుంది — భారతీయ ఆహారాల నుండి తక్కువ bioavailability కారణంగా ఇవి Western సిఫారసుల కంటే ఎక్కువ.
+      </WarningBlock>
 
       <ExampleBlock
         title="భారతీయ భోజనాల నుండి Iron Absorption మెరుగుపరచడం"
-        description="ఆధారిత వ్యూహాలు: (1) ప్రతి భోజనంలో vitamin C జోడించండి — dal మీద నిమ్మరసం పిండండి, ఉసిరి chutney చేర్చండి, dessert గా జామ లేదా orange తినండి. (2) భోజనానికి 1 గంట లోపు tea లేదా coffee తాగకండి — ఈ ఒక్క మార్పు iron absorption ను రెట్టింపు చేయగలదు. (3) Legumes ను వండడానికి ముందు నానబెట్టి మొలకెత్తించండి — phytate 30-50% తగ్గుతుంది. (4) Fermented foods (idli, dosa, dhokla) లో microbial phytase activity వల్ల phytate తక్కువగా ఉంటుంది. (5) ఇనుప పాత్రలలో వండడం — ఇది ఆమ్ల ఆహారాల iron content ను 2-3 రెట్లు పెంచగలదు. (6) Non-vegetarian అయితే, తక్కువ మొత్తంలో అయినా మాంసం లేదా చేపలు చేర్చండి ('meat factor' మొత్తం భోజనం నుండి non-heme iron absorption ను పెంచుతుంది)."
+        problem="ఆధారిత వ్యూహాలు: (1) ప్రతి భోజనంలో vitamin C జోడించండి — dal మీద నిమ్మరసం పిండండి, ఉసిరి chutney చేర్చండి, dessert గా జామ లేదా orange తినండి. (2) భోజనానికి 1 గంట లోపు tea లేదా coffee తాగకండి — ఈ ఒక్క మార్పు iron absorption ను రెట్టింపు చేయగలదు. (3) Legumes ను వండడానికి ముందు నానబెట్టి మొలకెత్తించండి — phytate 30-50% తగ్గుతుంది. (4) Fermented foods (idli, dosa, dhokla) లో microbial phytase activity వల్ల phytate తక్కువగా ఉంటుంది. (5) ఇనుప పాత్రలలో వండడం — ఇది ఆమ్ల ఆహారాల iron content ను 2-3 రెట్లు పెంచగలదు. (6) Non-vegetarian అయితే, తక్కువ మొత్తంలో అయినా మాంసం లేదా చేపలు చేర్చండి ('meat factor' మొత్తం భోజనం నుండి non-heme iron absorption ను పెంచుతుంది)."
       />
 
       <h2>Calcium</h2>
@@ -161,9 +161,9 @@ export default function MineralsTe() {
       />
 
       <NoteBlock
-        title="Spinach-Calcium అపోహ"
-        content="Palak (spinach) ను తరచుగా calcium-rich ఆహారంగా ప్రచారం చేస్తారు, కానీ ఇది తప్పుదారి పట్టించేది. Spinach లో 100 g కు 99 mg calcium ఉన్నప్పటికీ, దాని చాలా ఎక్కువ oxalate content ఈ calcium లో సుమారు 95% ను bind చేసి, absorption కు అందుబాటులో లేకుండా చేస్తుంది. 100 g spinach నుండి నిజంగా absorb అయ్యే calcium కేవలం 5 mg మాత్రమే — 200 ml milk నుండి 60-80 mg తో పోలిస్తే. Calcium కోసం, dairy products, ragi, మరియు sesame seeds చాలా మెరుగైన ఆచరణాత్మక వనరులు. తక్కువ calcium bioavailability ఉన్న ఇతర high-oxalate ఆహారాలలో amaranth grain, beet greens, మరియు sweet potatoes ఉన్నాయి."
-      />
+        title="Spinach-Calcium అపోహ">
+        Palak (spinach) ను తరచుగా calcium-rich ఆహారంగా ప్రచారం చేస్తారు, కానీ ఇది తప్పుదారి పట్టించేది. Spinach లో 100 g కు 99 mg calcium ఉన్నప్పటికీ, దాని చాలా ఎక్కువ oxalate content ఈ calcium లో సుమారు 95% ను bind చేసి, absorption కు అందుబాటులో లేకుండా చేస్తుంది. 100 g spinach నుండి నిజంగా absorb అయ్యే calcium కేవలం 5 mg మాత్రమే — 200 ml milk నుండి 60-80 mg తో పోలిస్తే. Calcium కోసం, dairy products, ragi, మరియు sesame seeds చాలా మెరుగైన ఆచరణాత్మక వనరులు. తక్కువ calcium bioavailability ఉన్న ఇతర high-oxalate ఆహారాలలో amaranth grain, beet greens, మరియు sweet potatoes ఉన్నాయి.
+      </NoteBlock>
 
       <h2>Zinc</h2>
 
@@ -214,9 +214,9 @@ export default function MineralsTe() {
       </p>
 
       <NoteBlock
-        title="బరువు నిర్వహణలో Iodine మరియు Thyroid Function"
-        content="Thyroid hormones basal metabolic rate ను నేరుగా నియంత్రిస్తాయి. Hypothyroidism (దీర్ఘకాలిక iodine లోపం వల్ల రావచ్చు) BMR ను 15-40% తగ్గిస్తుంది, ఇది బరువు పెరుగుదల, అలసట, మరియు చలి అసహనానికి దారితీస్తుంది. Universal salt iodization భారతదేశంలో స్పష్టమైన iodine లోపాన్ని తగ్గించినప్పటికీ, subclinical hypothyroidism భారతీయ జనాభాలో సుమారు 10-12% ను ప్రభావితం చేస్తుంది. వివరించలేని బరువు పెరుగుదల, అలసట, లేదా బరువు తగ్గడంలో ఇబ్బంది అనుభవిస్తున్న ఎవరైనా thyroid function (TSH, T3, T4) పరీక్షించుకోవాలి. అధిక iodine తీసుకోవడం (supplements లేదా kelp నుండి) కూడా thyroid function ను దెబ్బతీయవచ్చు మరియు నివారించాలి."
-      />
+        title="బరువు నిర్వహణలో Iodine మరియు Thyroid Function">
+        Thyroid hormones basal metabolic rate ను నేరుగా నియంత్రిస్తాయి. Hypothyroidism (దీర్ఘకాలిక iodine లోపం వల్ల రావచ్చు) BMR ను 15-40% తగ్గిస్తుంది, ఇది బరువు పెరుగుదల, అలసట, మరియు చలి అసహనానికి దారితీస్తుంది. Universal salt iodization భారతదేశంలో స్పష్టమైన iodine లోపాన్ని తగ్గించినప్పటికీ, subclinical hypothyroidism భారతీయ జనాభాలో సుమారు 10-12% ను ప్రభావితం చేస్తుంది. వివరించలేని బరువు పెరుగుదల, అలసట, లేదా బరువు తగ్గడంలో ఇబ్బంది అనుభవిస్తున్న ఎవరైనా thyroid function (TSH, T3, T4) పరీక్షించుకోవాలి. అధిక iodine తీసుకోవడం (supplements లేదా kelp నుండి) కూడా thyroid function ను దెబ్బతీయవచ్చు మరియు నివారించాలి.
+      </NoteBlock>
 
       <h2>Minerals మరియు బరువు నిర్వహణ</h2>
 
@@ -240,7 +240,7 @@ export default function MineralsTe() {
 
       <ExampleBlock
         title="Mineral-Rich భారతీయ భోజనం వ్యూహం"
-        description="Mineral తీసుకోవడం కోసం ఆప్టిమైజ్ చేసిన రోజు: అల్పాహారం — ragi dosa (calcium: 170 mg) coconut chutney తో + ఒక glass మజ్జిగ (calcium: 120 mg). భోజనం — brown rice (zinc) + మొలకెత్తిన moong dal (iron, zinc — మెరుగైన bioavailability) + palak paneer (spinach నుండి iron — oxalates వల్ల కొంత తగ్గినా, paneer నుండి calcium బాగా absorb అవుతుంది) + నిమ్మ ముక్క (iron absorption పెంచడానికి vitamin C). Snack — వేయించిన pumpkin seeds 15 g (zinc: 1.2 mg, iron: 1.2 mg) + ఉసిరి juice (vitamin C). రాత్రి భోజనం — bajra roti (iron: 6 mg per 100 g) + chole (zinc) + raita (calcium). భోజనంతో tea/coffee తాగకండి. ఈ plan సుమారు 800 mg calcium, 20 mg iron, మరియు 10 mg zinc అందిస్తుంది."
+        problem="Mineral తీసుకోవడం కోసం ఆప్టిమైజ్ చేసిన రోజు: అల్పాహారం — ragi dosa (calcium: 170 mg) coconut chutney తో + ఒక glass మజ్జిగ (calcium: 120 mg). భోజనం — brown rice (zinc) + మొలకెత్తిన moong dal (iron, zinc — మెరుగైన bioavailability) + palak paneer (spinach నుండి iron — oxalates వల్ల కొంత తగ్గినా, paneer నుండి calcium బాగా absorb అవుతుంది) + నిమ్మ ముక్క (iron absorption పెంచడానికి vitamin C). Snack — వేయించిన pumpkin seeds 15 g (zinc: 1.2 mg, iron: 1.2 mg) + ఉసిరి juice (vitamin C). రాత్రి భోజనం — bajra roti (iron: 6 mg per 100 g) + chole (zinc) + raita (calcium). భోజనంతో tea/coffee తాగకండి. ఈ plan సుమారు 800 mg calcium, 20 mg iron, మరియు 10 mg zinc అందిస్తుంది."
       />
 
       <h2>ముఖ్యమైన విషయాలు</h2>

@@ -106,13 +106,13 @@ export default function Bioavailability() {
 
       <ExampleBlock
         title="Traditional Indian Practices That Maximize Bioavailability"
-        description="(1) Idli/dosa fermentation — reduces phytate by 60-75%, increases B-vitamins from microbial synthesis. (2) Soaking dal overnight — reduces phytate by 20-30%. (3) Adding lemon to dal — vitamin C boosts iron absorption 3-6x. (4) Turmeric + black pepper in every curry — 20x increase in curcumin absorption. (5) Tempering with oil — enhances fat-soluble vitamin uptake from vegetables. (6) Sprouting moong/chana — reduces phytate 35-50%, increases vitamin C. (7) Eating amla — one of the richest vitamin C sources (600mg per 100g), dramatically enhances iron from plant foods."
+        problem="(1) Idli/dosa fermentation — reduces phytate by 60-75%, increases B-vitamins from microbial synthesis. (2) Soaking dal overnight — reduces phytate by 20-30%. (3) Adding lemon to dal — vitamin C boosts iron absorption 3-6x. (4) Turmeric + black pepper in every curry — 20x increase in curcumin absorption. (5) Tempering with oil — enhances fat-soluble vitamin uptake from vegetables. (6) Sprouting moong/chana — reduces phytate 35-50%, increases vitamin C. (7) Eating amla — one of the richest vitamin C sources (600mg per 100g), dramatically enhances iron from plant foods."
       />
 
       <NoteBlock
-        title="The Tea-and-Iron Problem"
-        content="India has one of the world's highest tea consumption rates AND one of the highest anemia rates — this is not a coincidence. Tannins in chai reduce iron absorption by 60-80%. A simple intervention: drink chai 1-2 hours before or after meals instead of with meals. This alone can significantly improve iron status, especially for vegetarians whose diet relies on non-heme iron."
-      />
+        title="The Tea-and-Iron Problem">
+        India has one of the world's highest tea consumption rates AND one of the highest anemia rates — this is not a coincidence. Tannins in chai reduce iron absorption by 60-80%. A simple intervention: drink chai 1-2 hours before or after meals instead of with meals. This alone can significantly improve iron status, especially for vegetarians whose diet relies on non-heme iron.
+      </NoteBlock>
 
       <h2>Individual Factors Affecting Bioavailability</h2>
       <ul>

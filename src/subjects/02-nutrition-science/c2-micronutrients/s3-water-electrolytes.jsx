@@ -123,9 +123,9 @@ export default function WaterAndElectrolytes() {
       />
 
       <NoteBlock
-        title="Hydration in India's Climate"
-        content="India's tropical and subtropical climate significantly increases water requirements. During summer months (March-June), temperatures regularly exceed 40°C in much of North and Central India, increasing sweat losses to 2-4 liters per day even with minimal activity. Outdoor laborers may lose 6-8 liters per day. The general recommendation of '8 glasses a day' is a minimum; most Indian adults need 3-4 liters of total fluid daily during summer months. Signs of adequate hydration include pale yellow urine and urinating 6-8 times per day. Dark yellow or amber urine indicates dehydration and the need for increased fluid intake."
-      />
+        title="Hydration in India's Climate">
+        India's tropical and subtropical climate significantly increases water requirements. During summer months (March-June), temperatures regularly exceed 40°C in much of North and Central India, increasing sweat losses to 2-4 liters per day even with minimal activity. Outdoor laborers may lose 6-8 liters per day. The general recommendation of '8 glasses a day' is a minimum; most Indian adults need 3-4 liters of total fluid daily during summer months. Signs of adequate hydration include pale yellow urine and urinating 6-8 times per day. Dark yellow or amber urine indicates dehydration and the need for increased fluid intake.
+      </NoteBlock>
 
       <h2>Water and Weight Management</h2>
 
@@ -146,7 +146,7 @@ export default function WaterAndElectrolytes() {
 
       <ExampleBlock
         title="Hydration Strategy for Weight Management"
-        description="Practical daily hydration plan: (1) Start the morning with 1-2 glasses of warm water (traditional Indian practice supported by evidence for stimulating peristalsis). (2) Drink 500 ml of water 30 minutes before each major meal (evidence-based strategy for reducing calorie intake). (3) Replace sugary beverages (packaged fruit juice, soda, sweetened chai) with plain water, nimbu pani without sugar, or green tea. (4) Keep a 1-liter bottle at your desk and finish it by lunch, then refill. (5) Eat water-rich fruits and vegetables: cucumber (96% water), watermelon (92%), tomato (95%), kakdi (95%), lauki (92%). (6) Monitor urine color — aim for pale yellow throughout the day."
+        problem="Practical daily hydration plan: (1) Start the morning with 1-2 glasses of warm water (traditional Indian practice supported by evidence for stimulating peristalsis). (2) Drink 500 ml of water 30 minutes before each major meal (evidence-based strategy for reducing calorie intake). (3) Replace sugary beverages (packaged fruit juice, soda, sweetened chai) with plain water, nimbu pani without sugar, or green tea. (4) Keep a 1-liter bottle at your desk and finish it by lunch, then refill. (5) Eat water-rich fruits and vegetables: cucumber (96% water), watermelon (92%), tomato (95%), kakdi (95%), lauki (92%). (6) Monitor urine color — aim for pale yellow throughout the day."
       />
 
       <h2>Electrolytes</h2>
@@ -177,9 +177,9 @@ export default function WaterAndElectrolytes() {
       />
 
       <WarningBlock
-        title="Hidden Sodium in Indian Diets"
-        content="Beyond the salt added during cooking, many traditional Indian foods are extremely high in sodium: one tablespoon of pickle (achar) contains approximately 800-1000 mg sodium, one papad contains 300-400 mg, commercial masala mixes and ready-to-eat meals are sodium-dense, and even seemingly healthy options like canned rajma or packaged soups can contain 600-800 mg per serving. Taste buds adapt to salt levels within 2-3 weeks — gradually reducing salt allows recalibration of taste perception. Replace salt-heavy condiments with fresh herbs, lemon, amchur (dry mango powder), and freshly ground spices."
-      />
+        title="Hidden Sodium in Indian Diets">
+        Beyond the salt added during cooking, many traditional Indian foods are extremely high in sodium: one tablespoon of pickle (achar) contains approximately 800-1000 mg sodium, one papad contains 300-400 mg, commercial masala mixes and ready-to-eat meals are sodium-dense, and even seemingly healthy options like canned rajma or packaged soups can contain 600-800 mg per serving. Taste buds adapt to salt levels within 2-3 weeks — gradually reducing salt allows recalibration of taste perception. Replace salt-heavy condiments with fresh herbs, lemon, amchur (dry mango powder), and freshly ground spices.
+      </WarningBlock>
 
       <h3>Potassium</h3>
       <p>
@@ -235,13 +235,13 @@ export default function WaterAndElectrolytes() {
 
       <ExampleBlock
         title="Homemade Oral Rehydration for Indian Conditions"
-        description="For moderate dehydration from heat or exercise, a homemade electrolyte drink is effective and economical: dissolve 6 level teaspoons of sugar and half a level teaspoon of salt in 1 liter of clean drinking water. For better taste and additional potassium, add the juice of one lemon or nimbu. This approximates the WHO oral rehydration solution formula. Traditional Indian options like nimbu pani (lemon water with a pinch of salt and sugar), chaas/buttermilk (provides sodium, potassium, and fluid), and nariyal pani (coconut water — a natural isotonic drink with excellent electrolyte profile) are effective and culturally appropriate rehydration options."
+        problem="For moderate dehydration from heat or exercise, a homemade electrolyte drink is effective and economical: dissolve 6 level teaspoons of sugar and half a level teaspoon of salt in 1 liter of clean drinking water. For better taste and additional potassium, add the juice of one lemon or nimbu. This approximates the WHO oral rehydration solution formula. Traditional Indian options like nimbu pani (lemon water with a pinch of salt and sugar), chaas/buttermilk (provides sodium, potassium, and fluid), and nariyal pani (coconut water — a natural isotonic drink with excellent electrolyte profile) are effective and culturally appropriate rehydration options."
       />
 
       <NoteBlock
-        title="Caffeine and Hydration"
-        content="Contrary to popular belief, moderate caffeine consumption (up to 400 mg/day, equivalent to 3-4 cups of coffee or 6-8 cups of tea) does not cause net dehydration in habitual consumers. While caffeine has a mild diuretic effect, the fluid consumed with caffeinated beverages more than compensates for increased urinary output. However, very strong tea and coffee consumed without water — common in Indian workplaces — provides relatively small fluid volumes. Additionally, tea consumed with meals inhibits iron absorption, so timing matters even if hydration effects are neutral."
-      />
+        title="Caffeine and Hydration">
+        Contrary to popular belief, moderate caffeine consumption (up to 400 mg/day, equivalent to 3-4 cups of coffee or 6-8 cups of tea) does not cause net dehydration in habitual consumers. While caffeine has a mild diuretic effect, the fluid consumed with caffeinated beverages more than compensates for increased urinary output. However, very strong tea and coffee consumed without water — common in Indian workplaces — provides relatively small fluid volumes. Additionally, tea consumed with meals inhibits iron absorption, so timing matters even if hydration effects are neutral.
+      </NoteBlock>
 
       <h2>Key Takeaways</h2>
 

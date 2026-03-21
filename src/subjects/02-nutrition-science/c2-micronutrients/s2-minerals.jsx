@@ -110,13 +110,13 @@ export default function Minerals() {
       />
 
       <WarningBlock
-        title="India's Anemia Crisis"
-        content="According to NFHS-5 (2019-21), 57% of Indian women aged 15-49 and 67% of children aged 6-59 months are anemic. Iron deficiency is the leading cause, though B12 and folate deficiency also contribute. The predominantly vegetarian diet with high phytate content, combined with tea/coffee consumption with meals and low vitamin C intake, creates a 'perfect storm' for poor iron absorption. Women of reproductive age are especially vulnerable due to menstrual losses. The ICMR recommends 21 mg/day for adult men and 29 mg/day for women — higher than Western recommendations precisely because of lower bioavailability from Indian diets."
-      />
+        title="India's Anemia Crisis">
+        According to NFHS-5 (2019-21), 57% of Indian women aged 15-49 and 67% of children aged 6-59 months are anemic. Iron deficiency is the leading cause, though B12 and folate deficiency also contribute. The predominantly vegetarian diet with high phytate content, combined with tea/coffee consumption with meals and low vitamin C intake, creates a 'perfect storm' for poor iron absorption. Women of reproductive age are especially vulnerable due to menstrual losses. The ICMR recommends 21 mg/day for adult men and 29 mg/day for women — higher than Western recommendations precisely because of lower bioavailability from Indian diets.
+      </WarningBlock>
 
       <ExampleBlock
         title="Improving Iron Absorption from Indian Meals"
-        description="Evidence-based strategies: (1) Add vitamin C to every meal — squeeze lemon on dal, include amla chutney, eat guava or orange as dessert. (2) Avoid tea or coffee within 1 hour of meals — this single change can double iron absorption. (3) Soak and sprout legumes before cooking to reduce phytate by 30-50%. (4) Fermented foods (idli, dosa, dhokla) have lower phytate due to microbial phytase activity. (5) Cook in cast iron vessels — this can increase the iron content of acidic foods by 2-3 fold. (6) If non-vegetarian, include even small amounts of meat or fish (the 'meat factor' enhances non-heme iron absorption from the entire meal)."
+        problem="Evidence-based strategies: (1) Add vitamin C to every meal — squeeze lemon on dal, include amla chutney, eat guava or orange as dessert. (2) Avoid tea or coffee within 1 hour of meals — this single change can double iron absorption. (3) Soak and sprout legumes before cooking to reduce phytate by 30-50%. (4) Fermented foods (idli, dosa, dhokla) have lower phytate due to microbial phytase activity. (5) Cook in cast iron vessels — this can increase the iron content of acidic foods by 2-3 fold. (6) If non-vegetarian, include even small amounts of meat or fish (the 'meat factor' enhances non-heme iron absorption from the entire meal)."
       />
 
       <h2>Calcium</h2>
@@ -161,9 +161,9 @@ export default function Minerals() {
       />
 
       <NoteBlock
-        title="The Spinach-Calcium Myth"
-        content="Palak (spinach) is often promoted as a calcium-rich food, but this is misleading. While spinach contains 99 mg of calcium per 100 g, its very high oxalate content binds approximately 95% of this calcium, making it essentially unavailable for absorption. The actual absorbable calcium from 100 g of spinach is only about 5 mg — compared to 60-80 mg from 200 ml of milk. For calcium, dairy products, ragi, and sesame seeds are far superior practical sources. Other high-oxalate foods with poor calcium bioavailability include amaranth grain, beet greens, and sweet potatoes."
-      />
+        title="The Spinach-Calcium Myth">
+        Palak (spinach) is often promoted as a calcium-rich food, but this is misleading. While spinach contains 99 mg of calcium per 100 g, its very high oxalate content binds approximately 95% of this calcium, making it essentially unavailable for absorption. The actual absorbable calcium from 100 g of spinach is only about 5 mg — compared to 60-80 mg from 200 ml of milk. For calcium, dairy products, ragi, and sesame seeds are far superior practical sources. Other high-oxalate foods with poor calcium bioavailability include amaranth grain, beet greens, and sweet potatoes.
+      </NoteBlock>
 
       <h2>Zinc</h2>
 
@@ -213,9 +213,9 @@ export default function Minerals() {
       </p>
 
       <NoteBlock
-        title="Iodine and Thyroid Function in Weight Management"
-        content="Thyroid hormones directly regulate basal metabolic rate. Hypothyroidism (which can result from chronic iodine deficiency) reduces BMR by 15-40%, leading to weight gain, fatigue, and cold intolerance. While universal salt iodization has reduced overt iodine deficiency in India, subclinical hypothyroidism affects approximately 10-12% of the Indian population. Anyone experiencing unexplained weight gain, fatigue, or difficulty losing weight should have thyroid function (TSH, T3, T4) tested. Excessive iodine intake (from supplements or kelp) can also disrupt thyroid function and should be avoided."
-      />
+        title="Iodine and Thyroid Function in Weight Management">
+        Thyroid hormones directly regulate basal metabolic rate. Hypothyroidism (which can result from chronic iodine deficiency) reduces BMR by 15-40%, leading to weight gain, fatigue, and cold intolerance. While universal salt iodization has reduced overt iodine deficiency in India, subclinical hypothyroidism affects approximately 10-12% of the Indian population. Anyone experiencing unexplained weight gain, fatigue, or difficulty losing weight should have thyroid function (TSH, T3, T4) tested. Excessive iodine intake (from supplements or kelp) can also disrupt thyroid function and should be avoided.
+      </NoteBlock>
 
       <h2>Minerals and Weight Management</h2>
 
@@ -238,7 +238,7 @@ export default function Minerals() {
 
       <ExampleBlock
         title="Mineral-Rich Indian Meal Strategy"
-        description="A day optimized for mineral intake: Breakfast — ragi dosa (calcium: 170 mg) with coconut chutney + glass of buttermilk (calcium: 120 mg). Lunch — brown rice (zinc) + sprouted moong dal (iron, zinc with improved bioavailability) + palak paneer (iron from spinach partially offset by oxalates, but calcium from paneer is well-absorbed) + lemon wedge (vitamin C to enhance iron absorption). Snack — roasted pumpkin seeds 15 g (zinc: 1.2 mg, iron: 1.2 mg) + amla juice (vitamin C). Dinner — bajra roti (iron: 6 mg per 100 g) + chole (zinc) + raita (calcium). Avoid tea/coffee with meals. This plan provides approximately 800 mg calcium, 20 mg iron, and 10 mg zinc."
+        problem="A day optimized for mineral intake: Breakfast — ragi dosa (calcium: 170 mg) with coconut chutney + glass of buttermilk (calcium: 120 mg). Lunch — brown rice (zinc) + sprouted moong dal (iron, zinc with improved bioavailability) + palak paneer (iron from spinach partially offset by oxalates, but calcium from paneer is well-absorbed) + lemon wedge (vitamin C to enhance iron absorption). Snack — roasted pumpkin seeds 15 g (zinc: 1.2 mg, iron: 1.2 mg) + amla juice (vitamin C). Dinner — bajra roti (iron: 6 mg per 100 g) + chole (zinc) + raita (calcium). Avoid tea/coffee with meals. This plan provides approximately 800 mg calcium, 20 mg iron, and 10 mg zinc."
       />
 
       <h2>Key Takeaways</h2>

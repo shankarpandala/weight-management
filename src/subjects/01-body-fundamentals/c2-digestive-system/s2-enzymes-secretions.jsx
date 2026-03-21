@@ -105,9 +105,9 @@ export default function EnzymesSecretions() {
       </p>
 
       <NoteBlock
-        title="Indian Spices Enhance Digestive Secretions"
-        content="Ginger (adrak) promotes gastric motility. Black pepper (kali mirch) increases HCl secretion and enhances curcumin bioavailability from turmeric. Cumin (jeera), fennel (saunf), and asafoetida (hing) stimulate bile and pancreatic output. These traditional practices have scientific support."
-      />
+        title="Indian Spices Enhance Digestive Secretions">
+        Ginger (adrak) promotes gastric motility. Black pepper (kali mirch) increases HCl secretion and enhances curcumin bioavailability from turmeric. Cumin (jeera), fennel (saunf), and asafoetida (hing) stimulate bile and pancreatic output. These traditional practices have scientific support.
+      </NoteBlock>
 
       <h2>Hormonal Coordination</h2>
       <ul>
@@ -119,7 +119,7 @@ export default function EnzymesSecretions() {
 
       <ExampleBlock
         title="Why Curd Rice Aids Digestion"
-        description="Curd (dahi) rice is a traditional South Indian digestive food with scientific support. Lactic acid bacteria pre-digest some lactose and produce helpful enzymes. Fermentation partially breaks down casein protein. The cool temperature and mild acidity soothe irritated stomachs. Rice provides easily digestible starch. Together, they require minimal digestive effort — ideal after heavy meals or during illness."
+        problem="Curd (dahi) rice is a traditional South Indian digestive food with scientific support. Lactic acid bacteria pre-digest some lactose and produce helpful enzymes. Fermentation partially breaks down casein protein. The cool temperature and mild acidity soothe irritated stomachs. Rice provides easily digestible starch. Together, they require minimal digestive effort — ideal after heavy meals or during illness."
       />
 
       <h2>Key Takeaways</h2>

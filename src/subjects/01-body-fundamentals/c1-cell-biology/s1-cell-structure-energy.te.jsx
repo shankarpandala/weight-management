@@ -231,9 +231,9 @@ export default function CellStructureAndEnergyTe() {
       />
 
       <NoteBlock
-        title="Fat Carbohydrate కంటే ఎక్కువ Energy ఎందుకు ఇస్తుంది"
-        content="Fat ప్రతి gram కి రెండు రెట్లు కంటే ఎక్కువ energy కలిగి ఉంటుంది (9 kcal vs 4 kcal) ఎందుకంటే fatty acids carbohydrates కంటే chemically more reduced (oxygen atoms కంటే hydrogen atoms ఎక్కువగా ఉంటాయి). అంటే fatty acids electron transport chain కి ఎక్కువ electrons donate చేయగలవు, ఎక్కువ ATP ఉత్పత్తిని నడిపిస్తాయి. Palmitic acid (ghee మరియు palm oil లో సమృద్ధిగా ఉన్న 16-carbon saturated fat) యొక్క ఒక molecule సుమారు 106 ATP molecules ఇస్తుంది, ఒక glucose molecule నుండి 38 ATP తో పోలిస్తే. శరీరం అదనపు energy ని fat గా నిల్వ చేయడానికి ప్రాధాన్యత ఇవ్వడానికి ఇదే కారణం — ఇది చాలా space-efficient energy reserve."
-      />
+        title="Fat Carbohydrate కంటే ఎక్కువ Energy ఎందుకు ఇస్తుంది">
+        Fat ప్రతి gram కి రెండు రెట్లు కంటే ఎక్కువ energy కలిగి ఉంటుంది (9 kcal vs 4 kcal) ఎందుకంటే fatty acids carbohydrates కంటే chemically more reduced (oxygen atoms కంటే hydrogen atoms ఎక్కువగా ఉంటాయి). అంటే fatty acids electron transport chain కి ఎక్కువ electrons donate చేయగలవు, ఎక్కువ ATP ఉత్పత్తిని నడిపిస్తాయి. Palmitic acid (ghee మరియు palm oil లో సమృద్ధిగా ఉన్న 16-carbon saturated fat) యొక్క ఒక molecule సుమారు 106 ATP molecules ఇస్తుంది, ఒక glucose molecule నుండి 38 ATP తో పోలిస్తే. శరీరం అదనపు energy ని fat గా నిల్వ చేయడానికి ప్రాధాన్యత ఇవ్వడానికి ఇదే కారణం — ఇది చాలా space-efficient energy reserve.
+      </NoteBlock>
 
       <h2>శరీరంలో Energy నిల్వ</h2>
 
@@ -269,13 +269,13 @@ export default function CellStructureAndEnergyTe() {
 
       <ExampleBlock
         title="Indian Diet Context లో Cellular Energy"
-        description="నువ్వు 2 idlis sambar తో ఒక సాధారణ South Indian breakfast తిన్నప్పుడు, rice మరియు urad dal starch glucose గా విడగొట్టబడుతుంది, ఇది నీ cells లోకి ప్రవేశించి cytoplasm లో glycolysis, తర్వాత mitochondria లో Krebs cycle మరియు oxidative phosphorylation కి గురవుతుంది. ఈ భోజనం నుండి సుమారు 250 kcal చివరికి వేల ATP molecules ఉత్పత్తి చేస్తుంది, ఇవి నీ ఉదయపు కార్యకలాపాలకు energy ఇస్తాయి. Coconut chutney medium-chain fatty acids అందిస్తుంది, ఇవి వేగంగా absorb అయి నేరుగా liver mitochondria కి beta-oxidation కోసం రవాణా అవుతాయి — glucose oxidation కంటే ఎక్కువ efficient ATP-producing pathway. భోజనం తక్షణంగా అవసరం కంటే ఎక్కువ energy అందిస్తే, అదనపు energy glycogen లేదా fat గా మారుతుంది."
+        problem="నువ్వు 2 idlis sambar తో ఒక సాధారణ South Indian breakfast తిన్నప్పుడు, rice మరియు urad dal starch glucose గా విడగొట్టబడుతుంది, ఇది నీ cells లోకి ప్రవేశించి cytoplasm లో glycolysis, తర్వాత mitochondria లో Krebs cycle మరియు oxidative phosphorylation కి గురవుతుంది. ఈ భోజనం నుండి సుమారు 250 kcal చివరికి వేల ATP molecules ఉత్పత్తి చేస్తుంది, ఇవి నీ ఉదయపు కార్యకలాపాలకు energy ఇస్తాయి. Coconut chutney medium-chain fatty acids అందిస్తుంది, ఇవి వేగంగా absorb అయి నేరుగా liver mitochondria కి beta-oxidation కోసం రవాణా అవుతాయి — glucose oxidation కంటే ఎక్కువ efficient ATP-producing pathway. భోజనం తక్షణంగా అవసరం కంటే ఎక్కువ energy అందిస్తే, అదనపు energy glycogen లేదా fat గా మారుతుంది."
       />
 
       <WarningBlock
-        title="Mitochondrial ఆరోగ్యం మరియు Metabolic Disease"
-        content="Impaired mitochondrial function metabolic syndrome, type 2 diabetes, మరియు obesity కి contributing factor గా ఎక్కువగా గుర్తించబడుతోంది. South Asian populations skeletal muscle లో mitochondrial dysfunction కి ప్రత్యేకంగా susceptible గా కనిపిస్తారు, ఇది European populations తో పోలిస్తే తక్కువ BMI levels వద్ద insulin resistance rates ఎక్కువగా ఉండటానికి పాక్షికంగా కారణం కావచ్చు. Mitochondrial ఆరోగ్యానికి సహాయపడే lifestyle factors లో regular aerobic exercise (mitochondrial biogenesis ని ప్రేరేపిస్తుంది), తగినంత నిద్ర, మరియు antioxidants మరియు B-vitamins అధికంగా ఉన్న ఆహారం — ఆకుకూరలు, పప్పులు, మరియు పసుపు వంటి సాంప్రదాయ Indian ఆహారాల్లో సమృద్ధిగా ఉన్న nutrients — ఉన్నాయి."
-      />
+        title="Mitochondrial ఆరోగ్యం మరియు Metabolic Disease">
+        Impaired mitochondrial function metabolic syndrome, type 2 diabetes, మరియు obesity కి contributing factor గా ఎక్కువగా గుర్తించబడుతోంది. South Asian populations skeletal muscle లో mitochondrial dysfunction కి ప్రత్యేకంగా susceptible గా కనిపిస్తారు, ఇది European populations తో పోలిస్తే తక్కువ BMI levels వద్ద insulin resistance rates ఎక్కువగా ఉండటానికి పాక్షికంగా కారణం కావచ్చు. Mitochondrial ఆరోగ్యానికి సహాయపడే lifestyle factors లో regular aerobic exercise (mitochondrial biogenesis ని ప్రేరేపిస్తుంది), తగినంత నిద్ర, మరియు antioxidants మరియు B-vitamins అధికంగా ఉన్న ఆహారం — ఆకుకూరలు, పప్పులు, మరియు పసుపు వంటి సాంప్రదాయ Indian ఆహారాల్లో సమృద్ధిగా ఉన్న nutrients — ఉన్నాయి.
+      </WarningBlock>
 
       <h2>ముఖ్యమైన విషయాలు</h2>
 

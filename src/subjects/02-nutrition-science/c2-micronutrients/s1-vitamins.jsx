@@ -123,9 +123,9 @@ export default function Vitamins() {
       />
 
       <NoteBlock
-        title="Why Sunlight Alone Is Not Enough in India"
-        content="Several factors explain the vitamin D paradox in India: (1) Dark skin requires 3-6 times more sun exposure than light skin to produce the same amount of vitamin D. (2) Urban air pollution in cities like Delhi, Mumbai, and Kolkata blocks up to 50% of UVB radiation. (3) Office-based work and indoor lifestyles limit sun exposure. (4) Cultural practices — covering most skin with clothing — reduce exposed surface area. (5) Very few Indian foods are natural vitamin D sources, and fortification is not universal. The ICMR recommends 600 IU/day, but many experts suggest 1000-2000 IU/day is needed to correct prevalent deficiency in Indian populations."
-      />
+        title="Why Sunlight Alone Is Not Enough in India">
+        Several factors explain the vitamin D paradox in India: (1) Dark skin requires 3-6 times more sun exposure than light skin to produce the same amount of vitamin D. (2) Urban air pollution in cities like Delhi, Mumbai, and Kolkata blocks up to 50% of UVB radiation. (3) Office-based work and indoor lifestyles limit sun exposure. (4) Cultural practices — covering most skin with clothing — reduce exposed surface area. (5) Very few Indian foods are natural vitamin D sources, and fortification is not universal. The ICMR recommends 600 IU/day, but many experts suggest 1000-2000 IU/day is needed to correct prevalent deficiency in Indian populations.
+      </NoteBlock>
 
       <h2>Water-Soluble Vitamins</h2>
 
@@ -171,9 +171,9 @@ export default function Vitamins() {
       />
 
       <WarningBlock
-        title="Vitamin B12: A Critical Gap in Indian Vegetarian Diets"
-        content="Vitamin B12 deficiency is often subclinical and insidious — neurological damage can occur before anemia is detectable. No plant food is a reliable source of B12 (fermented foods and spirulina contain inactive analogues). Indian vegetarians should strongly consider: (1) Regular B12 supplementation (at least 2.2 mcg/day, or 1000 mcg weekly as absorption from supplements is low). (2) Consuming B12-fortified foods if available. (3) Including milk, curd, and paneer regularly (lacto-vegetarians). (4) Getting B12 levels tested periodically, especially for vegetarians, pregnant women, and the elderly."
-      />
+        title="Vitamin B12: A Critical Gap in Indian Vegetarian Diets">
+        Vitamin B12 deficiency is often subclinical and insidious — neurological damage can occur before anemia is detectable. No plant food is a reliable source of B12 (fermented foods and spirulina contain inactive analogues). Indian vegetarians should strongly consider: (1) Regular B12 supplementation (at least 2.2 mcg/day, or 1000 mcg weekly as absorption from supplements is low). (2) Consuming B12-fortified foods if available. (3) Including milk, curd, and paneer regularly (lacto-vegetarians). (4) Getting B12 levels tested periodically, especially for vegetarians, pregnant women, and the elderly.
+      </WarningBlock>
 
       <h2>Vitamins and Weight Management</h2>
 
@@ -197,12 +197,12 @@ export default function Vitamins() {
 
       <ExampleBlock
         title="Vitamin-Rich Indian Foods for Weight Management"
-        description="Foods that provide high vitamin density per calorie are ideal during weight loss: (1) Amla (Indian gooseberry) — one amla provides 600 mg vitamin C (10x the RDA) for only 30 kcal. (2) Palak (spinach) — rich in folate, vitamin A, and vitamin K at only 23 kcal per 100 g. (3) Methi (fenugreek leaves) — excellent source of folate and beta-carotene with minimal calories. (4) Curd/dahi — provides B12, B2, and calcium. (5) Eggs — one egg provides significant B12, vitamin D, vitamin A, and choline for only 70 kcal. (6) Papaya — rich in vitamin A and C at only 43 kcal per 100 g."
+        problem="Foods that provide high vitamin density per calorie are ideal during weight loss: (1) Amla (Indian gooseberry) — one amla provides 600 mg vitamin C (10x the RDA) for only 30 kcal. (2) Palak (spinach) — rich in folate, vitamin A, and vitamin K at only 23 kcal per 100 g. (3) Methi (fenugreek leaves) — excellent source of folate and beta-carotene with minimal calories. (4) Curd/dahi — provides B12, B2, and calcium. (5) Eggs — one egg provides significant B12, vitamin D, vitamin A, and choline for only 70 kcal. (6) Papaya — rich in vitamin A and C at only 43 kcal per 100 g."
       />
 
       <ExampleBlock
         title="Preserving Vitamins in Indian Cooking"
-        description="Indian cooking methods can significantly affect vitamin retention. Heat-sensitive water-soluble vitamins (C and B vitamins) are most vulnerable. Best practices: avoid washing vegetables after cutting (leaches water-soluble vitamins), do not discard the water from boiled rice or vegetables (kanjee/starch water retains B vitamins), steam or pressure-cook rather than boiling in excess water, add amla or lemon juice after cooking for vitamin C, and do not over-cook green vegetables. Fat-soluble vitamins (A, D, E, K) are better absorbed when consumed with some fat, which is why adding a small amount of oil or ghee to sabzi actually improves nutrient absorption."
+        problem="Indian cooking methods can significantly affect vitamin retention. Heat-sensitive water-soluble vitamins (C and B vitamins) are most vulnerable. Best practices: avoid washing vegetables after cutting (leaches water-soluble vitamins), do not discard the water from boiled rice or vegetables (kanjee/starch water retains B vitamins), steam or pressure-cook rather than boiling in excess water, add amla or lemon juice after cooking for vitamin C, and do not over-cook green vegetables. Fat-soluble vitamins (A, D, E, K) are better absorbed when consumed with some fat, which is why adding a small amount of oil or ghee to sabzi actually improves nutrient absorption."
       />
 
       <h2>Key Takeaways</h2>

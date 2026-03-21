@@ -220,7 +220,7 @@ export default function CaloricDensityTe() {
 
       <ExampleBlock
         title="Volumetrics ఆచరణలో: భారతీయ భోజనం Makeover"
-        description="సాంప్రదాయ thali విధానం (energy-dense): 2 rotis ghee తో (270 kcal) + dal fry (180 kcal) + aloo gobi ఎక్కువ నూనెతో (200 kcal) + అన్నం (200 kcal) + pickle + sweet (gulab jamun, 150 kcal). మొత్తం: ~1000 kcal. Volumetrics-optimized thali: ముందుగా పెద్ద kachumber salad (30 kcal) + 1.5 rotis ghee లేకుండా (150 kcal) + dal palak/lauki తో (120 kcal) + mixed vegetable sabzi (bhindi, beans, tori) 1 tsp నూనెతో (80 kcal) + తక్కువ అన్నం (100 kcal) + raita (60 kcal) + తాజా పండు (బొప్పాయి, 50 kcal). మొత్తం: ~590 kcal. Optimized thali ఎక్కువ ఆహారం పరిమాణం, ఎక్కువ variety, మెరుగైన micronutrient density, మరియు 40% తక్కువ కేలరీలు అందిస్తుంది."
+        problem="సాంప్రదాయ thali విధానం (energy-dense): 2 rotis ghee తో (270 kcal) + dal fry (180 kcal) + aloo gobi ఎక్కువ నూనెతో (200 kcal) + అన్నం (200 kcal) + pickle + sweet (gulab jamun, 150 kcal). మొత్తం: ~1000 kcal. Volumetrics-optimized thali: ముందుగా పెద్ద kachumber salad (30 kcal) + 1.5 rotis ghee లేకుండా (150 kcal) + dal palak/lauki తో (120 kcal) + mixed vegetable sabzi (bhindi, beans, tori) 1 tsp నూనెతో (80 kcal) + తక్కువ అన్నం (100 kcal) + raita (60 kcal) + తాజా పండు (బొప్పాయి, 50 kcal). మొత్తం: ~590 kcal. Optimized thali ఎక్కువ ఆహారం పరిమాణం, ఎక్కువ variety, మెరుగైన micronutrient density, మరియు 40% తక్కువ కేలరీలు అందిస్తుంది."
       />
 
       <h2>Nutrient Density vs Caloric Density</h2>
@@ -248,14 +248,14 @@ export default function CaloricDensityTe() {
       />
 
       <NoteBlock
-        title="Liquid Calories: ఒక ప్రత్యేక సందర్భం"
-        content="Liquid calories (తీపి పానీయాలు, fruit juices, తీపి lassi, పంచదార వేసిన chai) — ఇవి energy-dense consumption యొక్క ప్రత్యేకంగా సమస్యాత్మక రూపం. గణనీయమైన కేలరీలు అందించినప్పటికీ (ఒక glass mango shake: 200-300 kcal; తీపి lassi: 150-200 kcal; 2 tsp పంచదార వేసిన 3 cups chai: 100-150 kcal), liquids సమాన కేలరీల solid ఆహారాల కంటే చాలా తక్కువ satiety ఉత్పత్తి చేస్తాయి. Studies స్థిరంగా చూపిస్తాయి — calorie-containing పానీయాలు ఆహారం తీసుకోవడంలో compensatory తగ్గింపులకు దారి తీయవు. పంచదార వేసిన పానీయాల నుండి నీరు, తీపి లేని chai, లేదా black coffee కు మారడం బరువు నిర్వహణకు అత్యంత సరళమైన మరియు ప్రభావవంతమైన మార్పులలో ఒకటి."
-      />
+        title="Liquid Calories: ఒక ప్రత్యేక సందర్భం">
+        Liquid calories (తీపి పానీయాలు, fruit juices, తీపి lassi, పంచదార వేసిన chai) — ఇవి energy-dense consumption యొక్క ప్రత్యేకంగా సమస్యాత్మక రూపం. గణనీయమైన కేలరీలు అందించినప్పటికీ (ఒక glass mango shake: 200-300 kcal; తీపి lassi: 150-200 kcal; 2 tsp పంచదార వేసిన 3 cups chai: 100-150 kcal), liquids సమాన కేలరీల solid ఆహారాల కంటే చాలా తక్కువ satiety ఉత్పత్తి చేస్తాయి. Studies స్థిరంగా చూపిస్తాయి — calorie-containing పానీయాలు ఆహారం తీసుకోవడంలో compensatory తగ్గింపులకు దారి తీయవు. పంచదార వేసిన పానీయాల నుండి నీరు, తీపి లేని chai, లేదా black coffee కు మారడం బరువు నిర్వహణకు అత్యంత సరళమైన మరియు ప్రభావవంతమైన మార్పులలో ఒకటి.
+      </NoteBlock>
 
       <WarningBlock
-        title="భారతీయ ఆహారాలలో Caloric Density ఉచ్చులు"
-        content="అనేక సాధారణ భారతీయ ఆహార అలవాట్లు caloric density ను నాటకీయంగా పెంచుతాయి: (1) Ghee/నూనె ఎక్కువగా వాడటం — roti మీద ఒక tablespoon ghee 120 kcal జోడిస్తుంది మరియు 100-kcal roti ను 220-kcal item గా మారుస్తుంది. (2) Deep frying — తక్కువ-density బంగాళాదుంపలను (0.87 kcal/g) ఎక్కువ-density chips (5.3 kcal/g) గా మారుస్తుంది. (3) Chai లో పంచదార — రోజూ 3-4 cups లో ఒక్కొక్కదానిలో 2 teaspoons 100-150 'కనిపించని' కేలరీలు జోడిస్తుంది. (4) భోజనం తర్వాత sweets — 'ఒక్క piece మాత్రమే' మిఠాయి కూడా 150-300 kcal జోడిస్తుంది. (5) ఎండు snacks (namkeen, chakli, sev) — అత్యంత ఎక్కువ density (4-5 kcal/g) మరియు ఎక్కువగా తినడం సులభం. ఈ density ఉచ్చుల గురించి అవగాహన మొత్తం ఆహారాన్ని మార్చకుండా లక్ష్యబద్ధమైన, ఎక్కువ-ప్రభావం ఉన్న మార్పులను అనుమతిస్తుంది."
-      />
+        title="భారతీయ ఆహారాలలో Caloric Density ఉచ్చులు">
+        అనేక సాధారణ భారతీయ ఆహార అలవాట్లు caloric density ను నాటకీయంగా పెంచుతాయి: (1) Ghee/నూనె ఎక్కువగా వాడటం — roti మీద ఒక tablespoon ghee 120 kcal జోడిస్తుంది మరియు 100-kcal roti ను 220-kcal item గా మారుస్తుంది. (2) Deep frying — తక్కువ-density బంగాళాదుంపలను (0.87 kcal/g) ఎక్కువ-density chips (5.3 kcal/g) గా మారుస్తుంది. (3) Chai లో పంచదార — రోజూ 3-4 cups లో ఒక్కొక్కదానిలో 2 teaspoons 100-150 'కనిపించని' కేలరీలు జోడిస్తుంది. (4) భోజనం తర్వాత sweets — 'ఒక్క piece మాత్రమే' మిఠాయి కూడా 150-300 kcal జోడిస్తుంది. (5) ఎండు snacks (namkeen, chakli, sev) — అత్యంత ఎక్కువ density (4-5 kcal/g) మరియు ఎక్కువగా తినడం సులభం. ఈ density ఉచ్చుల గురించి అవగాహన మొత్తం ఆహారాన్ని మార్చకుండా లక్ష్యబద్ధమైన, ఎక్కువ-ప్రభావం ఉన్న మార్పులను అనుమతిస్తుంది.
+      </WarningBlock>
 
       <h2>ముఖ్యమైన అంశాలు</h2>
 

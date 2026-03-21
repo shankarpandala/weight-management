@@ -109,25 +109,25 @@ export default function CortisolStressFatTe() {
 
       <ExampleBlock
         title="భారతీయ నగర ఉద్యోగి Stress Pattern"
-        description="ఒక సాధారణ దృశ్యం: పొడవైన ప్రయాణం (traffic లో 1-2 గంటలు), అధిక-ఒత్తిడి IT/corporate ఉద్యోగం, క్రమరహిత భోజనాలు (lunch skip చేయడం లేదా ఆలస్యంగా తినడం), సాయంత్రం stress eating (namkeen, biscuits, పంచదార వేసిన chai), ఆలస్యంగా రాత్రి భోజనం (రాత్రి 9-10 గంటలకు), నిద్ర సరిగ్గా రాకపోవడం (అర్ధరాత్రి వరకు phone scrolling), పొద్దున్నే alarm (ఉదయం 6 గంటలకు). ఈ pattern నిద్ర లేమి, భోజన క్రమరాహిత్యం, మానసిక ఒత్తిడి, మరియు sedentary behavior ద్వారా cortisol ను గరిష్ఠంగా పెంచుతుంది — స్పష్టమైన అతిగా తినడం లేకున్నా visceral fat పేరుకుపోవడానికి అనుకూలమైన పరిస్థితులను సృష్టిస్తుంది."
+        problem="ఒక సాధారణ దృశ్యం: పొడవైన ప్రయాణం (traffic లో 1-2 గంటలు), అధిక-ఒత్తిడి IT/corporate ఉద్యోగం, క్రమరహిత భోజనాలు (lunch skip చేయడం లేదా ఆలస్యంగా తినడం), సాయంత్రం stress eating (namkeen, biscuits, పంచదార వేసిన chai), ఆలస్యంగా రాత్రి భోజనం (రాత్రి 9-10 గంటలకు), నిద్ర సరిగ్గా రాకపోవడం (అర్ధరాత్రి వరకు phone scrolling), పొద్దున్నే alarm (ఉదయం 6 గంటలకు). ఈ pattern నిద్ర లేమి, భోజన క్రమరాహిత్యం, మానసిక ఒత్తిడి, మరియు sedentary behavior ద్వారా cortisol ను గరిష్ఠంగా పెంచుతుంది — స్పష్టమైన అతిగా తినడం లేకున్నా visceral fat పేరుకుపోవడానికి అనుకూలమైన పరిస్థితులను సృష్టిస్తుంది."
       />
 
       <WarningBlock
-        title="Dieting స్వయంగా Cortisol ను పెంచుతుంది"
-        content="Tomiyama et al. (2010) పరిశోధన ప్రకారం, caloric restriction cortisol స్థాయిలను 18-38% పెంచుతుంది. ఇది ఒక విరుద్ధ పరిస్థితిని సృష్టిస్తుంది: కఠినమైన dieting యొక్క stress మీరు తగ్గించాలని ప్రయత్నిస్తున్న visceral fat పేరుకుపోవడాన్ని ప్రోత్సహించవచ్చు. అందుకే extreme diets కంటే మోస్తరు, నిలకడగా ఉండే deficits మెరుగ్గా పని చేస్తాయి — అవి తక్కువ cortisol elevation ను కలిగిస్తాయి."
-      />
+        title="Dieting స్వయంగా Cortisol ను పెంచుతుంది">
+        Tomiyama et al. (2010) పరిశోధన ప్రకారం, caloric restriction cortisol స్థాయిలను 18-38% పెంచుతుంది. ఇది ఒక విరుద్ధ పరిస్థితిని సృష్టిస్తుంది: కఠినమైన dieting యొక్క stress మీరు తగ్గించాలని ప్రయత్నిస్తున్న visceral fat పేరుకుపోవడాన్ని ప్రోత్సహించవచ్చు. అందుకే extreme diets కంటే మోస్తరు, నిలకడగా ఉండే deficits మెరుగ్గా పని చేస్తాయి — అవి తక్కువ cortisol elevation ను కలిగిస్తాయి.
+      </WarningBlock>
 
       <h2>బరువు నిర్వహణ కోసం Cortisol నిర్వహణ</h2>
 
       <ExampleBlock
         title="సాక్ష్యాధారిత Stress తగ్గింపు వ్యూహాలు"
-        description="(1) 7-9 గంటలు నిద్రపోండి — నిద్ర లేమి cortisol ను 37-45% పెంచుతుంది. (2) మోస్తరుగా exercise చేయండి — 30-45 నిమిషాల నడక, yoga, లేదా swimming cortisol ను తగ్గిస్తుంది; దీర్ఘకాలిక overtraining ను మాత్రం నివారించండి, ఇది cortisol ను పెంచుతుంది. (3) Mindfulness లేదా pranayama practice చేయండి — రోజుకు 10 నిమిషాలు కూడా అధ్యయనాల్లో cortisol ను 20-25% తగ్గిస్తుంది. (4) క్రమంగా భోజనాలు చేయండి — భోజనాలు skip చేయడం మరియు అస్థిరమైన eating patterns cortisol ను పెంచుతాయి. (5) మధ్యాహ్నం 2 గంటల తర్వాత caffeine తగ్గించండి — coffee 2-3 గంటల పాటు cortisol ను పెంచుతుంది. (6) సామాజిక సంబంధాలు — సానుకూల సామాజిక interaction cortisol ను తగ్గిస్తుంది. (7) ప్రకృతిలో సమయం — పార్కులో 20 నిమిషాలు కూడా cortisol ను గణనీయంగా తగ్గిస్తుంది."
+        problem="(1) 7-9 గంటలు నిద్రపోండి — నిద్ర లేమి cortisol ను 37-45% పెంచుతుంది. (2) మోస్తరుగా exercise చేయండి — 30-45 నిమిషాల నడక, yoga, లేదా swimming cortisol ను తగ్గిస్తుంది; దీర్ఘకాలిక overtraining ను మాత్రం నివారించండి, ఇది cortisol ను పెంచుతుంది. (3) Mindfulness లేదా pranayama practice చేయండి — రోజుకు 10 నిమిషాలు కూడా అధ్యయనాల్లో cortisol ను 20-25% తగ్గిస్తుంది. (4) క్రమంగా భోజనాలు చేయండి — భోజనాలు skip చేయడం మరియు అస్థిరమైన eating patterns cortisol ను పెంచుతాయి. (5) మధ్యాహ్నం 2 గంటల తర్వాత caffeine తగ్గించండి — coffee 2-3 గంటల పాటు cortisol ను పెంచుతుంది. (6) సామాజిక సంబంధాలు — సానుకూల సామాజిక interaction cortisol ను తగ్గిస్తుంది. (7) ప్రకృతిలో సమయం — పార్కులో 20 నిమిషాలు కూడా cortisol ను గణనీయంగా తగ్గిస్తుంది."
       />
 
       <NoteBlock
-        title="Yoga మరియు Cortisol: భారతీయ సంప్రదాయం మరియు సైన్స్ కలయిక"
-        content="అనేక అధ్యయనాలు క్రమం తప్పకుండా yoga practice baseline cortisol స్థాయిలను 15-30% తగ్గిస్తుందని చూపిస్తున్నాయి. 2017 నాటి ఒక meta-analysis ప్రకారం, ఒత్తిడిలో ఉన్న జనాభాలో cortisol తగ్గించడంలో yoga, cognitive behavioral therapy అంత ప్రభావవంతంగా ఉంది. సంప్రదాయ pranayama (శ్వాస వ్యాయామాలు), ముఖ్యంగా alternate nostril breathing (Nadi Shodhana), parasympathetic nervous system ను activate చేస్తుంది మరియు నేరుగా cortisol ను తగ్గిస్తుంది. ఈ ప్రాచీన భారతీయ అభ్యాసానికి stress మరియు బరువు నిర్వహణ కోసం బలమైన శాస్త్రీయ ధ్రువీకరణ ఉంది."
-      />
+        title="Yoga మరియు Cortisol: భారతీయ సంప్రదాయం మరియు సైన్స్ కలయిక">
+        అనేక అధ్యయనాలు క్రమం తప్పకుండా yoga practice baseline cortisol స్థాయిలను 15-30% తగ్గిస్తుందని చూపిస్తున్నాయి. 2017 నాటి ఒక meta-analysis ప్రకారం, ఒత్తిడిలో ఉన్న జనాభాలో cortisol తగ్గించడంలో yoga, cognitive behavioral therapy అంత ప్రభావవంతంగా ఉంది. సంప్రదాయ pranayama (శ్వాస వ్యాయామాలు), ముఖ్యంగా alternate nostril breathing (Nadi Shodhana), parasympathetic nervous system ను activate చేస్తుంది మరియు నేరుగా cortisol ను తగ్గిస్తుంది. ఈ ప్రాచీన భారతీయ అభ్యాసానికి stress మరియు బరువు నిర్వహణ కోసం బలమైన శాస్త్రీయ ధ్రువీకరణ ఉంది.
+      </NoteBlock>
 
       <h2>ముఖ్యమైన అంశాలు</h2>
       <ul>

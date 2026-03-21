@@ -110,18 +110,18 @@ export default function HungerSatietyHormonesTe() {
 
       <ExampleBlock
         title="భారతీయ భోజనాల్లో సంతృప్తిని పెంచుకోవడం"
-        description="భారతీయ ఆహారంలో satiety hormones ను గరిష్టంగా పెంచడానికి: (1) Protein తో ప్రారంభించండి — dal, paneer, egg curry, లేదా chicken కేవలం carbohydrates కంటే PYY మరియు CCK ని ఎక్కువగా ప్రేరేపిస్తాయి. (2) ఆరోగ్యకరమైన fats చేర్చండి — coconut chutney, roti పై ghee, లేదా mustard oil tempering CCK విడుదలను ప్రేరేపిస్తాయి. (3) Fiber చేర్చండి — కూరగాయలు, whole grains, మరియు beans gastric emptying ను నెమ్మదిస్తాయి మరియు GLP-1 విడుదలను పెంచుతాయి. (4) Liquid calories నుండి దూరంగా ఉండండి — చక్కెర chai, fruit juices, మరియు cold drinks సాధారణ satiety signaling ను దాటిపోతాయి. (5) నెమ్మదిగా తినండి — satiety hormones మెదడుకు చేరడానికి 20 నిమిషాలు పడుతుంది."
+        problem="భారతీయ ఆహారంలో satiety hormones ను గరిష్టంగా పెంచడానికి: (1) Protein తో ప్రారంభించండి — dal, paneer, egg curry, లేదా chicken కేవలం carbohydrates కంటే PYY మరియు CCK ని ఎక్కువగా ప్రేరేపిస్తాయి. (2) ఆరోగ్యకరమైన fats చేర్చండి — coconut chutney, roti పై ghee, లేదా mustard oil tempering CCK విడుదలను ప్రేరేపిస్తాయి. (3) Fiber చేర్చండి — కూరగాయలు, whole grains, మరియు beans gastric emptying ను నెమ్మదిస్తాయి మరియు GLP-1 విడుదలను పెంచుతాయి. (4) Liquid calories నుండి దూరంగా ఉండండి — చక్కెర chai, fruit juices, మరియు cold drinks సాధారణ satiety signaling ను దాటిపోతాయి. (5) నెమ్మదిగా తినండి — satiety hormones మెదడుకు చేరడానికి 20 నిమిషాలు పడుతుంది."
       />
 
       <NoteBlock
-        title="Protein ఎందుకు అత్యంత సంతృప్తికరమైన Macronutrient"
-        content="Protein, carbohydrates లేదా fat కంటే PYY, CCK, మరియు GLP-1 ని మరింత శక్తివంతంగా ప్రేరేపిస్తుంది. ఇది అత్యధిక thermic effect కలిగి ఉంటుంది (protein calories లో 20-30% జీర్ణక్రియలో వాడబడతాయి). Protein ను calories లో 15% నుండి 30% కి పెంచడం వల్ల రోజువారీ ఆహార తీసుకోవడం 400-500 kcal/day స్వయంచాలకంగా తగ్గుతుందని అధ్యయనాలు స్థిరంగా చూపిస్తున్నాయి. భారతీయ శాకాహారులకు, dal + rice, paneer + roti, లేదా curd + chana కలపడం బలమైన సంతృప్తితో పూర్తి protein అందిస్తుంది."
-      />
+        title="Protein ఎందుకు అత్యంత సంతృప్తికరమైన Macronutrient">
+        Protein, carbohydrates లేదా fat కంటే PYY, CCK, మరియు GLP-1 ని మరింత శక్తివంతంగా ప్రేరేపిస్తుంది. ఇది అత్యధిక thermic effect కలిగి ఉంటుంది (protein calories లో 20-30% జీర్ణక్రియలో వాడబడతాయి). Protein ను calories లో 15% నుండి 30% కి పెంచడం వల్ల రోజువారీ ఆహార తీసుకోవడం 400-500 kcal/day స్వయంచాలకంగా తగ్గుతుందని అధ్యయనాలు స్థిరంగా చూపిస్తున్నాయి. భారతీయ శాకాహారులకు, dal + rice, paneer + roti, లేదా curd + chana కలపడం బలమైన సంతృప్తితో పూర్తి protein అందిస్తుంది.
+      </NoteBlock>
 
       <WarningBlock
-        title="Crash Dieting యొక్క Hormonal ఉచ్చు"
-        content="వేగవంతమైన బరువు తగ్గడం ghrelin ను గణనీయంగా పెంచుతుంది మరియు leptin, PYY, మరియు CCK ని అణచివేస్తుంది — 1-3 సంవత్సరాలు కొనసాగగల తీవ్రమైన జీవశాస్త్ర drive ను సృష్టిస్తుంది. ఇది సంకల్పశక్తి లోపం కాదు; ఇది biochemistry. క్రమంగా బరువు తగ్గడం (వారానికి శరీర బరువులో 0.5-1%) తక్కువ hormonal disruptions కలిగిస్తుంది మరియు దీర్ఘకాలంలో మరింత నిలకడగా ఉంటుంది."
-      />
+        title="Crash Dieting యొక్క Hormonal ఉచ్చు">
+        వేగవంతమైన బరువు తగ్గడం ghrelin ను గణనీయంగా పెంచుతుంది మరియు leptin, PYY, మరియు CCK ని అణచివేస్తుంది — 1-3 సంవత్సరాలు కొనసాగగల తీవ్రమైన జీవశాస్త్ర drive ను సృష్టిస్తుంది. ఇది సంకల్పశక్తి లోపం కాదు; ఇది biochemistry. క్రమంగా బరువు తగ్గడం (వారానికి శరీర బరువులో 0.5-1%) తక్కువ hormonal disruptions కలిగిస్తుంది మరియు దీర్ఘకాలంలో మరింత నిలకడగా ఉంటుంది.
+      </WarningBlock>
 
       <h2>ముఖ్యమైన విషయాలు</h2>
       <ul>

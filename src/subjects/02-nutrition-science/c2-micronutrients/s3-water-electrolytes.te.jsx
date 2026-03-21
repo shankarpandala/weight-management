@@ -123,9 +123,9 @@ export default function WaterAndElectrolytesTe() {
       />
 
       <NoteBlock
-        title="భారతదేశ వాతావరణంలో Hydration"
-        content="భారతదేశ ఉష్ణమండల మరియు ఉపఉష్ణమండల వాతావరణం నీటి అవసరాలను గణనీయంగా పెంచుతుంది. వేసవి నెలల్లో (మార్చి-జూన్), ఉత్తర మరియు మధ్య భారతదేశంలో ఉష్ణోగ్రతలు క్రమం తప్పకుండా 40°C కంటే ఎక్కువగా ఉంటాయి, కనీస activity తో కూడా చెమట నష్టాలు రోజుకు 2-4 liters కు పెరుగుతాయి. బయట పని చేసే కార్మికులు రోజుకు 6-8 liters కోల్పోవచ్చు. 'రోజుకు 8 గ్లాసులు' అనేది కనిష్టం; చాలా మంది భారతీయ పెద్దలకు వేసవి నెలల్లో రోజుకు 3-4 liters మొత్తం ద్రవం అవసరం. తగినంత hydration ఉన్నట్లు సూచనలు: లేత పసుపు రంగు urine మరియు రోజుకు 6-8 సార్లు urinate చేయడం. ముదురు పసుపు లేదా amber రంగు urine dehydration ను సూచిస్తుంది మరియు ఎక్కువ ద్రవాలు తీసుకోవాల్సిన అవసరాన్ని తెలియజేస్తుంది."
-      />
+        title="భారతదేశ వాతావరణంలో Hydration">
+        భారతదేశ ఉష్ణమండల మరియు ఉపఉష్ణమండల వాతావరణం నీటి అవసరాలను గణనీయంగా పెంచుతుంది. వేసవి నెలల్లో (మార్చి-జూన్), ఉత్తర మరియు మధ్య భారతదేశంలో ఉష్ణోగ్రతలు క్రమం తప్పకుండా 40°C కంటే ఎక్కువగా ఉంటాయి, కనీస activity తో కూడా చెమట నష్టాలు రోజుకు 2-4 liters కు పెరుగుతాయి. బయట పని చేసే కార్మికులు రోజుకు 6-8 liters కోల్పోవచ్చు. 'రోజుకు 8 గ్లాసులు' అనేది కనిష్టం; చాలా మంది భారతీయ పెద్దలకు వేసవి నెలల్లో రోజుకు 3-4 liters మొత్తం ద్రవం అవసరం. తగినంత hydration ఉన్నట్లు సూచనలు: లేత పసుపు రంగు urine మరియు రోజుకు 6-8 సార్లు urinate చేయడం. ముదురు పసుపు లేదా amber రంగు urine dehydration ను సూచిస్తుంది మరియు ఎక్కువ ద్రవాలు తీసుకోవాల్సిన అవసరాన్ని తెలియజేస్తుంది.
+      </NoteBlock>
 
       <h2>నీరు మరియు బరువు నిర్వహణ</h2>
 
@@ -146,7 +146,7 @@ export default function WaterAndElectrolytesTe() {
 
       <ExampleBlock
         title="బరువు నిర్వహణ కోసం Hydration వ్యూహం"
-        description="ఆచరణాత్మక రోజువారీ hydration ప్రణాళిక: (1) ఉదయం 1-2 గ్లాసుల వెచ్చని నీటితో మొదలుపెట్టండి (peristalsis ను ప్రేరేపించే evidence ద్వారా మద్దతు పొందిన సాంప్రదాయ భారతీయ అలవాటు). (2) ప్రతి ప్రధాన భోజనానికి 30 నిమిషాల ముందు 500 ml నీరు తాగండి (calorie intake తగ్గించడానికి evidence-based వ్యూహం). (3) చక్కెర పానీయాలను (packaged fruit juice, soda, తీపి చేసిన chai) సాదా నీరు, చక్కెర లేని nimbu pani, లేదా green tea తో భర్తీ చేయండి. (4) మీ desk వద్ద 1-liter bottle ఉంచుకొని lunch లోపు దాన్ని పూర్తి చేయండి, తర్వాత మళ్ళీ నింపండి. (5) నీరు ఎక్కువగా ఉన్న పండ్లు మరియు కూరగాయలు తినండి: cucumber (96% నీరు), watermelon (92%), tomato (95%), kakdi (95%), lauki (92%). (6) Urine రంగును గమనించండి — రోజంతా లేత పసుపు రంగు ఉండేలా చూడండి."
+        problem="ఆచరణాత్మక రోజువారీ hydration ప్రణాళిక: (1) ఉదయం 1-2 గ్లాసుల వెచ్చని నీటితో మొదలుపెట్టండి (peristalsis ను ప్రేరేపించే evidence ద్వారా మద్దతు పొందిన సాంప్రదాయ భారతీయ అలవాటు). (2) ప్రతి ప్రధాన భోజనానికి 30 నిమిషాల ముందు 500 ml నీరు తాగండి (calorie intake తగ్గించడానికి evidence-based వ్యూహం). (3) చక్కెర పానీయాలను (packaged fruit juice, soda, తీపి చేసిన chai) సాదా నీరు, చక్కెర లేని nimbu pani, లేదా green tea తో భర్తీ చేయండి. (4) మీ desk వద్ద 1-liter bottle ఉంచుకొని lunch లోపు దాన్ని పూర్తి చేయండి, తర్వాత మళ్ళీ నింపండి. (5) నీరు ఎక్కువగా ఉన్న పండ్లు మరియు కూరగాయలు తినండి: cucumber (96% నీరు), watermelon (92%), tomato (95%), kakdi (95%), lauki (92%). (6) Urine రంగును గమనించండి — రోజంతా లేత పసుపు రంగు ఉండేలా చూడండి."
       />
 
       <h2>Electrolytes</h2>
@@ -177,9 +177,9 @@ export default function WaterAndElectrolytesTe() {
       />
 
       <WarningBlock
-        title="భారతీయ ఆహారాల్లో దాగిన Sodium"
-        content="వంట సమయంలో కలిపే ఉప్పు కాకుండా, చాలా సాంప్రదాయ భారతీయ ఆహారాలలో చాలా ఎక్కువ sodium ఉంటుంది: ఒక tablespoon pickle (achar) లో సుమారు 800-1000 mg sodium ఉంటుంది, ఒక papad లో 300-400 mg ఉంటుంది, commercial masala mixes మరియు ready-to-eat meals sodium-dense గా ఉంటాయి, మరియు ఆరోగ్యకరంగా అనిపించే canned rajma లేదా packaged soups కూడా ప్రతి serving లో 600-800 mg కలిగి ఉండవచ్చు. రుచి మొగ్గలు 2-3 వారాలలో ఉప్పు స్థాయిలకు అలవాటు పడతాయి — క్రమంగా ఉప్పు తగ్గించడం రుచి గ్రహణ శక్తిని recalibrate చేయడానికి అనుమతిస్తుంది. ఉప్పు ఎక్కువగా ఉన్న condiments స్థానంలో తాజా herbs, నిమ్మకాయ, amchur (ఎండు మామిడి పొడి), మరియు తాజాగా దంచిన మసాలాలు వాడండి."
-      />
+        title="భారతీయ ఆహారాల్లో దాగిన Sodium">
+        వంట సమయంలో కలిపే ఉప్పు కాకుండా, చాలా సాంప్రదాయ భారతీయ ఆహారాలలో చాలా ఎక్కువ sodium ఉంటుంది: ఒక tablespoon pickle (achar) లో సుమారు 800-1000 mg sodium ఉంటుంది, ఒక papad లో 300-400 mg ఉంటుంది, commercial masala mixes మరియు ready-to-eat meals sodium-dense గా ఉంటాయి, మరియు ఆరోగ్యకరంగా అనిపించే canned rajma లేదా packaged soups కూడా ప్రతి serving లో 600-800 mg కలిగి ఉండవచ్చు. రుచి మొగ్గలు 2-3 వారాలలో ఉప్పు స్థాయిలకు అలవాటు పడతాయి — క్రమంగా ఉప్పు తగ్గించడం రుచి గ్రహణ శక్తిని recalibrate చేయడానికి అనుమతిస్తుంది. ఉప్పు ఎక్కువగా ఉన్న condiments స్థానంలో తాజా herbs, నిమ్మకాయ, amchur (ఎండు మామిడి పొడి), మరియు తాజాగా దంచిన మసాలాలు వాడండి.
+      </WarningBlock>
 
       <h3>Potassium</h3>
       <p>
@@ -236,13 +236,13 @@ export default function WaterAndElectrolytesTe() {
 
       <ExampleBlock
         title="భారతీయ పరిస్థితులకు ఇంట్లో తయారుచేసే Oral Rehydration"
-        description="వేడి లేదా exercise వల్ల మితమైన dehydration కోసం, ఇంట్లో తయారుచేసే electrolyte drink ప్రభావవంతమైనది మరియు పొదుపైనది: 1 liter శుభ్రమైన తాగు నీటిలో 6 సమతల teaspoons చక్కెర మరియు అర లెవల్ teaspoon ఉప్పు కరగించండి. మెరుగైన రుచి మరియు అదనపు potassium కోసం, ఒక నిమ్మకాయ లేదా nimbu రసం కలపండి. ఇది WHO oral rehydration solution formula కు దగ్గరగా ఉంటుంది. సాంప్రదాయ భారతీయ ఎంపికలు: nimbu pani (చిటికెడు ఉప్పు మరియు చక్కెర తో నిమ్మరసం), chaas/buttermilk (sodium, potassium, మరియు fluid ను అందిస్తుంది), మరియు nariyal pani (coconut water — అద్భుతమైన electrolyte profile తో సహజ isotonic drink) — ఇవి ప్రభావవంతమైన మరియు సాంస్కృతికంగా అనువైన rehydration ఎంపికలు."
+        problem="వేడి లేదా exercise వల్ల మితమైన dehydration కోసం, ఇంట్లో తయారుచేసే electrolyte drink ప్రభావవంతమైనది మరియు పొదుపైనది: 1 liter శుభ్రమైన తాగు నీటిలో 6 సమతల teaspoons చక్కెర మరియు అర లెవల్ teaspoon ఉప్పు కరగించండి. మెరుగైన రుచి మరియు అదనపు potassium కోసం, ఒక నిమ్మకాయ లేదా nimbu రసం కలపండి. ఇది WHO oral rehydration solution formula కు దగ్గరగా ఉంటుంది. సాంప్రదాయ భారతీయ ఎంపికలు: nimbu pani (చిటికెడు ఉప్పు మరియు చక్కెర తో నిమ్మరసం), chaas/buttermilk (sodium, potassium, మరియు fluid ను అందిస్తుంది), మరియు nariyal pani (coconut water — అద్భుతమైన electrolyte profile తో సహజ isotonic drink) — ఇవి ప్రభావవంతమైన మరియు సాంస్కృతికంగా అనువైన rehydration ఎంపికలు."
       />
 
       <NoteBlock
-        title="Caffeine మరియు Hydration"
-        content="ప్రచలిత నమ్మకానికి విరుద్ధంగా, మితమైన caffeine తీసుకోవడం (రోజుకు 400 mg వరకు, 3-4 cups coffee లేదా 6-8 cups tea కు సమానం) అలవాటైన వినియోగదారులలో net dehydration కు కారణం కాదు. Caffeine తేలికపాటి diuretic effect కలిగి ఉన్నప్పటికీ, caffeinated beverages తో తీసుకునే ద్రవం పెరిగిన urinary output ను మించి భర్తీ చేస్తుంది. అయితే, నీరు లేకుండా తాగే చాలా strong tea మరియు coffee — భారతీయ workplaces లో సాధారణం — చాలా తక్కువ fluid volumes ను అందిస్తాయి. అదనంగా, భోజనంతో తాగే tea iron absorption ను అడ్డుకుంటుంది, కాబట్టి hydration ప్రభావాలు neutral అయినప్పటికీ timing ముఖ్యం."
-      />
+        title="Caffeine మరియు Hydration">
+        ప్రచలిత నమ్మకానికి విరుద్ధంగా, మితమైన caffeine తీసుకోవడం (రోజుకు 400 mg వరకు, 3-4 cups coffee లేదా 6-8 cups tea కు సమానం) అలవాటైన వినియోగదారులలో net dehydration కు కారణం కాదు. Caffeine తేలికపాటి diuretic effect కలిగి ఉన్నప్పటికీ, caffeinated beverages తో తీసుకునే ద్రవం పెరిగిన urinary output ను మించి భర్తీ చేస్తుంది. అయితే, నీరు లేకుండా తాగే చాలా strong tea మరియు coffee — భారతీయ workplaces లో సాధారణం — చాలా తక్కువ fluid volumes ను అందిస్తాయి. అదనంగా, భోజనంతో తాగే tea iron absorption ను అడ్డుకుంటుంది, కాబట్టి hydration ప్రభావాలు neutral అయినప్పటికీ timing ముఖ్యం.
+      </NoteBlock>
 
       <h2>ముఖ్యమైన అంశాలు</h2>
 

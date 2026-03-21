@@ -136,7 +136,7 @@ export default function AlcoholVisceralFatTe() {
 
       <ExampleBlock
         title="Caloric Content of Common Drinks in India"
-        description="650 ml bottle Indian beer (such Kingfisher లేదా Haywards) as contain approximately
+        problem="650 ml bottle Indian beer (such Kingfisher లేదా Haywards) as contain approximately
         220-260 kcal. 60 ml peg whisky (such Royal Stag, McDowell's, లేదా Blenders Pride) as contain
         around 135-150 kcal before adding any mixer. With 200 ml cola mixer, that rise to 220-235
         kcal. Glass Indian wine (150 ml) provide చేస్తుంది roughly 120-130 kcal. Popular 'quarter'
@@ -211,13 +211,13 @@ export default function AlcoholVisceralFatTe() {
       </p>
 
       <NoteBlock
-        title="Hidden Calories of Social Drinking"
-        content="Many Indians drink socially underestimate alcohol-related caloric intake because do not
+        title="Hidden Calories of Social Drinking">
+        Many Indians drink socially underestimate alcohol-related caloric intake because do not
         consider drinks 'food.' Man consuming 4 pegs whisky cola మరియు moderate snacking twice week
         add approximately 2,400-2,800 kcal per week — equivalent nearly full day's worth food. Over
         year, excess alone contribute approximately 7-8 kg body weight gain if not offset reduced
-        intake elsewhere లేదా increased exercise."
-      />
+        intake elsewhere లేదా increased exercise.
+      </NoteBlock>
 
       <h2>Alcohol మరియు Hormonal Disruption</h2>
 
@@ -248,14 +248,14 @@ export default function AlcoholVisceralFatTe() {
       </p>
 
       <WarningBlock
-        title="Alcohol మరియు Metabolic Syndrome in South Asians"
-        content="South Asians, including Indians, genetically predisposed visceral fat accumulation మరియు insulin
+        title="Alcohol మరియు Metabolic Syndrome in South Asians">
+        South Asians, including Indians, genetically predisposed visceral fat accumulation మరియు insulin
         resistance (thin-fat' 'phenotype). Adding heavy alcohol consumption baseline susceptibility
         create compounding risk metabolic syndrome, type 2 diabetes, మరియు cardiovascular disease.
         Indian men with regular heavy drinking habits should particularly vigilant waist circumference
         measurements మరియు metabolic markers about. Waist circumference above 90 cm, combined regular
-        alcohol intake, significant red flag requiring lifestyle intervention."
-      />
+        alcohol intake, significant red flag requiring lifestyle intervention.
+      </WarningBlock>
 
       <h2>Practical Strategies Reducing కోసం Alcohol-Related Visceral Fat</h2>
 
@@ -293,7 +293,7 @@ export default function AlcoholVisceralFatTe() {
 
       <ExampleBlock
         title="Harm Reduction: Before and After"
-        description="Consider Rajesh, 40-year-old Bangalore IT professional drinks every Friday మరియు Saturday.
+        problem="Consider Rajesh, 40-year-old Bangalore IT professional drinks every Friday మరియు Saturday.
         Typical evening: 5 pegs whisky cola (750 kcal from drinks) plus fried chicken, paneer tikka,
         మరియు peanut masala (800 kcal from snacks) = 1,550 kcal per session, 3,100 kcal per week
         from alcohol-related intake. After modification: 2 pegs whisky soda water (270 kcal from

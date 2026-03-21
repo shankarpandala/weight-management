@@ -222,7 +222,7 @@ export default function CaloricDensity() {
 
       <ExampleBlock
         title="Volumetrics in Practice: Indian Meal Makeover"
-        description="Traditional thali approach (energy-dense): 2 rotis with ghee (270 kcal) + dal fry (180 kcal) + aloo gobi with generous oil (200 kcal) + rice (200 kcal) + pickle + sweet (gulab jamun, 150 kcal). Total: ~1000 kcal. Volumetrics-optimized thali: large kachumber salad to start (30 kcal) + 1.5 rotis without ghee (150 kcal) + dal with palak/lauki (120 kcal) + mixed vegetable sabzi (bhindi, beans, tori) with 1 tsp oil (80 kcal) + small serving rice (100 kcal) + raita (60 kcal) + fresh fruit (papaya, 50 kcal). Total: ~590 kcal. The optimized thali provides more food volume, greater variety, better micronutrient density, and 40% fewer calories."
+        problem="Traditional thali approach (energy-dense): 2 rotis with ghee (270 kcal) + dal fry (180 kcal) + aloo gobi with generous oil (200 kcal) + rice (200 kcal) + pickle + sweet (gulab jamun, 150 kcal). Total: ~1000 kcal. Volumetrics-optimized thali: large kachumber salad to start (30 kcal) + 1.5 rotis without ghee (150 kcal) + dal with palak/lauki (120 kcal) + mixed vegetable sabzi (bhindi, beans, tori) with 1 tsp oil (80 kcal) + small serving rice (100 kcal) + raita (60 kcal) + fresh fruit (papaya, 50 kcal). Total: ~590 kcal. The optimized thali provides more food volume, greater variety, better micronutrient density, and 40% fewer calories."
       />
 
       <h2>Nutrient Density vs Caloric Density</h2>
@@ -250,14 +250,14 @@ export default function CaloricDensity() {
       />
 
       <NoteBlock
-        title="Liquid Calories: A Special Case"
-        content="Liquid calories (from sweetened beverages, fruit juices, sweetened lassi, chai with sugar) are a particularly problematic form of energy-dense consumption. Despite contributing significant calories (a glass of mango shake: 200-300 kcal; sweetened lassi: 150-200 kcal; 3 cups of chai with 2 tsp sugar each: 100-150 kcal), liquids produce very little satiety compared to solid foods of equal calories. Studies consistently show that calorie-containing beverages do not lead to compensatory reductions in food intake. Switching from sugared beverages to water, unsweetened chai, or black coffee is one of the simplest and most impactful changes for weight management."
-      />
+        title="Liquid Calories: A Special Case">
+        Liquid calories (from sweetened beverages, fruit juices, sweetened lassi, chai with sugar) are a particularly problematic form of energy-dense consumption. Despite contributing significant calories (a glass of mango shake: 200-300 kcal; sweetened lassi: 150-200 kcal; 3 cups of chai with 2 tsp sugar each: 100-150 kcal), liquids produce very little satiety compared to solid foods of equal calories. Studies consistently show that calorie-containing beverages do not lead to compensatory reductions in food intake. Switching from sugared beverages to water, unsweetened chai, or black coffee is one of the simplest and most impactful changes for weight management.
+      </NoteBlock>
 
       <WarningBlock
-        title="Caloric Density Traps in Indian Diets"
-        content="Several common Indian dietary habits dramatically increase caloric density: (1) Generous use of ghee/oil — a tablespoon of ghee on roti adds 120 kcal and converts a 100-kcal roti into a 220-kcal item. (2) Deep frying — transforms low-density potatoes (0.87 kcal/g) into high-density chips (5.3 kcal/g). (3) Sugar in chai — 3-4 cups daily with 2 teaspoons each adds 100-150 'invisible' calories. (4) After-meal sweets — even 'just one piece' of mithai adds 150-300 kcal. (5) Dry snacks (namkeen, chakli, sev) — extremely high density (4-5 kcal/g) and easy to overeat. Awareness of these density traps allows targeted, high-impact changes without overhauling the entire diet."
-      />
+        title="Caloric Density Traps in Indian Diets">
+        Several common Indian dietary habits dramatically increase caloric density: (1) Generous use of ghee/oil — a tablespoon of ghee on roti adds 120 kcal and converts a 100-kcal roti into a 220-kcal item. (2) Deep frying — transforms low-density potatoes (0.87 kcal/g) into high-density chips (5.3 kcal/g). (3) Sugar in chai — 3-4 cups daily with 2 teaspoons each adds 100-150 'invisible' calories. (4) After-meal sweets — even 'just one piece' of mithai adds 150-300 kcal. (5) Dry snacks (namkeen, chakli, sev) — extremely high density (4-5 kcal/g) and easy to overeat. Awareness of these density traps allows targeted, high-impact changes without overhauling the entire diet.
+      </WarningBlock>
 
       <h2>Key Takeaways</h2>
 

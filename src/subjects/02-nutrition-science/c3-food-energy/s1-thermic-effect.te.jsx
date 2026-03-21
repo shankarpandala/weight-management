@@ -182,25 +182,25 @@ export default function ThermicEffectOfFoodTe() {
       </p>
 
       <NoteBlock
-        title="TEF మరియు Obesity"
-        content="కొన్ని పరిశోధనలు body composition మరియు భోజనం పరిమాణానికి adjust చేసిన తర్వాత కూడా, obese వ్యక్తులకు lean వ్యక్తుల కంటే blunted thermic effect of food ఉంటుందని సూచిస్తున్నాయి. ఈ తగ్గిన TEF obesity కు కారణం మరియు పరిణామం రెండూ కావచ్చు. తేడా రోజుకు 20-30 kcal గా అంచనా వేయబడింది — చిన్నది కానీ సంవత్సరాలలో గణనీయమైనది కావచ్చు. Obesity లో సాధారణమైన insulin resistance glucose-stimulated thermogenesis ను దెబ్బతీస్తుంది. శుభవార్త ఏమిటంటే బరువు తగ్గడం మరియు insulin sensitivity మెరుగుపడటం సాధారణ TEF ను పాక్షికంగా పునరుద్ధరించగలవు, మరియు higher-protein diets blunting effect ను భర్తీ చేయగలవు."
-      />
+        title="TEF మరియు Obesity">
+        కొన్ని పరిశోధనలు body composition మరియు భోజనం పరిమాణానికి adjust చేసిన తర్వాత కూడా, obese వ్యక్తులకు lean వ్యక్తుల కంటే blunted thermic effect of food ఉంటుందని సూచిస్తున్నాయి. ఈ తగ్గిన TEF obesity కు కారణం మరియు పరిణామం రెండూ కావచ్చు. తేడా రోజుకు 20-30 kcal గా అంచనా వేయబడింది — చిన్నది కానీ సంవత్సరాలలో గణనీయమైనది కావచ్చు. Obesity లో సాధారణమైన insulin resistance glucose-stimulated thermogenesis ను దెబ్బతీస్తుంది. శుభవార్త ఏమిటంటే బరువు తగ్గడం మరియు insulin sensitivity మెరుగుపడటం సాధారణ TEF ను పాక్షికంగా పునరుద్ధరించగలవు, మరియు higher-protein diets blunting effect ను భర్తీ చేయగలవు.
+      </NoteBlock>
 
       <h2>బరువు నిర్వహణ కోసం ఆచరణాత్మక అనువర్తనాలు</h2>
 
       <ExampleBlock
         title="భారతీయ ఆహారంలో TEF ను గరిష్టం చేయడం"
-        description="ఆహారం యొక్క thermic effect ను పెంచే వ్యూహాలు: (1) Protein proportion పెంచండి — ప్రతి భోజనంలో rice/roti calories లో కొంత భాగాన్ని dal, paneer, eggs, లేదా chicken తో భర్తీ చేయండి. Calories లో 25-30% protein నుండి రావాలని లక్ష్యం పెట్టుకోండి. (2) Whole మరియు కనిష్టంగా processed ఆహారాలు ఎంచుకోండి — processed moong dal instant mix బదులు whole moong dal, polished white rice బదులు hand-pounded rice, instant oats బదులు steel-cut oats. (3) మసాలాలు ధారాళంగా వాడండి — భారతీయ వంటకాల్లో మిర్చి, black pepper, ginger, మరియు turmeric ఉదారంగా వాడటం TEF ను కొద్దిగా పెంచుతుంది. (4) ఉదాహరణ: whole wheat roti + rajma + raita + green chutney భోజనానికి white rice + potato curry + papad భోజనం కంటే గణనీయంగా ఎక్కువ TEF ఉంటుంది, ఎందుకంటే ఎక్కువ protein, ఎక్కువ fiber, మరియు తక్కువ processing ఉంటుంది."
+        problem="ఆహారం యొక్క thermic effect ను పెంచే వ్యూహాలు: (1) Protein proportion పెంచండి — ప్రతి భోజనంలో rice/roti calories లో కొంత భాగాన్ని dal, paneer, eggs, లేదా chicken తో భర్తీ చేయండి. Calories లో 25-30% protein నుండి రావాలని లక్ష్యం పెట్టుకోండి. (2) Whole మరియు కనిష్టంగా processed ఆహారాలు ఎంచుకోండి — processed moong dal instant mix బదులు whole moong dal, polished white rice బదులు hand-pounded rice, instant oats బదులు steel-cut oats. (3) మసాలాలు ధారాళంగా వాడండి — భారతీయ వంటకాల్లో మిర్చి, black pepper, ginger, మరియు turmeric ఉదారంగా వాడటం TEF ను కొద్దిగా పెంచుతుంది. (4) ఉదాహరణ: whole wheat roti + rajma + raita + green chutney భోజనానికి white rice + potato curry + papad భోజనం కంటే గణనీయంగా ఎక్కువ TEF ఉంటుంది, ఎందుకంటే ఎక్కువ protein, ఎక్కువ fiber, మరియు తక్కువ processing ఉంటుంది."
       />
 
       <WarningBlock
-        title="TEF ముఖ్యమైనది కానీ మాయాజాలం కాదు"
-        content="Macronutrients మధ్య TEF తేడాలు నిజమైనవి మరియు శాస్త్రీయంగా నిర్ధారించబడినవి అయినప్పటికీ, వాటిని సరైన దృష్టికోణంలో చూడాలి. ఆహార manipulation నుండి గరిష్ట ఆచరణాత్మక TEF advantage రోజుకు సుమారు 100-150 kcal — ఇది సుమారు 10-15 నిమిషాల brisk walking కు సమానం. TEF caloric surplus ను భర్తీ చేయలేదు, మరియు కొన్ని ఆహారాలకు 'negative calories' ఉన్నాయనే (TEF వాటి caloric content కంటే ఎక్కువ) వాదనలు నిరాధారమైనవి. ఏ ఆహారమూ అది అందించే calories కంటే ఎక్కువ calories జీర్ణించుకోవడానికి అవసరం కాదు. TEF ను అర్థం చేసుకోవడం యొక్క నిజమైన విలువ సమగ్ర బరువు నిర్వహణ వ్యూహంలో భాగంగా చిన్న కానీ స్థిరమైన metabolic advantage ను అందించే ఆహార ఎంపికలు చేయడంలో ఉంది."
-      />
+        title="TEF ముఖ్యమైనది కానీ మాయాజాలం కాదు">
+        Macronutrients మధ్య TEF తేడాలు నిజమైనవి మరియు శాస్త్రీయంగా నిర్ధారించబడినవి అయినప్పటికీ, వాటిని సరైన దృష్టికోణంలో చూడాలి. ఆహార manipulation నుండి గరిష్ట ఆచరణాత్మక TEF advantage రోజుకు సుమారు 100-150 kcal — ఇది సుమారు 10-15 నిమిషాల brisk walking కు సమానం. TEF caloric surplus ను భర్తీ చేయలేదు, మరియు కొన్ని ఆహారాలకు 'negative calories' ఉన్నాయనే (TEF వాటి caloric content కంటే ఎక్కువ) వాదనలు నిరాధారమైనవి. ఏ ఆహారమూ అది అందించే calories కంటే ఎక్కువ calories జీర్ణించుకోవడానికి అవసరం కాదు. TEF ను అర్థం చేసుకోవడం యొక్క నిజమైన విలువ సమగ్ర బరువు నిర్వహణ వ్యూహంలో భాగంగా చిన్న కానీ స్థిరమైన metabolic advantage ను అందించే ఆహార ఎంపికలు చేయడంలో ఉంది.
+      </WarningBlock>
 
       <ExampleBlock
         title="TEF పోలిక: రెండు భారతీయ భోజనాలు"
-        description="ప్రతి ఒక్కటి సుమారు 500 kcal అందించే రెండు భోజనాలను పరిగణించండి. భోజనం A: 200 g white rice (carbs నుండి 350 kcal) + aloo fry (150 kcal, ఎక్కువగా fat). అంచనా TEF: ~35-40 kcal (7-8%). భోజనం B: 1 multigrain roti (120 kcal) + 1 katori chana dal (150 kcal, అధిక protein) + palak paneer with 40 g paneer (180 kcal, protein + fat) + raita (50 kcal, protein). అంచనా TEF: ~65-75 kcal (13-15%). భోజనం B thermogenesis ద్వారా అదనంగా 25-35 kcal ను 'వృథా' చేస్తుంది, protein మరియు fiber వల్ల ఎక్కువ తృప్తిగా ఉంచుతుంది, మరియు మెరుగైన micronutrient density ను అందిస్తుంది. రోజుకు 3 భోజనాలలో, ఈ pattern రోజుకు 75-100 kcal thermogenic advantage ను ఇవ్వగలదు."
+        problem="ప్రతి ఒక్కటి సుమారు 500 kcal అందించే రెండు భోజనాలను పరిగణించండి. భోజనం A: 200 g white rice (carbs నుండి 350 kcal) + aloo fry (150 kcal, ఎక్కువగా fat). అంచనా TEF: ~35-40 kcal (7-8%). భోజనం B: 1 multigrain roti (120 kcal) + 1 katori chana dal (150 kcal, అధిక protein) + palak paneer with 40 g paneer (180 kcal, protein + fat) + raita (50 kcal, protein). అంచనా TEF: ~65-75 kcal (13-15%). భోజనం B thermogenesis ద్వారా అదనంగా 25-35 kcal ను 'వృథా' చేస్తుంది, protein మరియు fiber వల్ల ఎక్కువ తృప్తిగా ఉంచుతుంది, మరియు మెరుగైన micronutrient density ను అందిస్తుంది. రోజుకు 3 భోజనాలలో, ఈ pattern రోజుకు 75-100 kcal thermogenic advantage ను ఇవ్వగలదు."
       />
 
       <h2>ముఖ్యమైన అంశాలు</h2>

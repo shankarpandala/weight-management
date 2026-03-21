@@ -96,7 +96,7 @@ export default function AnabolismCatabolism() {
 
       <ExampleBlock
         title="The Fed-Fasted Cycle in Daily Life"
-        description="Breakfast (idli-sambar) at 8 AM triggers anabolism — insulin rises, glucose is stored, amino acids drive protein synthesis. By noon, mild catabolism begins — insulin falls, glycogenolysis maintains blood glucose. After lunch (rice-dal-sabzi), anabolism resumes. During overnight sleep (10 PM-7 AM), progressive catabolism draws on glycogen then fat stores. This daily oscillation is completely normal and healthy."
+        problem="Breakfast (idli-sambar) at 8 AM triggers anabolism — insulin rises, glucose is stored, amino acids drive protein synthesis. By noon, mild catabolism begins — insulin falls, glycogenolysis maintains blood glucose. After lunch (rice-dal-sabzi), anabolism resumes. During overnight sleep (10 PM-7 AM), progressive catabolism draws on glycogen then fat stores. This daily oscillation is completely normal and healthy."
       />
 
       <h2>The Balance That Determines Body Composition</h2>
@@ -118,18 +118,18 @@ export default function AnabolismCatabolism() {
       </p>
 
       <WarningBlock
-        title="Extreme Dieting Maximizes Muscle Loss"
-        content="Very low calorie diets (below 800 kcal/day) dramatically increase proteolysis. Losing weight faster than 1% body weight per week results in significantly greater lean mass loss. A moderate deficit of 500-750 kcal/day with adequate protein (1.6-2.2g/kg) and resistance training minimizes muscle catabolism during fat loss."
-      />
+        title="Extreme Dieting Maximizes Muscle Loss">
+        Very low calorie diets (below 800 kcal/day) dramatically increase proteolysis. Losing weight faster than 1% body weight per week results in significantly greater lean mass loss. A moderate deficit of 500-750 kcal/day with adequate protein (1.6-2.2g/kg) and resistance training minimizes muscle catabolism during fat loss.
+      </WarningBlock>
 
       <NoteBlock
-        title="You Cannot Be Purely Anabolic or Catabolic"
-        content="Even in a caloric surplus, some catabolism continues — old proteins are degraded, damaged cells recycled. In a deficit, some anabolic repair continues. These terms describe the NET direction, not an absolute state."
-      />
+        title="You Cannot Be Purely Anabolic or Catabolic">
+        Even in a caloric surplus, some catabolism continues — old proteins are degraded, damaged cells recycled. In a deficit, some anabolic repair continues. These terms describe the NET direction, not an absolute state.
+      </NoteBlock>
 
       <ExampleBlock
         title="Optimizing the Balance on an Indian Diet"
-        description="To support fat loss while preserving muscle: (1) Include 20-30g protein at each meal — paneer, dal, eggs, chicken, or curd. (2) Allow 4-5 hours between meals for insulin to fall and fat oxidation to occur. (3) Avoid constant snacking on biscuits, namkeen, or sugary chai. (4) Do resistance exercise to maintain anabolic stimulus for muscle. (5) Consider 12-14 hour overnight fast (dinner by 8 PM, breakfast at 8 AM)."
+        problem="To support fat loss while preserving muscle: (1) Include 20-30g protein at each meal — paneer, dal, eggs, chicken, or curd. (2) Allow 4-5 hours between meals for insulin to fall and fat oxidation to occur. (3) Avoid constant snacking on biscuits, namkeen, or sugary chai. (4) Do resistance exercise to maintain anabolic stimulus for muscle. (5) Consider 12-14 hour overnight fast (dinner by 8 PM, breakfast at 8 AM)."
       />
 
       <h2>Key Takeaways</h2>
