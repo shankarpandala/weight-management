@@ -133,8 +133,8 @@ export default function MindfulEatingTe() {
 
       <h3>The Five-Senses Exercise — ఐదు-ఇందియాలు వ్యాయామం</h3>
 
-      <ExampleBlock title="Five-Senses Check-In (30 Seconds) — ఐదు-ఇందియాలు చెక్-ఇన (30 సెకన్ల)</
->
+      <ExampleBlock title="Five-Senses Check-In (30 Seconds) — ఐదు-ఇందియాలు చెక్-ఇన (30 సెకన్ల)">
+
         <ol>
           <li><strong>See:</strong> Look at your plate. Notice the colors, arrangement, and variety. A well-prepared Indian thali is visually rich — appreciate it.</li>
           <li><strong>Smell:</strong> Lean toward the food and inhale. Identify the spices — cumin in the tadka, turmeric in the dal, coriander in the garnish.</li>
@@ -146,7 +146,7 @@ export default function MindfulEatingTe() {
 
       <h3>The Hunger Scale — గ్రహణ స్కేల్</h3>
 
-      <ExampleBlock title="The 1-10 Hunger-Fullness Scale — 1-10 Hunger-గ్రహణ స్కేల్">
+      <ExampleBlock title="Hunger Fullness Scale">
         <ul>
           <li><strong>1 — Starving:</strong> Lightheaded, irritable, low energy. You waited too long.</li>
           <li><strong>3 — Hungry:</strong> Clear stomach emptiness, ready to eat.</li>

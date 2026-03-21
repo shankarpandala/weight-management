@@ -282,7 +282,7 @@ export default function AntiInflammatoryDietTe() {
         headers={['Property', 'Fish Oil (EPA/DHA)', 'Flaxseed Oil (ALA)']}
         rows={[
           ['Active forms', 'EPA + DHA (directly usable)', 'ALA (must be converted to EPA/DHA)'],
-          ['Conversion efficiency', 'N/A — direct', 'Only 5-10% of ALA converts to EPA; <1% to DHA'],
+          ['Conversion efficiency', 'N/A — direct', 'Only 5-10% of ALA converts to EPA; &lt;1% to DHA'],
           ['Anti-inflammatory potency', 'Strong — well-established', 'Moderate — less potent per gram'],
           ['Best food sources', 'Salmon, mackerel, sardines, hilsa, bangda', 'Flaxseed, chia seeds, walnuts'],
           ['Indian availability', 'Coastal areas; bangda (mackerel), sardines are affordable', 'Widely available; affordable'],

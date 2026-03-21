@@ -196,7 +196,7 @@ export default function IndianDietBellyFatTe() {
         title="Fenugreek Improves Glycemic Control"
         summary="Meta-analysis by Neelakantan et al. (2014) of 10 clinical trials found fenugreek
         seed consumption significantly reduced fasting blood glucose (by -17.9 mg/dL,
-        p<0.001) మరియు improved insulin sensitivity. Soluble fiber (galactomannan) fenugreek
+        p&lt;0.001) మరియు improved insulin sensitivity. Soluble fiber (galactomannan) fenugreek
         seeds forms gel slows carbohydrate absorption మరియు reduces postprandial glucose
         spikes. Doses 5-50g fenugreek seed or 1-2g fenugreek extract daily effective
         ఉంది."

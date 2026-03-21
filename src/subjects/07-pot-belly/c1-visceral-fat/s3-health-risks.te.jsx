@@ -350,7 +350,7 @@ export default function HealthRisksTe() {
       <ExampleBlock title="Numbers That Should Motivate Action">
         <ul>
           <li>ప్రతి 1 cm increase waist circumference associated 2% increase cardiovascular risk.</li>
-          <li>Men waist circumference >102 cm కలిగిన have 3.5-fold higher risk coronary heart disease.</li>
+          <li>Men waist circumference &gt;102 cm కలిగిన have 3.5-fold higher risk coronary heart disease.</li>
           <li>ప్రతి 5 cm increase waist circumference కోసం, type 2 diabetes risk increases 11% men మరియు 13% women లో.</li>
           <li>Metabolic syndrome (driven by visceral fat) increase చేస్తుంది cardiovascular death risk 2.4-fold.</li>
           <li>NAFLD prevalence increases 7% from normal-weight individuals to 70% abdominal obesity కలిగిన వారిలో.</li>

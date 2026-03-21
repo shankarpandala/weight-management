@@ -146,8 +146,8 @@ export default function FoodsReduceVisceralFatTe() {
         title="Higher Protein Intake Preserves Muscle and Reduces Visceral Fat"
         summary="Meta-analysis by Wycherley et al. (2012) of 24 randomized controlled trials found
         energy-restricted high-protein diets (1.2-1.6 g/kg/day vs. standard 0.8 g/kg/day)
-        resulted greater loss fat mass (-0.79 kg, p<0.01) మరియు better preservation lean
-        mass (+0.43 kg, p<0.01) compared to standard-protein diets. Several individual
+        resulted greater loss fat mass (-0.79 kg, p&lt;0.01) మరియు better preservation lean
+        mass (+0.43 kg, p&lt;0.01) compared to standard-protein diets. Several individual
         trials using CT imaging showed greater fat loss disproportionately from visceral
         depots."
         source="Wycherley TP et al. American Journal of Clinical Nutrition. 2012;96(6):1281-1298."
@@ -329,7 +329,7 @@ export default function FoodsReduceVisceralFatTe() {
           <li><strong>Grains:</strong> 100% whole grains — millets, brown rice, whole wheat atta</li>
           <li><strong>Green tea:</strong> 3-4 cups daily between meals (optional but beneficial)</li>
           <li><strong>Eliminate:</strong> All SSBs, sugar in tea/coffee, maida products, trans fats</li>
-          <li><strong>Limit:</strong> Total sugar to <25g/day (WHO recommendation); refined grains to near zero</li>
+          <li><strong>Limit:</strong> Total sugar to &lt;25g/day (WHO recommendation); refined grains to near zero</li>
         </ul>
       </ExampleBlock>
 

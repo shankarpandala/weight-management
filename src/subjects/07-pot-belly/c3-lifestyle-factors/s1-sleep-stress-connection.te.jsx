@@ -225,7 +225,7 @@ export default function SleepStressConnectionTe() {
         title="Meditation Reduces చేస్తుంది Cortisol Levels"
         summary="Turakitwanakan et al. (2013) studied 30 medical students who practiced mindfulness
         meditation 4 days (20 minutes/day). Serum cortisol levels decreased significantly 381.93
-        nmol/L నుండి 306.38 nmol/L (p<0.05) — 20% reduction. While small, short-term study ఇది
+        nmol/L నుండి 306.38 nmol/L (p&lt;0.05) — 20% reduction. While small, short-term study ఇది
         ఉంది, meta-analysis Pascoe et al. (2017) of 45 studies confirmed meditation మరియు
         mindfulness-based stress reduction (MBSR) produce statistically significant reductions
         cortisol, blood pressure, మరియు heart rate."
@@ -250,7 +250,7 @@ export default function SleepStressConnectionTe() {
         title="Yoga Reduces చేస్తుంది Cortisol మరియు Stress-Related Biomarkers"
         summary="Pascoe et al. (2017) conducted meta-analysis 42 studies examining yoga మరియు
         mindfulness interventions stress biomarkers. Yoga practice associated significant
-        reductions cortisol (SMD -0.41, p<0.001), systolic blood pressure (-4.9 mmHg), మరియు
+        reductions cortisol (SMD -0.41, p&lt;0.001), systolic blood pressure (-4.9 mmHg), మరియు
         resting heart rate (-3.2 bpm). Effects comparable mindfulness meditation మరియు superior
         passive control conditions."
         source="Pascoe MC et al. Psychoneuroendocrinology. 2017;86:152-168."
